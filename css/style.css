@@ -15,7 +15,7 @@ body {
     height: 500px;
     width: 300px;
     
-    position: relative;
+   
     z-index: 2;
     
     left: 100px;
@@ -24,14 +24,15 @@ body {
 
 .image-container {
     height: 500px;
-    width: 299px;
+    width: 300px;
     background-image: url(../links/watercolor1.jpg);
     
-    position: relative;
-    z-index: 1;
+    position: absolute;
+    z-index: -1;
     
-    top: -420px;
-    left: 394px;
+    top: 20px;
+    left: 50%;
+    margin-left: -150px;
     
     animation-name: animation1;
     animation-duration: 5s;
