@@ -1,0 +1,52 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.card-container {
+    text-align: center;
+    margin: 20px auto;
+    
+    border: 4px solid black;
+    height: 500px;
+    width: 300px;
+}
+
+h1 {
+    font-family: "Helvetica";
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    
+    margin-top: 60px;
+}
+
+hr {
+ width: 40px;
+}
+
+h2 {
+ font-family:"SignPainter";
+ font-size: 25px;
+ font-weight: 100;
+}
+
+.second {
+margin-top: 55px;
+}
+
+h3 {
+    font-family: "Helvetica";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: "Helvetica";
+    font-weight: 100;
+    margin-top: -15px;
+}
