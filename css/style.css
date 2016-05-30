@@ -19,7 +19,7 @@ body {
 
 .container {
     width: 100%;
-    border: 40px solid white;
+    border: 40px solid red;
     
     background-image: url(../links/background.jpg);
     background-repeat: no-repeat;
