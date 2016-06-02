@@ -21,7 +21,7 @@ body {
 .container {
     width: 100%;
     border: 35px solid white;
-    background-image: url(../links/HOMEPAGE_background.jpg);
+    background-image: url(../links/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
