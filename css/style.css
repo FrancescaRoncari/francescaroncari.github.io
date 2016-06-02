@@ -394,14 +394,29 @@ span {
 }
 
 .about-containers {
-    margin-top: 75px;
     width: 90%;
-    margin:20px auto;
+    margin: 10px auto;
+    display: flex;
 }
 
 .professional {
+    align-items: flex-start;
     display: inline-block;
     margin:20px;
+    margin-top: 75px;
+
+
+    width: 33%;
+}
+
+.professional-2 {
+    align-items: flex-start;
+    display: inline-block;
+    margin:20px;
+    margin-top: 110px;
+    padding: 20px;
+    border-left: 1px solid gray;
+
 
     width: 33%;
 }
@@ -430,6 +445,27 @@ span {
     letter-spacing: 1px;
     
     margin-top: 8px;
+}
+
+.skill {
+    display: flex;
+}
+
+.skill1 {
+    width: 40%;
+    display: inline-block;
+    align-content: flex-start;
+}
+
+.skill1-2 {
+    margin-top: 46px;
+    width: 40%;
+    display: inline-block;
+    align-content: flex-start;
+}
+
+.personal {
+    width: 90px;
 }
 
 
