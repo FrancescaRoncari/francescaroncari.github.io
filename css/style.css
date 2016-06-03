@@ -137,7 +137,7 @@ hr {
     font-family: "Helvetica Neue";
     font-size: 20px;
     letter-spacing: 3px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 25px;
     color: white;
     
@@ -145,13 +145,13 @@ hr {
 }
 
 .line-rollover {
-    border: 1px solid white;
-    width: 60px;
+    border: 0.5px solid white;
+    width: 200px;
 }
 
 .text-rollover {
     font-family: "Jellyka Saint-Andrew's Queen";
-    font-size: 30px;
+    font-size: 35px;
     color: white;
     font-weight: 100;
     letter-spacing: 5px;
@@ -246,6 +246,249 @@ nav ul li a {
 }
 
 
+
+
+/* ////////// WORKS PAGE ///////// */
+
+.works-image {
+    width: 100%;
+    border: 35px solid white;
+    margin-top: 150px;
+    background-image: url(../links/contact.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
+.index-works {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.filters-works {
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.filters-works li {
+    display: inline-block;
+    margin: 20px;
+}
+
+span {
+    text-decoration: line-through;
+}
+
+.container-works {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.photo-works {
+    position: relative;
+
+    
+    width: 30%;
+    margin: 10px;
+    display: inline-block;
+}
+
+.work-image {
+    width: 100%;
+}
+
+/* // THINK MAGAZINE // */
+
+.think-image {
+    width: 100%;
+    border: 35px solid white;
+    margin-top: 150px;
+    background-image: url(../links/works.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
+.work-containers {
+    width: 85%;
+    margin-left: 170px;
+    display: flex;
+}
+
+.work {
+    align-items: flex-start;
+    display: inline-block;
+    margin-top: 75px;
+    width: 40%;
+}
+
+.work-2 {
+    align-items: flex-start;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 100px;
+    width: 40%;
+}
+
+.work-last {
+    align-items: flex-start;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 75px;
+    padding-left: 20px;
+    width: 33%;
+    height: 60%;
+    
+    border-left: 1px solid gray;
+}
+
+.info-work1 {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 35px;
+    letter-spacing: 2px;
+}
+
+.info-work {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+
+.photo1-container {
+    width: 80%;
+    margin:20px auto;
+
+    margin-top: 60px;
+}
+
+.image-think {
+    width: 100%;
+}
+
+.text-decoration {
+    text-align: center;
+    font-family: "Jellyka Saint-Andrew's Queen";
+    font-size: 38px;
+    color: black;
+    font-weight: 100;
+    letter-spacing: 5px;
+    line-height: 45px;
+    
+    margin-top: 90px;
+}
+
+
+
+
+
+
+
+
+/* ////////// ABOUT PAGE ///////// */
+
+.about-image {
+    width: 100%;
+    border: 35px solid white;
+    margin-top: 150px;
+    background-image: url(../links/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
+.about-containers {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+}
+
+.professional {
+    align-items: flex-start;
+    display: inline-block;
+    margin:20px;
+    margin-top: 75px;
+
+
+    width: 33%;
+}
+
+.professional-2 {
+    align-items: flex-start;
+    display: inline-block;
+    margin:20px;
+    margin-top: 110px;
+    padding: 20px;
+    border-left: 1px solid gray;
+
+
+    width: 33%;
+}
+
+.professional-2last {
+    align-items: flex-start;
+    display: inline-block;
+    margin:20px;
+    margin-top: 110px;
+    padding: 20px;
+    border-left: 1px solid gray;
+
+
+    width: 33%;
+    height: 40%
+}
+
+.info-title {
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.info-title2 {
+   font-family: "Helvetica Neue";
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.text-about {
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    
+    margin-top: 8px;
+}
+
+.skill {
+    display: flex;
+}
+
+.skill1 {
+    width: 40%;
+    display: inline-block;
+    align-content: flex-start;
+}
+
+.skill1-2 {
+    margin-top: 46px;
+    width: 40%;
+    display: inline-block;
+    align-content: flex-start;
+}
+
+.personal {
+    width: 100px;
+}
+
+
+
 /* ////////// CONTACT PAGE ///////// */
 
 .contact-image {
@@ -328,149 +571,6 @@ h3 {
 .say a {
     color: black;
 }
-
-
-/* ////////// WORKS PAGE ///////// */
-
-.works-image {
-    width: 100%;
-    border: 35px solid white;
-    margin-top: 150px;
-    background-image: url(../links/works.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 45vh;
-}
-
-.index-works {
-    text-align: center;
-    margin-top: 70px;
-}
-
-.filters-works {
-    font-family: "Helvetica Neue";
-    font-size: 16px;
-    letter-spacing: 2px;
-}
-
-.filters-works li {
-    display: inline-block;
-    margin: 20px;
-}
-
-span {
-    text-decoration: line-through;
-}
-
-.container-works {
-    margin-top: 20px;
-    text-align: center;
-}
-
-.photo-works {
-    position: relative;
-
-    
-    width: 30%;
-    margin: 10px;
-    display: inline-block;
-}
-
-.work-image {
-    width: 100%;
-}
-
-
-/* ////////// ABOUT PAGE ///////// */
-
-.about-image {
-    width: 100%;
-    border: 35px solid white;
-    margin-top: 150px;
-    background-image: url(../links/about.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 45vh;
-}
-
-.about-containers {
-    width: 90%;
-    margin: 10px auto;
-    display: flex;
-}
-
-.professional {
-    align-items: flex-start;
-    display: inline-block;
-    margin:20px;
-    margin-top: 75px;
-
-
-    width: 33%;
-}
-
-.professional-2 {
-    align-items: flex-start;
-    display: inline-block;
-    margin:20px;
-    margin-top: 110px;
-    padding: 20px;
-    border-left: 1px solid gray;
-
-
-    width: 33%;
-}
-
-.info-title {
-    font-family: "Helvetica Neue";
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 500;
-    line-height: 25px;
-}
-
-.info-title2 {
-   font-family: "Helvetica Neue";
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 500;
-    line-height: 25px;
-    margin-top: 20px;
-}
-
-.text-about {
-    font-family: "Helvetica Neue";
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    
-    margin-top: 8px;
-}
-
-.skill {
-    display: flex;
-}
-
-.skill1 {
-    width: 40%;
-    display: inline-block;
-    align-content: flex-start;
-}
-
-.skill1-2 {
-    margin-top: 46px;
-    width: 40%;
-    display: inline-block;
-    align-content: flex-start;
-}
-
-.personal {
-    width: 100px;
-}
-
-
-
-
 
 
 
