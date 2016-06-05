@@ -536,6 +536,21 @@ span {
 
 
 
+
+/* ATM */
+
+.atm-image {
+    width: 100%;
+    border: 35px solid white;
+    margin-top: 150px;
+    background-image: url(../links/atm-up.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
+
+
 /* ////////// ABOUT PAGE ///////// */
 
 .about-image {
