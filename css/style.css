@@ -562,6 +562,18 @@ span {
     height: 45vh;
 }
 
+/* TRIENNALE UGO LA PIETRA */
+
+.triennale-image {
+    width: 100%;
+    border: 35px solid white;
+    margin-top: 150px;
+    background-image: url(../links/triennale-up.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
 
 
 /* ////////// ABOUT PAGE ///////// */
