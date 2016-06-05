@@ -169,11 +169,6 @@ hr {
 }
 
 
-.line-rollover:hover {
-    border: 1px solid white;
-    width: 100px;
-}
-
 
 
 .footer-frame {
@@ -380,14 +375,14 @@ span {
 }
 
 .photo1-container {
-    width: 80%;
+    width: 70%;
     margin:20px auto;
 
     margin-top: 100px;
 }
 
 .photo-container {
-    width: 80%;
+    width: 70%;
     margin:20px auto;
 
     margin-top: 60px;
@@ -429,6 +424,14 @@ span {
     text-align: center;
 }
 
+.turn-up {
+    text-align: center;
+    margin-top: 30px;
+    
+    font-family: "Helvetica Neue";
+    
+}
+
 
 /* // IOP SAMSUNG // */
 
@@ -440,6 +443,95 @@ span {
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vh;
+}
+
+.photo1-container {
+    width: 70%;
+    margin:20px auto;
+
+    margin-top: 100px;
+}
+
+.photo-container2 {
+    width:40%;
+    margin:20px auto;
+
+    margin-top: 60px;
+}
+
+.photo-container {
+    width:70%;
+    margin:20px auto;
+
+    margin-top: 60px;
+}
+
+.image-think {
+    width: 100%;
+}
+
+.turn-up a {
+    color: black;
+}
+
+
+/*VALENTINO*/
+.title-up-valentino {
+    text-align: center;
+    color: white;
+    font-family: "Helvetica Neue";
+    letter-spacing: 7px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 90px;
+    
+    line-height: 50px;
+}
+.title-up-sub {
+    text-align: center;
+    color: white;
+    font-family: "Helvetica Neue";
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.valentino-image {
+    width: 100%;
+    border: 35px solid white;
+    margin-top: 150px;
+    background-image: url(../links/valentino-up.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
+.info-title-2 {
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.work-2-valentino {
+    align-items: flex-start;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 125px;
+    width: 40%;
+}
+
+.double {
+    text-align: center;
+}
+
+.photo-container2-valentino {
+    width:35%;
+    display: inline-block;
+
 }
 
 
