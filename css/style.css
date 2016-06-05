@@ -300,6 +300,7 @@ span {
 
 /* // THINK MAGAZINE // */
 
+
 .think-image {
     width: 100%;
     border: 35px solid white;
@@ -308,6 +309,27 @@ span {
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vh;
+}
+
+.title-up {
+    width: 
+    text-align: center;
+    color: white;
+    font-family: "Helvetica Neue";
+    letter-spacing: 7px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 110px;
+}
+
+.text-up {
+    text-align: center;
+    font-family: "Jellyka Saint-Andrew's Queen";
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 5px;
+    line-height: 40px;
 }
 
 .work-containers {
@@ -361,6 +383,13 @@ span {
     width: 80%;
     margin:20px auto;
 
+    margin-top: 100px;
+}
+
+.photo-container {
+    width: 80%;
+    margin:20px auto;
+
     margin-top: 60px;
 }
 
@@ -368,22 +397,50 @@ span {
     width: 100%;
 }
 
+
+
+.hr-up {
+    width: 350px;
+    border: 1px solid dimgray;
+    margin-top: 80px;
+    
+}
+
+.hr-down {
+    width: 50px;
+    border: 1px solid dimgray;
+    margin-bottom: 80px;
+
+}
+
 .text-decoration {
     text-align: center;
     font-family: "Jellyka Saint-Andrew's Queen";
     font-size: 38px;
-    color: black;
+    color: dimgray;
     font-weight: 100;
     letter-spacing: 5px;
     line-height: 45px;
-    
-    margin-top: 90px;
+    padding: 15px;
+}
+
+.sfogliabile {
+    margin-top: 60px;
+    text-align: center;
 }
 
 
+/* // IOP SAMSUNG // */
 
-
-
+.iop-image {
+    width: 100%;
+    border: 35px solid white;
+    margin-top: 150px;
+    background-image: url(../links/iop-up3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
 
 
 
@@ -508,7 +565,7 @@ span {
     letter-spacing: 7px;
     font-size: 50px;
     font-weight: 500;
-    margin-top: 100px;
+    margin-top: 110px;
 }
 
 .text-up {
