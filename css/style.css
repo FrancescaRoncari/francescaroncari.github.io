@@ -209,6 +209,22 @@ hr {
     text-decoration: none;
 }
 
+.turnup-text  {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.turnup-text a:hover  {
+    margin-top: 60px;
+    text-align: center;
+    
+    color: black;
+}
+
+.turnup-text a {
+    color: gray;
+}
+
 
 /* ////////// NAVIGATION ///////// */
 
@@ -424,14 +440,6 @@ span {
     text-align: center;
 }
 
-.turn-up {
-    text-align: center;
-    margin-top: 30px;
-    
-    font-family: "Helvetica Neue";
-    
-}
-
 
 /* // IOP SAMSUNG // */
 
@@ -569,6 +577,18 @@ span {
     border: 35px solid white;
     margin-top: 150px;
     background-image: url(../links/triennale-up.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
+/* GENTLETUDE ONLUS */
+
+.gentletude-image {
+    width: 100%;
+    border: 35px solid white;
+    margin-top: 150px;
+    background-image: url(../links/gentletude-up.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vh;
