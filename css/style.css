@@ -263,6 +263,10 @@ nav ul li a {
 
 /* /////////////////////////// WORKS PAGE ///////// */
 
+.work-selected {
+    text-decoration: line-through;  
+}
+
 .works-image {
     width: 100%;
     border: 35px solid white;
@@ -612,6 +616,10 @@ span {
 
 /* //////////////////////////////////////////////////// ABOUT PAGE ///////// */
 
+.about-selected {
+    text-decoration: line-through;
+}
+
 .about-image {
     width: 100%;
     border: 35px solid white;
@@ -713,6 +721,10 @@ span {
 
 
 /* ////////////////////////////////////////////// CONTACT PAGE ///////// */
+
+.contact-selected {
+    text-decoration: line-through;
+}
 
 .contact-image {
     width: 100%;
