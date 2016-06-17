@@ -123,14 +123,24 @@ hr {
 
 /* rollover-effect */
 .roll-over {
-    opacity: 0;    
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
     
+    width: 100%;
+    height: 100%;
+}
+
+.roll-over:hover {
+    opacity: 1;
     position: absolute;
     bottom: 0;
     
     width: 100%;
     height: 100%;
     background: rgba(19, 19, 20, 0.8);
+    
+    transition: opacity 0.5s ease;
 }
 
 .title-rollover {
@@ -158,15 +168,7 @@ hr {
     line-height: 45px;
 }
 
-.roll-over:hover {
-    opacity: 1;
-    position: absolute;
-    bottom: 0;
-    
-    width: 100%;
-    height: 100%;
-    background: rgba(19, 19, 20, 0.8);
-}
+
 
 
 
@@ -226,7 +228,7 @@ hr {
 }
 
 
-/* ////////// NAVIGATION ///////// */
+/* //////////////////////////// NAVIGATION ///////// */
 
 nav {
     background-color: aqua;
@@ -259,7 +261,7 @@ nav ul li a {
 
 
 
-/* ////////// WORKS PAGE ///////// */
+/* /////////////////////////// WORKS PAGE ///////// */
 
 .works-image {
     width: 100%;
@@ -309,14 +311,16 @@ span {
     width: 100%;
 }
 
-/* // THINK MAGAZINE // */
+/* /////////////////////////////////// THINK MAGAZINE // */
 
 
 .think-image {
     width: 100%;
+   
     border: 35px solid white;
     margin-top: 150px;
     background-image: url(../links/works.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vh;
@@ -344,8 +348,9 @@ span {
 }
 
 .work-containers {
+    padding-left: 130px;
     width: 85%;
-    margin-left: 170px;
+    margin: 20px auto;
     display: flex;
 }
 
@@ -353,7 +358,7 @@ span {
     align-items: flex-start;
     display: inline-block;
     margin-top: 75px;
-    width: 40%;
+    width: 50%;
 }
 
 .work-2 {
@@ -361,16 +366,16 @@ span {
     display: inline-block;
     margin-left: 40px;
     margin-top: 100px;
-    width: 40%;
+    width: 50%;
 }
 
 .work-last {
     align-items: flex-start;
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 70px;
     margin-top: 75px;
     padding-left: 20px;
-    width: 33%;
+    width: 30%;
     height: 60%;
     
     border-left: 1px solid gray;
@@ -435,13 +440,17 @@ span {
     padding: 15px;
 }
 
-.sfogliabile {
-    margin-top: 60px;
+.mov think {
     text-align: center;
 }
 
+.mov {
+    width:80%;
+    margin: 20px auto;
+}
 
-/* // IOP SAMSUNG // */
+
+/* //////////////////////////////// IOP SAMSUNG // */
 
 .iop-image {
     width: 100%;
@@ -483,7 +492,7 @@ span {
 }
 
 
-/*VALENTINO*/
+/* /////////////////////////////// VALENTINO*/
 .title-up-valentino {
     text-align: center;
     color: white;
@@ -545,7 +554,7 @@ span {
 
 
 
-/* ATM */
+/* ////////////////// ATM */
 
 .atm-image {
     width: 100%;
@@ -558,7 +567,7 @@ span {
 }
 
 
-/* AMERICAN */
+/* ///////////////// AMERICAN */
 
 .american-image {
     width: 100%;
@@ -570,7 +579,7 @@ span {
     height: 45vh;
 }
 
-/* TRIENNALE UGO LA PIETRA */
+/* ///////////////// TRIENNALE UGO LA PIETRA */
 
 .triennale-image {
     width: 100%;
@@ -582,7 +591,7 @@ span {
     height: 45vh;
 }
 
-/* GENTLETUDE ONLUS */
+/* ///////////////// GENTLETUDE ONLUS */
 
 .gentletude-image {
     width: 100%;
@@ -601,7 +610,7 @@ span {
 
 
 
-/* ////////// ABOUT PAGE ///////// */
+/* //////////////////////////////////////////////////// ABOUT PAGE ///////// */
 
 .about-image {
     width: 100%;
@@ -703,7 +712,7 @@ span {
 
 
 
-/* ////////// CONTACT PAGE ///////// */
+/* ////////////////////////////////////////////// CONTACT PAGE ///////// */
 
 .contact-image {
     width: 100%;
