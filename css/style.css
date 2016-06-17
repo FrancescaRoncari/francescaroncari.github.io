@@ -362,7 +362,7 @@ span {
     align-items: flex-start;
     display: inline-block;
     margin-top: 75px;
-    width: 50%;
+    width: 30%;
 }
 
 .work-2 {
@@ -370,16 +370,16 @@ span {
     display: inline-block;
     margin-left: 40px;
     margin-top: 100px;
-    width: 50%;
+    width: 30%;
 }
 
 .work-last {
     align-items: flex-start;
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 100px;
     margin-top: 75px;
     padding-left: 20px;
-    width: 30%;
+    width: 20%;
     height: 60%;
     
     border-left: 1px solid gray;
@@ -449,7 +449,8 @@ span {
 }
 
 .mov {
-    width:80%;
+    width: 70%;
+    text-align: center;
     margin: 20px auto;
 }
 
@@ -640,10 +641,10 @@ span {
     align-items: flex-start;
     display: inline-block;
     margin:20px;
-    margin-top: 75px;
+    margin-top: 130px;
 
 
-    width: 33%;
+    width: 30%;
 }
 
 .professional-2 {
@@ -655,7 +656,7 @@ span {
     border-left: 1px solid gray;
 
 
-    width: 33%;
+    width: 30%;
 }
 
 .professional-2last {
@@ -667,7 +668,7 @@ span {
     border-left: 1px solid gray;
 
 
-    width: 33%;
+    width: 30%;
     height: 40%
 }
 
@@ -678,6 +679,11 @@ span {
     font-weight: 500;
     line-height: 25px;
 }
+
+.carmi-logo {
+    width: 150px;
+}
+
 
 .info-title2 {
    font-family: "Helvetica Neue";
