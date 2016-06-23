@@ -49,7 +49,6 @@ body {
     display: inline-block;
     width: 20%;
     margin: 70px;
-    
     font-family: "Helvetica Neue";
     font-size: 80px;
     font-weight: 700;
@@ -110,7 +109,6 @@ hr {
 
 .instagram-image {
     position: relative;
-    
     width: 30%;
     margin: 10px;
     margin-top: -30px;
@@ -121,26 +119,21 @@ hr {
     width: 100%;
 }
 
+
 /* rollover-effect */
+
 .roll-over {
     opacity: 0;
     position: absolute;
-    bottom: 0;
-    
+    top: 0;
     width: 100%;
     height: 100%;
+    transition: opacity 0.5s ease;
 }
 
 .roll-over:hover {
     opacity: 1;
-    position: absolute;
-    bottom: 0;
-    
-    width: 100%;
-    height: 100%;
     background: rgba(19, 19, 20, 0.8);
-    
-    transition: opacity 0.5s ease;
 }
 
 .title-rollover {
@@ -150,7 +143,6 @@ hr {
     font-weight: 300;
     line-height: 25px;
     color: white;
-    
     margin-top: 180px;
 }
 
@@ -167,11 +159,6 @@ hr {
     letter-spacing: 5px;
     line-height: 45px;
 }
-
-
-
-
-
 
 .footer-frame {
     display: flex;
@@ -211,15 +198,14 @@ hr {
     text-decoration: none;
 }
 
-.turnup-text  {
+.turnup-text {
     margin-top: 60px;
     text-align: center;
 }
 
-.turnup-text a:hover  {
+.turnup-text a:hover {
     margin-top: 60px;
     text-align: center;
-    
     color: black;
 }
 
@@ -243,7 +229,6 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    
     font-family: "Helvetica Neue";
     color: white;
     letter-spacing: 2px;
@@ -259,12 +244,10 @@ nav ul li a {
 }
 
 
-
-
 /* /////////////////////////// WORKS PAGE ///////// */
 
 .work-selected {
-    text-decoration: line-through;  
+    text-decoration: line-through;
 }
 
 .works-image {
@@ -304,8 +287,6 @@ span {
 
 .photo-works {
     position: relative;
-
-    
     width: 30%;
     margin: 10px;
     display: inline-block;
@@ -315,24 +296,21 @@ span {
     width: 100%;
 }
 
-/* /////////////////////////////////// THINK MAGAZINE // */
 
+/* /////////////////////////////////// THINK MAGAZINE // */
 
 .think-image {
     width: 100%;
-   
     border: 35px solid white;
     margin-top: 150px;
     background-image: url(../links/works.jpg);
-    
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vh;
 }
 
 .title-up {
-    width: 
-    text-align: center;
+    width: text-align: center;
     color: white;
     font-family: "Helvetica Neue";
     letter-spacing: 7px;
@@ -381,7 +359,6 @@ span {
     padding-left: 20px;
     width: 20%;
     height: 60%;
-    
     border-left: 1px solid gray;
 }
 
@@ -401,15 +378,13 @@ span {
 
 .photo1-container {
     width: 70%;
-    margin:20px auto;
-
+    margin: 20px auto;
     margin-top: 100px;
 }
 
 .photo-container {
     width: 70%;
-    margin:20px auto;
-
+    margin: 20px auto;
     margin-top: 60px;
 }
 
@@ -417,20 +392,16 @@ span {
     width: 100%;
 }
 
-
-
 .hr-up {
     width: 350px;
     border: 1px solid dimgray;
     margin-top: 80px;
-    
 }
 
 .hr-down {
     width: 50px;
     border: 1px solid dimgray;
     margin-bottom: 80px;
-
 }
 
 .text-decoration {
@@ -469,22 +440,19 @@ span {
 
 .photo1-container {
     width: 70%;
-    margin:20px auto;
-
+    margin: 20px auto;
     margin-top: 100px;
 }
 
 .photo-container2 {
-    width:40%;
-    margin:20px auto;
-
+    width: 40%;
+    margin: 20px auto;
     margin-top: 60px;
 }
 
 .photo-container {
-    width:70%;
-    margin:20px auto;
-
+    width: 70%;
+    margin: 20px auto;
     margin-top: 60px;
 }
 
@@ -498,6 +466,7 @@ span {
 
 
 /* /////////////////////////////// VALENTINO*/
+
 .title-up-valentino {
     text-align: center;
     color: white;
@@ -506,9 +475,9 @@ span {
     font-size: 50px;
     font-weight: 500;
     margin-top: 90px;
-    
     line-height: 50px;
 }
+
 .title-up-sub {
     text-align: center;
     color: white;
@@ -551,12 +520,9 @@ span {
 }
 
 .photo-container2-valentino {
-    width:35%;
+    width: 35%;
     display: inline-block;
-
 }
-
-
 
 
 /* ////////////////// ATM */
@@ -584,6 +550,7 @@ span {
     height: 45vh;
 }
 
+
 /* ///////////////// TRIENNALE UGO LA PIETRA */
 
 .triennale-image {
@@ -595,6 +562,7 @@ span {
     background-size: cover;
     height: 45vh;
 }
+
 
 /* ///////////////// GENTLETUDE ONLUS */
 
@@ -612,7 +580,6 @@ span {
     text-align: center;
     margin-top: 60px;
 }
-
 
 
 /* //////////////////////////////////////////////////// ABOUT PAGE ///////// */
@@ -640,34 +607,28 @@ span {
 .professional {
     align-items: flex-start;
     display: inline-block;
-    margin:20px;
+    margin: 20px;
     margin-top: 130px;
-
-
     width: 30%;
 }
 
 .professional-2 {
     align-items: flex-start;
     display: inline-block;
-    margin:20px;
+    margin: 20px;
     margin-top: 110px;
     padding: 20px;
     border-left: 1px solid gray;
-
-
     width: 30%;
 }
 
 .professional-2last {
     align-items: flex-start;
     display: inline-block;
-    margin:20px;
+    margin: 20px;
     margin-top: 110px;
     padding: 20px;
     border-left: 1px solid gray;
-
-
     width: 30%;
     height: 40%
 }
@@ -684,9 +645,8 @@ span {
     width: 150px;
 }
 
-
 .info-title2 {
-   font-family: "Helvetica Neue";
+    font-family: "Helvetica Neue";
     font-size: 20px;
     letter-spacing: 3px;
     font-weight: 500;
@@ -699,7 +659,6 @@ span {
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 1px;
-    
     margin-top: 8px;
 }
 
@@ -723,7 +682,6 @@ span {
 .personal {
     width: 100px;
 }
-
 
 
 /* ////////////////////////////////////////////// CONTACT PAGE ///////// */
@@ -782,7 +740,6 @@ h3 {
     font-family: "Helvetica Neue";
     font-size: 18px;
     font-weight: 400;
-    
     margin-top: -10px;
 }
 
@@ -814,11 +771,12 @@ h3 {
 }
 
 
+/* --- MEDIA QUERIES --- */
 
 
+/*///////    ////////////*/
 
-
-@media screen and (max-width: 420px) {
+@media ( max-width: 420px) {
     .container {
         border: 20px solid white;
         height: 105vh;
@@ -884,18 +842,15 @@ h3 {
         margin: 50px auto;
     }
     .contact {
-        margin:0 auto;
+        margin: 0 auto;
         margin-top: 2px;
         margin-bottom: 40px;
     }
-    
     .h3-footer {
         font-family: "Helvetica Neue";
         font-weight: 500;
         font-size: 20px;
         letter-spacing: 3px;
-    }
-    
     }
     .footer-text {
         font-family: "Helvetica Neue";
@@ -903,5 +858,27 @@ h3 {
         font-weight: 400;
         letter-spacing: 2px;
         text-decoration: none;
+    }
+}
+
+@media ( max-width: 330px) {
+    .container {
+        border: 20px solid white;
+        width: 100%;
+    }
+    
+     .logo-homepage {
+        width: 100px;
+        margin-top: 30px;
+    }
+    
+    .title-nav {
+        font-size: 40px;
+        margin: 10px auto;
+        margin-top: -15px;
+    }
+    
+    .scroll {
+        margin-top: 40px;
     }
 }
