@@ -775,61 +775,143 @@ h3 {
 
 
 /*///////    ////////////*/
+@media ( max-width: 769px) {
+    .title-nav {
+        font-size: 80px;
+        width: 100%;
+        margin: 10px auto;
+        margin-top: -15px;
+    }
+    
+    .roll-over {
+        opacity: 1;
+        position: absolute;
+        top: auto;
+        width: 100%;
+        bottom: 0;
+        height: 40%;
+        background: rgba(19, 19, 20, 0.3);
+        transition: opacity 0.5s ease;
+    }
+    
+    .title-rollover {
+        margin-top: 10px;
+        font-size: 12px;
+        letter-spacing: 3px;
+        font-weight: 300;
+        line-height: 18px;
+        color: white;
+    }
+    
+    .line-rollover {
+        border: 0.5px solid white;
+        width: 100px;
+        margin-top: 5px;
+    }
+    
+    .text-rollover {
+        display: none;
+        font-size: 14px;
+        color: white;
+        font-weight: 100;
+        letter-spacing: 5px;
+        line-height: 14px;
+    }
+    
+    .article-instagram {
+        margin-top: 80px;
+        text-align: center;
+    }
+    
+    .instagram-image {
+        position: relative;
+        width: 30%;
+        margin-top: -30px;
+        display: inline-block;
+    }
+    
+    .insta-photo {
+        width: 100%;
+    }
+    
+    
+    
+    
+}
+
+
+
+
+
 
 @media ( max-width: 420px) {
     .container {
         border: 20px solid white;
         height: 105vh;
     }
+    
     .logo-homepage {
         width: 130px;
         margin-top: 30px;
     }
+    
     .frame-title {
         margin-top: 120px;
         text-align: center;
     }
+    
     .title-nav {
         font-size: 50px;
         width: 100%;
         margin: 10px auto;
         margin-top: -15px;
     }
+    
     .scroll {
         margin-top: 70px;
     }
+    
     h4 {
         font-size: 15px;
     }
+    
     .frame-instagram {
         margin-top: 20px;
     }
+    
     .instagram-title {
         font-size: 20px;
         line-height: 30px;
     }
+    
     hr {
         border: 1px solid black;
         width: 70px;
     }
+    
     .instagram {
         margin-top: 10px;
     }
+    
     .instagram-icon {
         width: 30px;
     }
+    
     .article-instagram {
         margin-top: 40px;
         text-align: center;
     }
+    
     .instagram-image {
         width: 100%;
         margin: 20px auto;
         margin-top: 2px;
     }
+    
     .insta-photo {
         width: 100%;
     }
+    
     .footer-frame {
         text-align: center;
         margin-top: 120px;
@@ -837,21 +919,25 @@ h3 {
         margin: 10px auto;
         float: none;
     }
+    
     .logo-footer {
         width: 120px;
         margin: 50px auto;
     }
+    
     .contact {
         margin: 0 auto;
         margin-top: 2px;
         margin-bottom: 40px;
     }
+    
     .h3-footer {
         font-family: "Helvetica Neue";
         font-weight: 500;
         font-size: 20px;
         letter-spacing: 3px;
     }
+    
     .footer-text {
         font-family: "Helvetica Neue";
         color: black;
@@ -876,6 +962,8 @@ h3 {
     .frame-instagram {
         margin-top: 50px;
     }
+    
+    
     
     .roll-over {
         opacity: 1;
@@ -910,36 +998,8 @@ h3 {
         font-weight: 100;
         letter-spacing: 5px;
         line-height: 14px;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    } 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
