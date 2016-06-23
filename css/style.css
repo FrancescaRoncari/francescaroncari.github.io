@@ -861,6 +861,91 @@ h3 {
     }
 }
 
+
+
+
+
+
+
+@media ( max-width: 376px) {
+    .logo-homepage {
+        width: 130px;
+        margin-top: 30px;
+    }
+    
+    .frame-instagram {
+        margin-top: 50px;
+    }
+    
+    .roll-over {
+        opacity: 1;
+        position: absolute;
+        top: auto;
+        width: 100%;
+        bottom: 0;
+        height: 30%;
+        background: rgba(19, 19, 20, 0.3);
+        transition: opacity 0.5s ease;
+    }
+    
+    .title-rollover {
+        margin-top: 25px;
+        font-size: 14px;
+        letter-spacing: 3px;
+        font-weight: 300;
+        line-height: 18px;
+        color: white;
+    }
+    
+    .line-rollover {
+        border: 0.5px solid white;
+        width: 100px;
+        margin-top: 5px;
+    }
+    
+    .text-rollover {
+        display: none;
+        font-size: 14px;
+        color: white;
+        font-weight: 100;
+        letter-spacing: 5px;
+        line-height: 14px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media ( max-width: 330px) {
     .container {
         width: 90%;
@@ -870,25 +955,31 @@ h3 {
         margin-top: 16px;
         height: 100vh;
     }
+    
     .logo-homepage {
         width: 100px;
         margin-top: 30px;
     }
+    
     .title-nav {
         font-size: 40px;
         margin: 10px auto;
         margin-top: -15px;
     }
+    
     .scroll {
         margin-top: 65px;
     }
+    
     .frame-instagram {
         margin-top: 30px;
     }
+    
     .instagram-title {
         font-family: "Helvetica Neue";
         font-size: 18px;
     }
+    
     .roll-over {
         opacity: 1;
         position: absolute;
@@ -896,23 +987,25 @@ h3 {
         width: 100%;
         bottom: 0;
         height: 30%;
-        
         background: rgba(19, 19, 20, 0.3);
         transition: opacity 0.5s ease;
     }
+    
     .title-rollover {
-        margin-top: 20px;
+        margin-top: 25px;
         font-size: 14px;
         letter-spacing: 3px;
         font-weight: 300;
         line-height: 18px;
         color: white;
     }
+    
     .line-rollover {
         border: 0.5px solid white;
         width: 100px;
         margin-top: 5px;
     }
+    
     .text-rollover {
         display: none;
         font-size: 14px;
@@ -929,9 +1022,10 @@ h3 {
     .logo-footer {
         width: 90px;
         margin-top: 50px;
-        margin:0;
+        margin: 0;
         margin-bottom: 20px;
     }
+    
     .h3-footer {
         font-family: "Helvetica Neue";
         font-weight: 500;
