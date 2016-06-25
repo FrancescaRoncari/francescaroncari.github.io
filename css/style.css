@@ -181,7 +181,7 @@ hr {
 .h3-footer {
     font-family: "Helvetica Neue";
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 3px;
 }
 
@@ -775,6 +775,31 @@ h3 {
 
 
 /*///////    ////////////*/
+@media ( max-width: 1441px) {
+  .frame-title {
+    margin-top: 240px;
+    text-align: center;
+}
+
+.title-nav {
+    display: inline-block;
+    width: 20%;
+    margin: 50px;
+    font-family: "Helvetica Neue";
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    color: white;
+}
+
+}
+
+
+
+
+
+
+
 @media ( max-width: 769px) {
     .title-nav {
         font-size: 80px;
@@ -783,6 +808,9 @@ h3 {
         margin-top: -15px;
     }
     
+    .scroll {
+        margin-top: 90px;
+    }
     .roll-over {
         opacity: 1;
         position: absolute;
@@ -793,7 +821,6 @@ h3 {
         background: rgba(19, 19, 20, 0.3);
         transition: opacity 0.5s ease;
     }
-    
     .title-rollover {
         margin-top: 10px;
         font-size: 12px;
@@ -802,13 +829,11 @@ h3 {
         line-height: 18px;
         color: white;
     }
-    
     .line-rollover {
         border: 0.5px solid white;
         width: 100px;
         margin-top: 5px;
     }
-    
     .text-rollover {
         display: none;
         font-size: 14px;
@@ -817,27 +842,27 @@ h3 {
         letter-spacing: 5px;
         line-height: 14px;
     }
-    
     .article-instagram {
         margin-top: 80px;
         text-align: center;
     }
-    
     .instagram-image {
         position: relative;
         width: 30%;
         margin-top: -30px;
         display: inline-block;
     }
-    
     .insta-photo {
         width: 100%;
     }
-    
-    
-    
-    
+    .footer-frame {
+        display: flex;
+        float: right;
+        margin-right: -10px;
+    }
 }
+
+
 
 
 
@@ -849,69 +874,55 @@ h3 {
         border: 20px solid white;
         height: 105vh;
     }
-    
     .logo-homepage {
         width: 130px;
         margin-top: 30px;
     }
-    
     .frame-title {
         margin-top: 120px;
         text-align: center;
     }
-    
     .title-nav {
         font-size: 50px;
         width: 100%;
         margin: 10px auto;
         margin-top: -15px;
     }
-    
     .scroll {
         margin-top: 70px;
     }
-    
     h4 {
         font-size: 15px;
     }
-    
     .frame-instagram {
         margin-top: 20px;
     }
-    
     .instagram-title {
         font-size: 20px;
         line-height: 30px;
     }
-    
     hr {
         border: 1px solid black;
         width: 70px;
     }
-    
     .instagram {
         margin-top: 10px;
     }
-    
     .instagram-icon {
         width: 30px;
     }
-    
     .article-instagram {
         margin-top: 40px;
         text-align: center;
     }
-    
     .instagram-image {
         width: 100%;
         margin: 20px auto;
         margin-top: 2px;
     }
-    
     .insta-photo {
         width: 100%;
     }
-    
     .footer-frame {
         text-align: center;
         margin-top: 120px;
@@ -919,25 +930,21 @@ h3 {
         margin: 10px auto;
         float: none;
     }
-    
     .logo-footer {
         width: 120px;
         margin: 50px auto;
     }
-    
     .contact {
         margin: 0 auto;
         margin-top: 2px;
         margin-bottom: 40px;
     }
-    
     .h3-footer {
         font-family: "Helvetica Neue";
         font-weight: 500;
         font-size: 20px;
         letter-spacing: 3px;
     }
-    
     .footer-text {
         font-family: "Helvetica Neue";
         color: black;
@@ -953,18 +960,73 @@ h3 {
 
 
 
+
+@media ( max-width: 415px) {
+    .container {
+        width: 90%;
+        border: 0px;
+        position: relative;
+        margin: auto;
+        margin-top: 20px;
+        height: 94vh;
+    }
+    .frame-title {
+        margin-top: 150px;
+        text-align: center;
+    }
+    .scroll {
+        margin-top: 100px;
+    }
+    .roll-over {
+        opacity: 1;
+        position: absolute;
+        top: auto;
+        width: 100%;
+        bottom: 0;
+        height: 25%;
+        background: rgba(19, 19, 20, 0.3);
+        transition: opacity 0.5s ease;
+    }
+    .title-rollover {
+        margin-top: 20px;
+        font-size: 18px;
+        letter-spacing: 3px;
+        font-weight: 300;
+        line-height: 22px;
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
 @media ( max-width: 376px) {
     .logo-homepage {
         width: 130px;
         margin-top: 30px;
     }
-    
-    .frame-instagram {
-        margin-top: 50px;
+    .container {
+        width: 90%;
+        border: 0px;
+        position: relative;
+        margin: auto;
+        margin-top: 18px;
+        height: 94vh;
     }
-    
-    
-    
+    .frame-title {
+        margin-top: 120px;
+        text-align: center;
+    }
+    .scroll {
+        margin-top: 65px;
+    }
+    .frame-instagram {
+        margin-top: 10px;
+    }
     .roll-over {
         opacity: 1;
         position: absolute;
@@ -975,7 +1037,6 @@ h3 {
         background: rgba(19, 19, 20, 0.3);
         transition: opacity 0.5s ease;
     }
-    
     .title-rollover {
         margin-top: 25px;
         font-size: 14px;
@@ -984,13 +1045,11 @@ h3 {
         line-height: 18px;
         color: white;
     }
-    
     .line-rollover {
         border: 0.5px solid white;
         width: 100px;
         margin-top: 5px;
     }
-    
     .text-rollover {
         display: none;
         font-size: 14px;
@@ -998,8 +1057,10 @@ h3 {
         font-weight: 100;
         letter-spacing: 5px;
         line-height: 14px;
-    } 
+    }
 }
+
+
 
 
 
@@ -1013,33 +1074,31 @@ h3 {
         position: relative;
         margin: auto;
         margin-top: 16px;
-        height: 100vh;
+        height: 94vh;
     }
-    
     .logo-homepage {
         width: 100px;
         margin-top: 30px;
     }
-    
+    .frame-title {
+        margin-top: 120px;
+        text-align: center;
+    }
     .title-nav {
         font-size: 40px;
         margin: 10px auto;
         margin-top: -15px;
     }
-    
     .scroll {
-        margin-top: 65px;
+        margin-top: 40px;
     }
-    
     .frame-instagram {
-        margin-top: 30px;
+        margin-top: 10px;
     }
-    
     .instagram-title {
         font-family: "Helvetica Neue";
         font-size: 18px;
     }
-    
     .roll-over {
         opacity: 1;
         position: absolute;
@@ -1050,7 +1109,6 @@ h3 {
         background: rgba(19, 19, 20, 0.3);
         transition: opacity 0.5s ease;
     }
-    
     .title-rollover {
         margin-top: 25px;
         font-size: 14px;
@@ -1059,13 +1117,11 @@ h3 {
         line-height: 18px;
         color: white;
     }
-    
     .line-rollover {
         border: 0.5px solid white;
         width: 100px;
         margin-top: 5px;
     }
-    
     .text-rollover {
         display: none;
         font-size: 14px;
@@ -1074,18 +1130,15 @@ h3 {
         letter-spacing: 5px;
         line-height: 14px;
     }
-    
     .footer-logo {
         margin-top: 50px;
     }
-    
     .logo-footer {
         width: 90px;
         margin-top: 50px;
         margin: 0;
         margin-bottom: 20px;
     }
-    
     .h3-footer {
         font-family: "Helvetica Neue";
         font-weight: 500;
