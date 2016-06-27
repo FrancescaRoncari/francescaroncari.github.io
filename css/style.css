@@ -860,6 +860,65 @@ h3 {
         float: right;
         margin-right: -10px;
     }
+    
+    
+    /* //////////// WORKS PAGE ///////// */
+    .works-image {
+    width: 100%;
+    margin-top: 170px;
+    
+}
+
+    .title-up {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 150px;
+}
+
+    .text-up {
+    text-align: center;
+    font-family: "Jellyka Saint-Andrew's Queen";
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 5px;
+    line-height: 40px;
+}
+    .index-works {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .filters-works {
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+    .filters-works li {
+    display: inline-block;
+    margin: 20px;
+}
+
+    span {
+    text-decoration: line-through;
+}
+
+    .container-works {
+    margin-top: 0px;
+    text-align: center;
+}
+
+    .photo-works {
+    position: relative;
+    width: 30%;
+    display: inline-block;
+}
+
+    .work-image {
+    width: 100%;
+}
+
 }
 
 
@@ -1058,6 +1117,77 @@ h3 {
         letter-spacing: 5px;
         line-height: 14px;
     }
+    
+     /* //////////// NAV ///////// */
+    nav {
+        display: none;
+    }
+    
+    /* //////////// WORKS PAGE ///////// */
+    .works-image {
+    width: 100%;
+    border: 20px solid white;
+    margin-top: 30px;
+    background-image: url(../links/contact.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
+    .title-up {
+    text-align: center;
+    color: white;
+    font-family: "Helvetica Neue";
+    letter-spacing: 7px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+    .text-up {
+    display: none;
+    text-align: center;
+    font-family: "Jellyka Saint-Andrew's Queen";
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 5px;
+    line-height: 40px;
+}
+    .index-works {
+    margin-top: 20px;
+}
+
+    .filters-works {
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+    .filters-works li {
+    display: inline-block;
+    margin: 20px;
+}
+
+    span {
+    text-decoration: line-through;
+}
+
+    .container-works {
+    margin-top: 0px;
+    text-align: center;
+}
+
+    .photo-works {
+    position: relative;
+    width: 90%;
+    display: inline-block;
+}
+
+    .work-image {
+    width: 100%;
+}
+
 }
 
 
@@ -1068,6 +1198,7 @@ h3 {
 
 
 @media ( max-width: 330px) {
+    
     .container {
         width: 90%;
         border: 0px;
@@ -1145,4 +1276,78 @@ h3 {
         font-size: 16px;
         letter-spacing: 3px;
     }
+    
+    
+    /* //////////// NAV ///////// */
+    nav {
+        display: none;
+    }
+    
+    /* //////////// WORKS PAGE ///////// */
+    .works-image {
+    width: 100%;
+    border: 20px solid white;
+    margin-top: 30px;
+    background-image: url(../links/contact.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
+    .title-up {
+    text-align: center;
+    color: white;
+    font-family: "Helvetica Neue";
+    letter-spacing: 7px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+    .text-up {
+    display: none;
+    text-align: center;
+    font-family: "Jellyka Saint-Andrew's Queen";
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 5px;
+    line-height: 40px;
+}
+    .index-works {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .filters-works {
+    font-family: "Helvetica Neue";
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+    .filters-works li {
+    display: inline-block;
+    margin: 20px;
+}
+
+    span {
+    text-decoration: line-through;
+}
+
+    .container-works {
+    margin-top: 0px;
+    text-align: center;
+}
+
+    .photo-works {
+    position: relative;
+    width: 90%;
+    display: inline-block;
+}
+
+    .work-image {
+    width: 100%;
+}
+
+
 }
