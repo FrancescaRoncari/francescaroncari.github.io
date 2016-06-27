@@ -41,16 +41,32 @@ body {
 }
 
 .frame-title {
-    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 38vh;
+    padding:0 5%;
     text-align: center;
 }
 
-.title-nav {
+
+/*.title-nav {
     display: inline-block;
     width: 20%;
     margin: 70px;
     font-family: "Helvetica Neue";
     font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    color: white;
+}*/
+
+.title-nav {
+    display: flex;
+    font-family: "Helvetica Neue";
+    font-size: 4em;
     font-weight: 700;
     letter-spacing: 10px;
     color: white;
