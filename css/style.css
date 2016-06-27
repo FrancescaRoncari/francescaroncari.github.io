@@ -43,13 +43,12 @@ body {
 .frame-title {
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    align-items: center;
     margin: 0 auto;
     margin-top: 38vh;
     padding:0 5%;
     text-align: center;
-    background-color: pink;
+    background-color: cyan;
+    max-width: 95vw;
 }
 
 
