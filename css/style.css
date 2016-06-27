@@ -28,9 +28,7 @@ body {
 }
 
 .background-image {
-    width: 100vw;
-    height:100vh;
-    padding:35px;
+    width: 100%;
 }
 
 .logo-header {
@@ -43,32 +41,16 @@ body {
 }
 
 .frame-title {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    margin-top: 38vh;
-    padding:0 5%;
+    margin-top: 200px;
     text-align: center;
-    background-color: yellow;
-    max-width: 95vw;
 }
 
-
-/*.title-nav {
+.title-nav {
     display: inline-block;
     width: 20%;
     margin: 70px;
     font-family: "Helvetica Neue";
     font-size: 80px;
-    font-weight: 700;
-    letter-spacing: 10px;
-    color: white;
-}*/
-
-.title-nav {
-    display: flex;
-    font-family: "Helvetica Neue";
-    font-size: 4em;
     font-weight: 700;
     letter-spacing: 10px;
     color: white;
