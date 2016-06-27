@@ -28,7 +28,9 @@ body {
 }
 
 .background-image {
-    width: 100%;
+    width: 100vw;
+    height:100vh;
+    padding:35px;
 }
 
 .logo-header {
