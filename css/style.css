@@ -865,6 +865,7 @@ h3 {
     /* //////////// WORKS PAGE ///////// */
     .works-image {
     width: 100%;
+    border: 20px solid white;
     margin-top: 170px;
     
 }
@@ -1001,7 +1002,7 @@ h3 {
     .h3-footer {
         font-family: "Helvetica Neue";
         font-weight: 500;
-        font-size: 20px;
+        font-size: 16px;
         letter-spacing: 3px;
     }
     .footer-text {
@@ -1098,7 +1099,7 @@ h3 {
     }
     .title-rollover {
         margin-top: 25px;
-        font-size: 16px;
+        font-size: 14px;
         letter-spacing: 3px;
         font-weight: 300;
         line-height: 18px;
@@ -1291,7 +1292,7 @@ h3 {
     background-image: url(../links/contact.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vh;
+    height: 50vh;
 }
 
     .title-up {
