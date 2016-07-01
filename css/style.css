@@ -11,8 +11,7 @@
 }
 
 
-/* ////////// HOMEPAGE ///////// */
-
+/* ////////// HOMEPAGE ////////// */
 body {
     margin: 0;
 }
@@ -135,7 +134,7 @@ hr {
 
 
 
-/* FOOTER */
+/* ////////// FOOTER ////////// */
 .footer-frame {
     display: flex;
     float: right;
@@ -200,7 +199,6 @@ hr {
     margin-top: 195px;
     
     color: white;
-
 }
 
 .line-rollover {
@@ -218,46 +216,48 @@ hr {
 }
 
 
+
 /* Go Up link */
 
-.turnup-text {
+.up-text {
     margin-top: 60px;
     text-align: center;
+    text-decoration: none;
 }
 
-.turnup-text a:hover {
+.up-text a:hover {
     margin-top: 60px;
     text-align: center;
     color: black;
 }
 
-.turnup-text a {
+.up-text a {
     color: gray;
 }
 
 
 
-/* //////////////////////////// NAVIGATION ///////// */
+/* ////////// NAVIGATION ////////// */
 
 nav {
-    background-color: aqua;
-    margin-top: -150px;
+    height: 20px;
+    margin-top: 25px;
 }
 
 nav ul {
     display: inline-block;
     float: right;
-    margin-right: 20px;
+    margin-right: -5px;
 }
 
 nav ul li {
     display: inline-block;
     font-family: "Helvetica Neue";
-    color: white;
-    letter-spacing: 2px;
-    font-size: 18px;
+    letter-spacing: 3px;
+    font-size: 16px;
     font-weight: 300;
     margin-right: 20px;
+    
     color: black;
 }
 
@@ -266,8 +266,20 @@ nav ul li a {
     color: black;
 }
 
+a:hover {
+    text-decoration: line-through;
+}
 
-/* /////////////////////////// WORKS PAGE ///////// */
+
+
+/* ////////// WORKS PAGE ////////// */
+.logo-header {
+    margin-top: 5px;;
+}
+
+.logo-pages {
+    width: 130px;
+}
 
 .work-selected {
     text-decoration: line-through;
@@ -275,23 +287,24 @@ nav ul li a {
 
 .works-image {
     width: 100%;
-    border: 35px solid white;
-    margin-top: 150px;
+    margin-top: 50px;
+    border: 25px solid white;
+    
     background-image: url(../links/contact.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vh;
+    height: 40vh;
 }
 
 .index-works {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .filters-works {
     font-family: "Helvetica Neue";
     font-size: 16px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .filters-works li {
