@@ -145,7 +145,7 @@ hr {
 
 .logo-footer {
     width: 78px;
-    margin-right: 18px;
+    margin-right: 28px;
     margin-top: 10px;
 }
 
@@ -624,7 +624,7 @@ span {
 }
 
 
-/* //////////////////////////////////////////////////// ABOUT PAGE ///////// */
+/* ////////// ABOUT PAGE ///////// */
 
 .about-selected {
     text-decoration: line-through;
@@ -632,17 +632,19 @@ span {
 
 .about-image {
     width: 100%;
-    border: 35px solid white;
-    margin-top: 150px;
+    margin-top: 45px;
+    border: 25px solid white;
+    
     background-image: url(../links/about.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vh;
+    height: 40vh;
 }
 
 .about-containers {
-    width: 90%;
-    margin: 10px auto;
+    width: 95%;
+    margin-top: -50px;
+    margin-left: 50px;
     display: flex;
 }
 
@@ -726,7 +728,7 @@ span {
 }
 
 
-/* ////////////////////////////////////////////// CONTACT PAGE ///////// */
+/* ////////// CONTACT PAGE ////////// */
 
 .contact-selected {
     text-decoration: line-through;
@@ -734,12 +736,13 @@ span {
 
 .contact-image {
     width: 100%;
-    border: 35px solid white;
-    margin-top: 150px;
+    margin-top: 45px;
+    border: 25px solid white;
+    
     background-image: url(../links/contact3%20copia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vh;
+    height: 40vh;
 }
 
 .title-up {
@@ -750,7 +753,7 @@ span {
     font-size: 55px;
     font-weight: 500;
     
-    margin-top: 95px;
+    margin-top: 80px;
 }
 
 .text-up {
@@ -806,7 +809,8 @@ h3 {
     font-weight: 700;
     color: black;
     letter-spacing: 2px;
-    margin-right: 265px;
+    
+    margin-right: 80px;
 }
 
 .say a {
