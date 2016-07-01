@@ -331,6 +331,7 @@ span {
     position: relative;
     width: 30%;
     margin: 5px;
+    margin-top: 7px;
     display: inline-block;
 }
 
@@ -339,36 +340,17 @@ span {
 }
 
 
-/* /////////////////////////////////// THINK MAGAZINE // */
+/* ////////// THINK MAGAZINE ////////// */
 
 .think-image {
     width: 100%;
-    border: 35px solid white;
-    margin-top: 150px;
+    margin-top: 45px;
+    border: 25px solid white;
+    
     background-image: url(../links/works.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vh;
-}
-
-.title-up {
-    width: text-align: center;
-    color: white;
-    font-family: "Helvetica Neue";
-    letter-spacing: 7px;
-    font-size: 50px;
-    font-weight: 500;
-    margin-top: 110px;
-}
-
-.text-up {
-    text-align: center;
-    font-family: "Jellyka Saint-Andrew's Queen";
-    font-size: 40px;
-    color: white;
-    font-weight: 100;
-    letter-spacing: 5px;
-    line-height: 40px;
+    height: 40vh;
 }
 
 .work-containers {
@@ -405,14 +387,14 @@ span {
 }
 
 .info-work1 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     padding-top: 35px;
     letter-spacing: 2px;
 }
 
 .info-work {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     padding-top: 20px;
     letter-spacing: 2px;
@@ -435,13 +417,13 @@ span {
 }
 
 .hr-up {
-    width: 350px;
+    width: 400px;
     border: 1px solid dimgray;
     margin-top: 80px;
 }
 
 .hr-down {
-    width: 50px;
+    width: 100px;
     border: 1px solid dimgray;
     margin-bottom: 80px;
 }
@@ -449,7 +431,7 @@ span {
 .text-decoration {
     text-align: center;
     font-family: "Jellyka Saint-Andrew's Queen";
-    font-size: 38px;
+    font-size: 35px;
     color: dimgray;
     font-weight: 100;
     letter-spacing: 5px;
@@ -643,7 +625,7 @@ span {
 
 .about-containers {
     width: 95%;
-    margin-top: -50px;
+    margin-top: -60px;
     margin-left: 50px;
     display: flex;
 }
@@ -730,6 +712,10 @@ span {
 
 /* ////////// CONTACT PAGE ////////// */
 
+.container-contact {
+    width: 100%;
+}
+
 .contact-selected {
     text-decoration: line-through;
 }
@@ -770,7 +756,7 @@ span {
     width: 550px;
     text-align: center;
     margin: 20px auto;
-    margin-top: 75px;
+    margin-top: 60px;
 }
 
 h3 {
