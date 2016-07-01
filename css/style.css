@@ -340,7 +340,7 @@ span {
 }
 
 
-/* ////////// THINK MAGAZINE ////////// */
+/* ////////// THINK MAGAZINE */
 
 .think-image {
     width: 100%;
@@ -450,16 +450,17 @@ span {
 }
 
 
-/* //////////////////////////////// IOP SAMSUNG // */
+/* ////////// IOP SAMSUNG */
 
 .iop-image {
     width: 100%;
-    border: 35px solid white;
-    margin-top: 150px;
+    margin-top: 45px;
+    border: 25px solid white;
+    
     background-image: url(../links/iop-up3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vh;
+    height: 40vh;
 }
 
 .photo1-container {
@@ -484,12 +485,21 @@ span {
     width: 100%;
 }
 
-.turn-up a {
-    color: black;
+
+
+
+/* ////////// VALENTINO */
+
+.valentino-image {
+    width: 100%;
+    margin-top: 45px;
+    border: 25px solid white;
+    
+    background-image: url(../links/valentino-up.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
 }
-
-
-/* /////////////////////////////// VALENTINO*/
 
 .title-up-valentino {
     text-align: center;
@@ -498,8 +508,9 @@ span {
     letter-spacing: 7px;
     font-size: 50px;
     font-weight: 500;
-    margin-top: 90px;
     line-height: 50px;
+
+    margin-top: 90px;
 }
 
 .title-up-sub {
@@ -511,16 +522,6 @@ span {
     font-weight: 400;
     margin-top: -20px;
     margin-bottom: 20px;
-}
-
-.valentino-image {
-    width: 100%;
-    border: 35px solid white;
-    margin-top: 150px;
-    background-image: url(../links/valentino-up.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 45vh;
 }
 
 .info-title-2 {
@@ -549,55 +550,57 @@ span {
 }
 
 
-/* ////////////////// ATM */
+/* ////////// ATM */
 
 .atm-image {
     width: 100%;
-    border: 35px solid white;
-    margin-top: 150px;
+    margin-top: 45px;
+    border: 25px solid white;
+    
     background-image: url(../links/atm-up.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vh;
+    height: 40vh;
 }
 
 
-/* ///////////////// AMERICAN */
+/* ////////// AMERICAN */
 
 .american-image {
     width: 100%;
-    border: 35px solid white;
-    margin-top: 150px;
+    margin-top: 45px;
+    border: 25px solid white;
+    
     background-image: url(../links/american-up.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vh;
+    height: 40vh;
 }
 
-
-/* ///////////////// TRIENNALE UGO LA PIETRA */
-
+/* ////////// TRIENNALE UGO LA PIETRA */
 .triennale-image {
     width: 100%;
-    border: 35px solid white;
-    margin-top: 150px;
+    margin-top: 45px;
+    border: 25px solid white;
+    
     background-image: url(../links/triennale-up.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vh;
+    height: 40vh;
 }
 
 
-/* ///////////////// GENTLETUDE ONLUS */
 
+/* ////////// GENTLETUDE ONLUS */
 .gentletude-image {
     width: 100%;
-    border: 35px solid white;
-    margin-top: 150px;
+    margin-top: 45px;
+    border: 25px solid white;
+    
     background-image: url(../links/gentletude-up.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vh;
+    height: 40vh;
 }
 
 .double-gentletude {
@@ -753,9 +756,9 @@ span {
 }
 
 .contact-detail {
-    width: 550px;
+    width: 350px;
     text-align: center;
-    margin: 20px auto;
+    margin: 2px auto;
     margin-top: 60px;
 }
 
@@ -781,11 +784,7 @@ h3 {
     font-family: "Helvetica Neue";
     font-size: 16px;
     font-weight: 300;
-    letter-spacing: 1px;
-}
-
-.say-hello {
-    margin-bottom: 40px;
+    letter-spacing: 2px;
 }
 
 .say {
@@ -796,6 +795,7 @@ h3 {
     color: black;
     letter-spacing: 2px;
     
+    margin-top: 25px;
     margin-right: 80px;
 }
 
