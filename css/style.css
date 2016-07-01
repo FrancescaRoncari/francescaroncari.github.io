@@ -13,6 +13,7 @@
 
 /* ////////// HOMEPAGE ////////// */
 body {
+    width: 100%;
     margin: 0;
 }
 
@@ -804,6 +805,16 @@ h3 {
 }
 
 
+
+
+
+
+
+
+
+
+
+
 /* --- MEDIA QUERIES --- */
 
 
@@ -834,6 +845,29 @@ h3 {
 
 
 @media ( max-width: 769px) {
+    
+    .first {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image:url(../links/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    border: 1px solid white;
+    }    
+    .logo-homepage {
+        width: 120px;
+        margin-top: 20px;
+    }
+    .frame-title {
+        margin-top: 130px;
+        text-align: center;
+    }
     .title-nav {
         font-size: 80px;
         width: 100%;
@@ -962,164 +996,88 @@ h3 {
 
 
 
-@media ( max-width: 420px) {
-    .container {
-        border: 20px solid white;
-        height: 105vh;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media ( max-width: 377px) {
+    
+ .first {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image:url(../links/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    border: 15px solid white;
+    }    
     .logo-homepage {
-        width: 130px;
-        margin-top: 30px;
+        width: 120px;
+        margin-top: 20px;
     }
     .frame-title {
-        margin-top: 120px;
+        margin-top: 130px;
         text-align: center;
     }
     .title-nav {
         font-size: 50px;
-        width: 100%;
         margin: 10px auto;
         margin-top: -15px;
     }
     .scroll {
-        margin-top: 70px;
+        margin-top: 80px;
     }
-    h4 {
+    
+    h4{
         font-size: 15px;
     }
-    .frame-instagram {
-        margin-top: 20px;
-    }
+    
+    /* second section scroll over */
+    .second {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 1680px;
+    margin-top: 100vh;
+    background: white;
+}
+   
     .instagram-title {
-        font-size: 20px;
-        line-height: 30px;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
     }
-    hr {
-        border: 1px solid black;
-        width: 70px;
-    }
-    .instagram {
-        margin-top: 10px;
-    }
+    
     .instagram-icon {
-        width: 30px;
-    }
+    width: 30px;
+}
     .article-instagram {
         margin-top: 40px;
         text-align: center;
     }
     .instagram-image {
-        width: 100%;
+        width: 93%;
         margin: 20px auto;
         margin-top: 2px;
     }
     .insta-photo {
         width: 100%;
     }
-    .footer-frame {
-        text-align: center;
-        margin-top: 120px;
-        display: block;
-        margin: 10px auto;
-        float: none;
-    }
-    .logo-footer {
-        width: 120px;
-        margin: 50px auto;
-    }
-    .contact {
-        margin: 0 auto;
-        margin-top: 2px;
-        margin-bottom: 40px;
-    }
-    .h3-footer {
-        font-family: "Helvetica Neue";
-        font-weight: 500;
-        font-size: 16px;
-        letter-spacing: 3px;
-    }
-    .footer-text {
-        font-family: "Helvetica Neue";
-        color: black;
-        font-weight: 400;
-        letter-spacing: 2px;
-        text-decoration: none;
-    }
-}
-
-
-
-
-
-
-
-
-@media ( max-width: 415px) {
-    .container {
-        width: 90%;
-        border: 0px;
-        position: relative;
-        margin: auto;
-        margin-top: 20px;
-        height: 94vh;
-    }
-    .frame-title {
-        margin-top: 150px;
-        text-align: center;
-    }
-    .scroll {
-        margin-top: 100px;
-    }
-    .roll-over {
-        opacity: 1;
-        position: absolute;
-        top: auto;
-        width: 100%;
-        bottom: 0;
-        height: 25%;
-        background: rgba(19, 19, 20, 0.3);
-        transition: opacity 0.5s ease;
-    }
-    .title-rollover {
-        margin-top: 20px;
-        font-size: 18px;
-        letter-spacing: 3px;
-        font-weight: 300;
-        line-height: 22px;
-        color: white;
-    }
-}
-
-
-
-
-
-
-
-
-@media ( max-width: 376px) {
-    .logo-homepage {
-        width: 130px;
-        margin-top: 30px;
-    }
-    .container {
-        width: 90%;
-        border: 0px;
-        position: relative;
-        margin: auto;
-        margin-top: 18px;
-        height: 94vh;
-    }
-    .frame-title {
-        margin-top: 120px;
-        text-align: center;
-    }
-    .scroll {
-        margin-top: 65px;
-    }
-    .frame-instagram {
-        margin-top: 10px;
-    }
+    
     .roll-over {
         opacity: 1;
         position: absolute;
@@ -1132,10 +1090,10 @@ h3 {
     }
     .title-rollover {
         margin-top: 25px;
-        font-size: 14px;
+        font-size: 18px;
         letter-spacing: 3px;
         font-weight: 300;
-        line-height: 18px;
+        line-height: 20px;
         color: white;
     }
     .line-rollover {
@@ -1152,98 +1110,62 @@ h3 {
         line-height: 14px;
     }
     
-     /* //////////// NAV ///////// */
-    nav {
-        display: none;
+    /* footer */
+
+    .footer-frame {
+        text-align: center;
+        display: block;
+        margin: 10px auto;
+        float: none;
+        margin-top: -10px;
+    }
+    .logo-footer {
+        width: 90px;
+        margin: 50px auto;
+    }
+    .contact {
+        margin: 0 auto;
+        margin-top: -25px;
+        margin-bottom: 40px;
+    }
+    .h3-footer {
+        font-family: "Helvetica Neue";
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+    .footer-text {
+        font-family: "Helvetica Neue";
+        font-size: 15px;
+        color: black;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-decoration: none;
     }
     
-    /* //////////// WORKS PAGE ///////// */
-    .works-image {
-    width: 100%;
-    border: 20px solid white;
-    margin-top: 30px;
-    background-image: url(../links/contact.jpeg);
-    background-repeat: no-repeat;
+
+
+
+
+@media ( max-width: 321px) {
+    
+   .first {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image:url(../links/background.jpg);
     background-size: cover;
-    height: 45vh;
-}
-
-    .title-up {
-    text-align: center;
-    color: white;
-    font-family: "Helvetica Neue";
-    letter-spacing: 7px;
-    font-size: 40px;
-    font-weight: 500;
-    margin-top: 100px;
-}
-
-    .text-up {
-    display: none;
-    text-align: center;
-    font-family: "Jellyka Saint-Andrew's Queen";
-    font-size: 30px;
-    color: white;
-    font-weight: 100;
-    letter-spacing: 5px;
-    line-height: 40px;
-}
-    .index-works {
-    margin-top: 20px;
-}
-
-    .filters-works {
-    font-family: "Helvetica Neue";
-    font-size: 12px;
-    letter-spacing: 2px;
-}
-
-    .filters-works li {
-    display: inline-block;
-    margin: 20px;
-}
-
-    span {
-    text-decoration: line-through;
-}
-
-    .container-works {
-    margin-top: 0px;
-    text-align: center;
-}
-
-    .photo-works {
-    position: relative;
-    width: 90%;
-    display: inline-block;
-}
-
-    .work-image {
-    width: 100%;
-}
-
-}
-
-
-
-
-
-
-
-
-@media ( max-width: 330px) {
+    background-attachment: fixed;
     
-    .container {
-        width: 90%;
-        border: 0px;
-        position: relative;
-        margin: auto;
-        margin-top: 16px;
-        height: 94vh;
-    }
+    border: 10px solid white;
+    }    
     .logo-homepage {
         width: 100px;
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .frame-title {
         margin-top: 120px;
@@ -1255,8 +1177,22 @@ h3 {
         margin-top: -15px;
     }
     .scroll {
-        margin-top: 40px;
+        margin-top: 80px;
     }
+    
+    h4{
+        font-size: 15px;
+    }
+    
+    /* second section scroll over */
+    .second {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 1525px;
+    margin-top: 100vh;
+    background: white;
+}
     .frame-instagram {
         margin-top: 10px;
     }
@@ -1264,6 +1200,23 @@ h3 {
         font-family: "Helvetica Neue";
         font-size: 18px;
     }
+    
+    .instagram-icon {
+    width: 25px;
+}
+    .article-instagram {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .instagram-image {
+        width: 93%;
+        margin: 20px auto;
+        margin-top: 2px;
+    }
+    .insta-photo {
+        width: 100%;
+    }
+    
     .roll-over {
         opacity: 1;
         position: absolute;
@@ -1276,7 +1229,7 @@ h3 {
     }
     .title-rollover {
         margin-top: 25px;
-        font-size: 14px;
+        font-size: 15px;
         letter-spacing: 3px;
         font-weight: 300;
         line-height: 18px;
@@ -1295,27 +1248,41 @@ h3 {
         letter-spacing: 5px;
         line-height: 14px;
     }
-    .footer-logo {
-        margin-top: 50px;
+    
+    /* footer */
+
+    .footer-frame {
+        text-align: center;
+        display: block;
+        margin: 10px auto;
+        float: none;
+        margin-top: -10px;
     }
     .logo-footer {
         width: 90px;
-        margin-top: 50px;
-        margin: 0;
-        margin-bottom: 20px;
+        margin: 50px auto;
+    }
+    .contact {
+        margin: 0 auto;
+        margin-top: -25px;
+        margin-bottom: 40px;
     }
     .h3-footer {
         font-family: "Helvetica Neue";
         font-weight: 500;
-        font-size: 16px;
+        font-size: 15px;
         letter-spacing: 3px;
     }
-    
-    
-    /* //////////// NAV ///////// */
-    nav {
-        display: none;
+    .footer-text {
+        font-family: "Helvetica Neue";
+        font-size: 15px;
+        color: black;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-decoration: none;
     }
+    
+    
     
     /* //////////// WORKS PAGE ///////// */
     .works-image {
