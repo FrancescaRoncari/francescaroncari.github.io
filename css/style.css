@@ -47,8 +47,9 @@ body {
 
 .title-nav {
     display: inline-block;
-    width: 20%;
     margin: 70px;
+    width: 20%;
+    
     font-family: "Helvetica Neue";
     font-size: 80px;
     font-weight: 700;
@@ -89,13 +90,10 @@ h4 {
     background: white;
 }
 
-.frame-instagram {
-    text-align: center;
-}
-
 .instagram-title {
     font-family: "Helvetica Neue";
     font-size: 20px;
+    text-align: center;
     letter-spacing: 3px;
     font-weight: 500;
     line-height: 25px;
@@ -177,22 +175,6 @@ hr {
     text-decoration: none;
 }
 
-.turnup-text {
-    margin-top: 60px;
-    text-align: center;
-}
-
-.turnup-text a:hover {
-    margin-top: 60px;
-    text-align: center;
-    color: black;
-}
-
-.turnup-text a {
-    color: gray;
-}
-
-
 
 /* rollover-effect on photos */
 .roll-over {
@@ -233,6 +215,24 @@ hr {
     font-weight: 100;
     letter-spacing: 5px;
     line-height: 45px;
+}
+
+
+/* Go Up link */
+
+.turnup-text {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.turnup-text a:hover {
+    margin-top: 60px;
+    text-align: center;
+    color: black;
+}
+
+.turnup-text a {
+    color: gray;
 }
 
 
