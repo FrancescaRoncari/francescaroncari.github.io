@@ -251,6 +251,8 @@
     a:hover {
         text-decoration: line-through;
     }
+
+  
     /* ////////// WORKS PAGE ////////// */
     
     .logo-header {
@@ -869,6 +871,7 @@
     /* rollover-effect on photos */
     .title-rollover {
         margin-top: 130px;
+        font-size: 15px;
     }
     
     .line-rollover {
@@ -884,7 +887,12 @@
         letter-spacing: 5px;
         line-height: 45px;
     }
-        
+      
+        /* ////////// NAVIGATION ////////// */
+        nav ul {
+        margin-right: -15px;
+    }
+  
     /* ////////// WORKS PAGE ////////// */
     
     .logo-pages {
@@ -920,57 +928,37 @@
     }
     
     .work-containers {
-        padding-left: 98px;
+        margin-top: 10px;
+        padding-left: 65px;
+    }
+    .info-title {
+        font-size: 15px;
+
+    }
+    .info-work1 {
+        font-size: 15px;
     }
     
+    .info-work {
+        font-size: 15px;
+    }
     .work {
-        align-items: flex-start;
-        display: inline-block;
         margin-top: 75px;
         width: 30%;
     }
     
     .work-2 {
-        align-items: flex-start;
-        display: inline-block;
-        margin-left: 40px;
-        margin-top: 100px;
-        width: 30%;
+        margin-left: 65px;
     }
-    
-    .work-last {
-        align-items: flex-start;
-        display: inline-block;
-        margin-left: 100px;
-        margin-top: 75px;
-        padding-left: 20px;
-        width: 20%;
-        height: 60%;
-        border-left: 1px solid gray;
-    }
-    
-    .info-work1 {
-        font-size: 16px;
-        font-weight: 600;
-        padding-top: 35px;
-        letter-spacing: 2px;
-    }
-    
-    .info-work {
-        font-size: 16px;
-        font-weight: 600;
-        padding-top: 20px;
-        letter-spacing: 2px;
-    }
+  
     
     .photo1-container {
-        width: 70%;
-        margin: 20px auto;
+        width: 75%;
         margin-top: 100px;
     }
     
     .photo-container {
-        width: 70%;
+        width: 75%;
         margin: 20px auto;
         margin-top: 60px;
     }
@@ -979,35 +967,12 @@
         width: 100%;
     }
     
-    .hr-up {
-        width: 400px;
-        border: 1px solid dimgray;
-        margin-top: 80px;
-    }
-    
     .hr-down {
-        width: 100px;
-        border: 1px solid dimgray;
-        margin-bottom: 80px;
+        width: 80px;
     }
-    
-    .text-decoration {
-        text-align: center;
-        font-family: "Jellyka Saint-Andrew's Queen";
-        font-size: 35px;
-        color: dimgray;
-        font-weight: 100;
-        letter-spacing: 5px;
-        line-height: 45px;
-        padding: 15px;
-    }
-    
-    .mov think {
-        text-align: center;
-    }
-    
+      
     .mov {
-        width: 70%;
+        width: 75%;
         text-align: center;
         margin: 20px auto;
     }
