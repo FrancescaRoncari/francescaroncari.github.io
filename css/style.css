@@ -1,1427 +1,1422 @@
-* {
-    box-sizing: border-box;
-}
-
-@font-face {
-    font-family: "Jellyka Saint-Andrew's Queen";
-    src: url('saint-andrews_queen-webfont.eot');
-    src: local('?'), url('saint-andrews_queen-webfont.woff') format('woff'), url('saint-andrews_queen-webfont.ttf') format('truetype'), url('saint-andrews_queen.svg#webfont') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* ////////// HOMEPAGE ////////// */
-body {
-    width: 100%;
-    margin: 0;
-}
-
-.first {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../links/background.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+        * {
+        box-sizing: border-box;
+    }
     
-    border: 25px solid white;
-}
-
-.logo-header {
-    text-align: center;
-}
-
-.logo-homepage {
-    width: 150px;
-    margin-top: 30px;
-}
-
-.frame-title {
-    margin-top: 200px;
-    text-align: center;
-}
-
-.title-nav {
-    display: inline-block;
-    margin: 70px;
-    width: 20%;
+    @font-face {
+        font-family: "Jellyka Saint-Andrew's Queen";
+        src: url('saint-andrews_queen-webfont.eot');
+        src: local('?'), url('saint-andrews_queen-webfont.woff') format('woff'), url('saint-andrews_queen-webfont.ttf') format('truetype'), url('saint-andrews_queen.svg#webfont') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    /* ////////// HOMEPAGE ////////// */
     
-    font-family: "Helvetica Neue";
-    font-size: 80px;
-    font-weight: 700;
-    letter-spacing: 10px;
-}
-
-.title-nav a {
-    color: white;
-    text-decoration: none;
-}
-
-.scroll {
-    text-align: center;
-    margin-top: 160px;
-}
-
-h4 {
-    font-family: "Helvetica Neue";
-    font-size: 16px;
-    font-weight: 100;
-    letter-spacing: 3px;
-    color: white;
-    margin-bottom: 10px;
-}
-
-
-
-
-
-/* second section scroll over */
-
-.second {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 940px;
-    margin-top: 100vh;
-    background: white;
-}
-
-.instagram-title {
-    font-family: "Helvetica Neue";
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 3px;
-    font-weight: 500;
-    line-height: 25px;
-    
-    padding-top: 30px;
-}
-
-hr {
-    border: 1px solid black;
-    width: 100px;
-    margin: 20px auto;
-}
-
-.instagram {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.instagram-icon {
-    width: 35px;
-}
-
-.article-instagram {
-    margin-top: 80px;
-    text-align: center;
-}
-
-.instagram-image {
-    position: relative;
-    width: 30%;
-    margin: 5px;
-    margin-top: -30px;
-    display: inline-block;
-}
-
-.insta-photo {
-    width: 100%;
-}
-
-
-
-/* ////////// FOOTER ////////// */
-.footer-frame {
-    display: flex;
-    float: right;
-    margin-top: 90px;
-    margin-bottom: 50px;
-    margin-right: 47px;
-}
-
-.logo-footer {
-    width: 78px;
-    margin-right: 28px;
-    margin-top: 10px;
-}
-
-.contact {
-    margin-right: 18px;
-}
-
-.h3-footer {
-    font-family: "Helvetica Neue";
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 3px;
-}
-
-.footer-text a {
-    color: black;
-    text-decoration: none;
-}
-
-.footer-text {
-    font-family: "Helvetica Neue";
-    color: black;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-decoration: none;
-}
-
-
-/* rollover-effect on photos */
-.roll-over {
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    transition: opacity 0.5s ease;
-}
-
-.roll-over:hover {
-    opacity: 1;
-    background: rgba(19, 19, 20, 0.8);
-}
-
-.title-rollover {
-    font-family: "Helvetica Neue";
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 300;
-    line-height: 25px;
-    margin-top: 195px;
-    
-    color: white;
-}
-
-.line-rollover {
-    border: 0.5px solid white;
-    width: 100px;
-}
-
-.text-rollover {
-    font-family: "Jellyka Saint-Andrew's Queen";
-    font-size: 35px;
-    color: white;
-    font-weight: 100;
-    letter-spacing: 5px;
-    line-height: 45px;
-}
-
-
-
-/* Go Up link */
-
-.up-text {
-    margin-top: 60px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.up-text a:hover {
-    margin-top: 60px;
-    text-align: center;
-    color: black;
-}
-
-.up-text a {
-    color: gray;
-}
-
-
-
-/* ////////// NAVIGATION ////////// */
-
-nav {
-    height: 20px;
-    margin-top: 25px;
-}
-
-nav ul {
-    display: inline-block;
-    float: right;
-    margin-right: -5px;
-}
-
-nav ul li {
-    display: inline-block;
-    font-family: "Helvetica Neue";
-    letter-spacing: 3px;
-    font-size: 16px;
-    font-weight: 300;
-    margin-right: 20px;
-    
-    color: black;
-}
-
-nav ul li a {
-    margin-right: 20px;
-    color: black;
-}
-
-a:hover {
-    text-decoration: line-through;
-}
-
-
-
-/* ////////// WORKS PAGE ////////// */
-.logo-header {
-    margin-top: 5px;;
-}
-
-.logo-pages {
-    width: 130px;
-}
-
-.work-selected {
-    text-decoration: line-through;
-}
-
-.works-image {
-    width: 100%;
-    margin-top: 45px;
-    border: 25px solid white;
-    
-    background-image: url(../links/contact.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-}
-
-.index-works {
-    text-align: center;
-    margin-top: 50px;
-}
-
-.filters-works {
-    font-family: "Helvetica Neue";
-    font-size: 16px;
-    letter-spacing: 3px;
-}
-
-.filters-works li {
-    display: inline-block;
-    margin: 20px;
-    text-decoration: none;
-    color: black;
-}
-
-.filters-works li a {
-    color: black;
-}
-
-span {
-    text-decoration: line-through;
-}
-
-.container-works {
-    margin-top: 10px;
-    text-align: center;
-}
-
-.photo-works {
-    position: relative;
-    width: 30%;
-    margin: 5px;
-    margin-top: 7px;
-    display: inline-block;
-}
-
-.work-image {
-    width: 100%;
-}
-
-
-/* ////////// THINK MAGAZINE */
-
-.think-image {
-    width: 100%;
-    margin-top: 45px;
-    border: 25px solid white;
-    
-    background-image: url(../links/works.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-}
-
-.work-containers {
-    padding-left: 130px;
-    width: 85%;
-    margin: 20px auto;
-    display: flex;
-}
-
-.work {
-    align-items: flex-start;
-    display: inline-block;
-    margin-top: 75px;
-    width: 30%;
-}
-
-.work-2 {
-    align-items: flex-start;
-    display: inline-block;
-    margin-left: 40px;
-    margin-top: 100px;
-    width: 30%;
-}
-
-.work-last {
-    align-items: flex-start;
-    display: inline-block;
-    margin-left: 100px;
-    margin-top: 75px;
-    padding-left: 20px;
-    width: 20%;
-    height: 60%;
-    border-left: 1px solid gray;
-}
-
-.info-work1 {
-    font-size: 16px;
-    font-weight: 600;
-    padding-top: 35px;
-    letter-spacing: 2px;
-}
-
-.info-work {
-    font-size: 16px;
-    font-weight: 600;
-    padding-top: 20px;
-    letter-spacing: 2px;
-}
-
-.photo1-container {
-    width: 70%;
-    margin: 20px auto;
-    margin-top: 100px;
-}
-
-.photo-container {
-    width: 70%;
-    margin: 20px auto;
-    margin-top: 60px;
-}
-
-.image-think {
-    width: 100%;
-}
-
-.hr-up {
-    width: 400px;
-    border: 1px solid dimgray;
-    margin-top: 80px;
-}
-
-.hr-down {
-    width: 100px;
-    border: 1px solid dimgray;
-    margin-bottom: 80px;
-}
-
-.text-decoration {
-    text-align: center;
-    font-family: "Jellyka Saint-Andrew's Queen";
-    font-size: 35px;
-    color: dimgray;
-    font-weight: 100;
-    letter-spacing: 5px;
-    line-height: 45px;
-    padding: 15px;
-}
-
-.mov think {
-    text-align: center;
-}
-
-.mov {
-    width: 70%;
-    text-align: center;
-    margin: 20px auto;
-}
-
-
-/* ////////// IOP SAMSUNG */
-
-.iop-image {
-    width: 100%;
-    margin-top: 45px;
-    border: 25px solid white;
-    
-    background-image: url(../links/iop-up3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-}
-
-.photo1-container {
-    width: 70%;
-    margin: 20px auto;
-    margin-top: 100px;
-}
-
-.photo-container2 {
-    width: 40%;
-    margin: 20px auto;
-    margin-top: 60px;
-}
-
-.photo-container {
-    width: 70%;
-    margin: 20px auto;
-    margin-top: 60px;
-}
-
-.image-think {
-    width: 100%;
-}
-
-
-
-
-/* ////////// VALENTINO */
-
-.valentino-image {
-    width: 100%;
-    margin-top: 45px;
-    border: 25px solid white;
-    
-    background-image: url(../links/valentino-up.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-}
-
-.title-up-valentino {
-    text-align: center;
-    color: white;
-    font-family: "Helvetica Neue";
-    letter-spacing: 7px;
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 50px;
-
-    margin-top: 90px;
-}
-
-.title-up-sub {
-    text-align: center;
-    color: white;
-    font-family: "Helvetica Neue";
-    letter-spacing: 5px;
-    font-size: 30px;
-    font-weight: 400;
-    margin-top: -20px;
-    margin-bottom: 20px;
-}
-
-.info-title-2 {
-    font-family: "Helvetica Neue";
-    font-size: 15px;
-    letter-spacing: 3px;
-    font-weight: 500;
-    line-height: 25px;
-}
-
-.work-2-valentino {
-    align-items: flex-start;
-    display: inline-block;
-    margin-left: 40px;
-    margin-top: 125px;
-    width: 30%;
-}
-
-.double {
-    text-align: center;
-}
-
-.photo-container2-valentino {
-    width: 35%;
-    display: inline-block;
-}
-
-
-/* ////////// ATM */
-
-.atm-image {
-    width: 100%;
-    margin-top: 45px;
-    border: 25px solid white;
-    
-    background-image: url(../links/atm-up.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-}
-
-
-/* ////////// AMERICAN */
-
-.american-image {
-    width: 100%;
-    margin-top: 45px;
-    border: 25px solid white;
-    
-    background-image: url(../links/american-up.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-}
-
-/* ////////// TRIENNALE UGO LA PIETRA */
-.triennale-image {
-    width: 100%;
-    margin-top: 45px;
-    border: 25px solid white;
-    
-    background-image: url(../links/triennale-up.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-}
-
-
-
-/* ////////// GENTLETUDE ONLUS */
-.gentletude-image {
-    width: 100%;
-    margin-top: 45px;
-    border: 25px solid white;
-    
-    background-image: url(../links/gentletude-up.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-}
-
-.double-gentletude {
-    text-align: center;
-    margin-top: 60px;
-}
-
-
-/* ////////// ABOUT PAGE ///////// */
-
-.about-selected {
-    text-decoration: line-through;
-}
-
-.about-image {
-    width: 100%;
-    margin-top: 45px;
-    border: 25px solid white;
-    
-    background-image: url(../links/about.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-}
-
-.about-containers {
-    width: 95%;
-    margin-top: -60px;
-    margin-left: 50px;
-    display: flex;
-}
-
-.professional {
-    align-items: flex-start;
-    display: inline-block;
-    margin: 20px;
-    margin-top: 130px;
-    width: 30%;
-}
-
-.professional-2 {
-    align-items: flex-start;
-    display: inline-block;
-    margin: 20px;
-    margin-top: 110px;
-    padding: 20px;
-    border-left: 1px solid gray;
-    width: 30%;
-}
-
-.professional-2last {
-    align-items: flex-start;
-    display: inline-block;
-    margin: 20px;
-    margin-top: 110px;
-    padding: 20px;
-    border-left: 1px solid gray;
-    width: 30%;
-    height: 40%
-}
-
-.info-title {
-    font-family: "Helvetica Neue";
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 500;
-    line-height: 25px;
-}
-
-.carmi-logo {
-    width: 150px;
-}
-
-.info-title2 {
-    font-family: "Helvetica Neue";
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 500;
-    line-height: 25px;
-    margin-top: 20px;
-}
-
-.text-about {
-    font-family: "Helvetica Neue";
-    font-size: 15px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    margin-top: 8px;
-}
-
-.skill {
-    display: flex;
-}
-
-.skill1 {
-    width: 40%;
-    display: inline-block;
-    align-content: flex-start;
-}
-
-.skill1-2 {
-    margin-top: 46px;
-    width: 40%;
-    display: inline-block;
-    align-content: flex-start;
-}
-
-.personal {
-    width: 100px;
-}
-
-
-/* ////////// CONTACT PAGE ////////// */
-
-.container-contact {
-    width: 100%;
-}
-
-.contact-selected {
-    text-decoration: line-through;
-}
-
-.contact-image {
-    width: 100%;
-    margin-top: 45px;
-    border: 25px solid white;
-    
-    background-image: url(../links/contact3%20copia.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-}
-
-.title-up {
-    text-align: center;
-    color: white;
-    font-family: "Helvetica Neue";
-    letter-spacing: 7px;
-    font-size: 55px;
-    font-weight: 500;
-    
-    margin-top: 80px;
-}
-
-.text-up {
-    text-align: center;
-    font-family: "Jellyka Saint-Andrew's Queen";
-    font-size: 40px;
-    color: white;
-    font-weight: 100;
-    letter-spacing: 5px;
-    line-height: 40px;
-}
-
-.contact-detail {
-    width: 350px;
-    text-align: center;
-    margin: 2px auto;
-    margin-top: 60px;
-}
-
-h3 {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 40px;
-    letter-spacing: 2px;
-}
-
-.subtitle-name {
-    color: black;
-    text-align: center;
-    font-family: "Helvetica Neue";
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: -10px;
-}
-
-.contact-text {
-    text-align: center;
-    margin-top: 20px;
-    font-family: "Helvetica Neue";
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
-.say {
-    text-align: right;
-    font-size: 55px;
-    font-family: "Helvetica Neue";
-    font-weight: 700;
-    color: black;
-    letter-spacing: 2px;
-    
-    margin-top: 25px;
-    margin-right: 80px;
-}
-
-.say a {
-    color: black;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* --- MEDIA QUERIES --- */
-
-
-/*///////    ////////////*/
-@media ( max-width: 1441px) {
-  .frame-title {
-    margin-top: 240px;
-    text-align: center;
-}
-
-.title-nav {
-    display: inline-block;
-    width: 20%;
-    margin: 50px;
-    font-family: "Helvetica Neue";
-    font-size: 70px;
-    font-weight: 700;
-    letter-spacing: 10px;
-    color: white;
-}
-
-}
-
-
-
-
-
-
-
-@media ( max-width: 769px) {
+    body {
+        width: 100%;
+        margin: 0;
+    }
     
     .first {
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    width: 100vw;
-    height: 100vh;
-    background-image:url(../links/background.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    
-    border: 20px solid white;
-    }    
-    .logo-homepage {
-        width: 150px;
-        margin-top: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../links/background.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        border: 25px solid white;
     }
-    .frame-title {
-        margin-top: 250px;
+    
+    .logo-header {
         text-align: center;
     }
+    
+    .logo-homepage {
+        width: 150px;
+        margin-top: 30px;
+    }
+    
+    .frame-title {
+        margin-top: 200px;
+        text-align: center;
+    }
+    
     .title-nav {
+        display: inline-block;
+        margin: 70px;
+        width: 20%;
+        font-family: "Helvetica Neue";
         font-size: 80px;
-        width: 100%;
-        margin: 10px auto;
-        margin-top: -15px;
+        font-weight: 700;
+        letter-spacing: 10px;
+    }
+    
+    .title-nav a {
+        color: white;
+        text-decoration: none;
     }
     
     .scroll {
-        margin-top: 140px;
-    }
-    h4 {
-        font-size: 16px;
-        
+        text-align: center;
+        margin-top: 160px;
     }
     
+    h4 {
+        font-family: "Helvetica Neue";
+        font-size: 16px;
+        font-weight: 100;
+        letter-spacing: 3px;
+        color: white;
+        margin-bottom: 10px;
+    }
     /* second section scroll over */
+    
     .second {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 665px;
-    margin-top: 100vh;
-    background: white;
-}
-   
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 940px;
+        margin-top: 100vh;
+        background: white;
+    }
+    
     .instagram-title {
-    font-family: "Helvetica Neue";
-    font-size: 18px;
+        font-family: "Helvetica Neue";
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 3px;
+        font-weight: 500;
+        line-height: 25px;
+        padding-top: 30px;
+    }
+    
+    hr {
+        border: 1px solid black;
+        width: 100px;
+        margin: 20px auto;
+    }
+    
+    .instagram {
+        text-align: center;
+        margin-top: 30px;
     }
     
     .instagram-icon {
-    width: 30px;
-}
-    .article-instagram {
-        margin-top: 40px;
-    }
-    .instagram-image {
-        margin-top: 2px;
-        margin: 5px;
-    }
-    .insta-photo {
-        width: 100%;
+        width: 35px;
     }
     
-    /* rollover-effect on photos */
-    .roll-over {
-        opacity: 1;
-        position: absolute;
-        top: auto;
-        width: 100%;
-        bottom: 0;
-        height: 40%;
-        background: rgba(19, 19, 20, 0.3);
-        transition: opacity 0.5s ease;
-    }
-    .title-rollover {
-        margin-top: 13px;
-        font-size: 14px;
-        letter-spacing: 3px;
-        font-weight: 300;
-        line-height: 18px;
-        color: white;
-    }
-    .line-rollover {
-        border: 0.5px solid white;
-        width: 100px;
-        margin-top: 5px;
-    }
-    .text-rollover {
-        display: none;
-        font-size: 14px;
-        color: white;
-        font-weight: 100;
-        letter-spacing: 5px;
-        line-height: 14px;
-    }
     .article-instagram {
         margin-top: 80px;
         text-align: center;
     }
+    
     .instagram-image {
         position: relative;
         width: 30%;
+        margin: 5px;
         margin-top: -30px;
         display: inline-block;
     }
+    
     .insta-photo {
         width: 100%;
     }
+    /* ////////// FOOTER ////////// */
     
-    /* footer */
-
     .footer-frame {
-    display: flex;
-    float: right;
-    margin-top: 90px;
-    margin-bottom: 50px;
-    margin-right: 105px;
-}
-
-.logo-footer {
-    width: 78px;
-    margin-right: 28px;
-    margin-top: 10px;
-}
-
-.contact {
-    margin-right: 18px;
-}
-
-.h3-footer {
-    font-family: "Helvetica Neue";
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 3px;
-}
-
-.footer-text a {
-    color: black;
-    text-decoration: none;
-}
-
-.footer-text {
-    font-family: "Helvetica Neue";
-    color: black;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-decoration: none;
-}
-
-   
-    
-    
-    /* //////////// WORKS PAGE ///////// */
-    .works-image {
-    width: 100%;
-    border: 20px solid white;
-    margin-top: 170px;
-    
-}
-
-    .title-up {
-    font-size: 50px;
-    font-weight: 500;
-    margin-top: 150px;
-}
-
-    .text-up {
-    text-align: center;
-    font-family: "Jellyka Saint-Andrew's Queen";
-    font-size: 30px;
-    color: white;
-    font-weight: 100;
-    letter-spacing: 5px;
-    line-height: 40px;
-}
-    .index-works {
-    text-align: center;
-    margin-top: 20px;
-}
-
-    .filters-works {
-    font-family: "Helvetica Neue";
-    font-size: 12px;
-    letter-spacing: 2px;
-}
-
-    .filters-works li {
-    display: inline-block;
-    margin: 20px;
-}
-
-    span {
-    text-decoration: line-through;
-}
-
-    .container-works {
-    margin-top: 0px;
-    text-align: center;
-}
-
-    .photo-works {
-    position: relative;
-    width: 30%;
-    display: inline-block;
-}
-
-    .work-image {
-    width: 100%;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media ( max-width: 377px) {
-    
- .first {
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    width: 100vw;
-    height: 100vh;
-    background-image:url(../links/background.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    
-    border: 15px solid white;
-    }    
-    .logo-homepage {
-        width: 120px;
-        margin-top: 20px;
-    }
-    .frame-title {
-        margin-top: 130px;
-        text-align: center;
-    }
-    .title-nav {
-        font-size: 50px;
-        margin: 10px auto;
-        margin-top: -15px;
-    }
-    .scroll {
-        margin-top: 80px;
+        display: flex;
+        float: right;
+        margin-top: 90px;
+        margin-bottom: 50px;
+        margin-right: 47px;
     }
     
-    h4{
-        font-size: 15px;
-    }
-    
-    /* second section scroll over */
-    .second {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 1680px;
-    margin-top: 100vh;
-    background: white;
-}
-   
-    .instagram-title {
-    font-family: "Helvetica Neue";
-    font-size: 20px;
-    }
-    
-    .instagram-icon {
-    width: 30px;
-}
-    .article-instagram {
-        margin-top: 40px;
-        text-align: center;
-    }
-    .instagram-image {
-        width: 93%;
-        margin: 20px auto;
-        margin-top: 2px;
-    }
-    .insta-photo {
-        width: 100%;
-    }
-    
-    /* rollover-effect on photos */
-    .roll-over {
-        opacity: 1;
-        position: absolute;
-        top: auto;
-        width: 100%;
-        bottom: 0;
-        height: 30%;
-        background: rgba(19, 19, 20, 0.3);
-        transition: opacity 0.5s ease;
-    }
-    .title-rollover {
-        margin-top: 25px;
-        font-size: 18px;
-        letter-spacing: 3px;
-        font-weight: 300;
-        line-height: 20px;
-        color: white;
-    }
-    .line-rollover {
-        border: 0.5px solid white;
-        width: 100px;
-        margin-top: 5px;
-    }
-    .text-rollover {
-        display: none;
-        font-size: 14px;
-        color: white;
-        font-weight: 100;
-        letter-spacing: 5px;
-        line-height: 14px;
-    }
-    
-    /* footer */
-    .footer-frame {
-        text-align: center;
-        display: block;
-        margin: 10px auto;
-        float: none;
-        margin-top: -10px;
-    }
     .logo-footer {
-        width: 90px;
-        margin: 50px auto;
-    }
-    .contact {
-        margin: 0 auto;
-        margin-top: -25px;
-        margin-bottom: 40px;
-    }
-    .h3-footer {
-        font-family: "Helvetica Neue";
-        font-weight: 500;
-        font-size: 15px;
-        letter-spacing: 3px;
-    }
-    .footer-text {
-        font-family: "Helvetica Neue";
-        font-size: 15px;
-        color: black;
-        font-weight: 400;
-        letter-spacing: 2px;
-        text-decoration: none;
-    }
-    
-
-
-
-
-@media ( max-width: 321px) {
-    
-   .first {
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    width: 100vw;
-    height: 100vh;
-    background-image:url(../links/background.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    
-    border: 10px solid white;
-    }    
-    .logo-homepage {
-        width: 100px;
-        margin-top: 20px;
-    }
-    .frame-title {
-        margin-top: 120px;
-        text-align: center;
-    }
-    .title-nav {
-        font-size: 40px;
-        margin: 10px auto;
-        margin-top: -15px;
-    }
-    .scroll {
-        margin-top: 80px;
-    }
-    
-    h4{
-        font-size: 15px;
-    }
-    
-    /* second section scroll over */
-    .second {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 1525px;
-    margin-top: 100vh;
-    background: white;
-}
-    .frame-instagram {
+        width: 78px;
+        margin-right: 28px;
         margin-top: 10px;
     }
-    .instagram-title {
-        font-family: "Helvetica Neue";
-        font-size: 18px;
-    }
     
-    .instagram-icon {
-    width: 25px;
-}
-    .article-instagram {
-        margin-top: 40px;
-        text-align: center;
-    }
-    .instagram-image {
-        width: 93%;
-        margin: 20px auto;
-        margin-top: 2px;
-    }
-    .insta-photo {
-        width: 100%;
-    }
-    
-    /* rollover-effect on photos */
-    .roll-over {
-        opacity: 1;
-        position: absolute;
-        top: auto;
-        width: 100%;
-        bottom: 0;
-        height: 30%;
-        background: rgba(19, 19, 20, 0.3);
-        transition: opacity 0.5s ease;
-    }
-    .title-rollover {
-        margin-top: 25px;
-        font-size: 15px;
-        letter-spacing: 3px;
-        font-weight: 300;
-        line-height: 18px;
-        color: white;
-    }
-    .line-rollover {
-        border: 0.5px solid white;
-        width: 100px;
-        margin-top: 5px;
-    }
-    .text-rollover {
-        display: none;
-        font-size: 14px;
-        color: white;
-        font-weight: 100;
-        letter-spacing: 5px;
-        line-height: 14px;
-    }
-    
-    /* footer */
-
-    .footer-frame {
-        text-align: center;
-        display: block;
-        margin: 10px auto;
-        float: none;
-        margin-top: -10px;
-    }
-    .logo-footer {
-        width: 90px;
-        margin: 50px auto;
-    }
     .contact {
-        margin: 0 auto;
-        margin-top: -25px;
-        margin-bottom: 40px;
+        margin-right: 18px;
     }
+    
     .h3-footer {
         font-family: "Helvetica Neue";
         font-weight: 500;
-        font-size: 15px;
+        font-size: 16px;
         letter-spacing: 3px;
     }
-    .footer-text {
-        font-family: "Helvetica Neue";
-        font-size: 15px;
+    
+    .footer-text a {
         color: black;
-        font-weight: 400;
-        letter-spacing: 2px;
         text-decoration: none;
     }
     
+    .footer-text {
+        font-family: "Helvetica Neue";
+        color: black;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-decoration: none;
+    }
+    /* rollover-effect on photos */
     
+    .roll-over {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: opacity 0.5s ease;
+    }
     
-    /* //////////// WORKS PAGE ///////// */
+    .roll-over:hover {
+        opacity: 1;
+        background: rgba(19, 19, 20, 0.8);
+    }
+    
+    .title-rollover {
+        font-family: "Helvetica Neue";
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: 300;
+        line-height: 25px;
+        margin-top: 195px;
+        color: white;
+    }
+    
+    .line-rollover {
+        border: 0.5px solid white;
+        width: 100px;
+    }
+    
+    .text-rollover {
+        font-family: "Jellyka Saint-Andrew's Queen";
+        font-size: 35px;
+        color: white;
+        font-weight: 100;
+        letter-spacing: 5px;
+        line-height: 45px;
+    }
+    /* Go Up link */
+    
+    .up-text {
+        margin-top: 60px;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .up-text a:hover {
+        margin-top: 60px;
+        text-align: center;
+        color: black;
+    }
+    
+    .up-text a {
+        color: gray;
+    }
+
+    /* ////////// NAVIGATION ////////// */
+    
+    nav {
+        height: 20px;
+        margin-top: 25px;
+    }
+    
+    nav ul {
+        display: inline-block;
+        float: right;
+        margin-right: -5px;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        font-family: "Helvetica Neue";
+        letter-spacing: 3px;
+        font-size: 16px;
+        font-weight: 300;
+        margin-right: 20px;
+        color: black;
+    }
+    
+    nav ul li a {
+        margin-right: 20px;
+        color: black;
+    }
+    
+    a:hover {
+        text-decoration: line-through;
+    }
+    /* ////////// WORKS PAGE ////////// */
+    
+    .logo-header {
+        margin-top: 5px;
+    }
+    
+    .logo-pages {
+        width: 130px;
+    }
+    
+    .work-selected {
+        text-decoration: line-through;
+    }
+    
     .works-image {
-    width: 100%;
-    border: 20px solid white;
-    margin-top: 30px;
-    background-image: url(../links/contact.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
-}
-
-    .title-up {
-    text-align: center;
-    color: white;
-    font-family: "Helvetica Neue";
-    letter-spacing: 7px;
-    font-size: 40px;
-    font-weight: 500;
-    margin-top: 100px;
-}
-
-    .text-up {
-    display: none;
-    text-align: center;
-    font-family: "Jellyka Saint-Andrew's Queen";
-    font-size: 30px;
-    color: white;
-    font-weight: 100;
-    letter-spacing: 5px;
-    line-height: 40px;
-}
+        width: 100%;
+        margin-top: 45px;
+        border: 25px solid white;
+        background-image: url(../links/contact.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+    
     .index-works {
-    text-align: center;
-    margin-top: 20px;
-}
-
+        text-align: center;
+        margin-top: 50px;
+    }
+    
     .filters-works {
-    font-family: "Helvetica Neue";
-    font-size: 12px;
-    letter-spacing: 2px;
-}
-
+        font-family: "Helvetica Neue";
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+    
     .filters-works li {
-    display: inline-block;
-    margin: 20px;
-}
-
+        display: inline-block;
+        margin: 20px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .filters-works li a {
+        color: black;
+    }
+    
     span {
-    text-decoration: line-through;
-}
-
+        text-decoration: line-through;
+    }
+    
     .container-works {
-    margin-top: 0px;
-    text-align: center;
-}
-
+        margin-top: 10px;
+        text-align: center;
+    }
+    
     .photo-works {
-    position: relative;
-    width: 90%;
-    display: inline-block;
-}
-
+        position: relative;
+        width: 30%;
+        margin: 5px;
+        margin-top: 7px;
+        display: inline-block;
+    }
+    
     .work-image {
-    width: 100%;
+        width: 100%;
+    }
+    /* ////////// THINK MAGAZINE */
+    
+    .think-image {
+        width: 100%;
+        margin-top: 45px;
+        border: 25px solid white;
+        background-image: url(../links/works.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+    
+    .work-containers {
+        padding-left: 130px;
+        width: 85%;
+        margin: 20px auto;
+        display: flex;
+    }
+    
+    .work {
+        align-items: flex-start;
+        display: inline-block;
+        margin-top: 75px;
+        width: 30%;
+    }
+    
+    .work-2 {
+        align-items: flex-start;
+        display: inline-block;
+        margin-left: 40px;
+        margin-top: 100px;
+        width: 30%;
+    }
+    
+    .work-last {
+        align-items: flex-start;
+        display: inline-block;
+        margin-left: 100px;
+        margin-top: 75px;
+        padding-left: 20px;
+        width: 20%;
+        height: 60%;
+        border-left: 1px solid gray;
+    }
+    
+    .info-work1 {
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 35px;
+        letter-spacing: 2px;
+    }
+    
+    .info-work {
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 20px;
+        letter-spacing: 2px;
+    }
+    
+    .photo1-container {
+        width: 70%;
+        margin: 20px auto;
+        margin-top: 100px;
+    }
+    
+    .photo-container {
+        width: 70%;
+        margin: 20px auto;
+        margin-top: 60px;
+    }
+    
+    .image-think {
+        width: 100%;
+    }
+    
+    .hr-up {
+        width: 400px;
+        border: 1px solid dimgray;
+        margin-top: 80px;
+    }
+    
+    .hr-down {
+        width: 100px;
+        border: 1px solid dimgray;
+        margin-bottom: 80px;
+    }
+    
+    .text-decoration {
+        text-align: center;
+        font-family: "Jellyka Saint-Andrew's Queen";
+        font-size: 35px;
+        color: dimgray;
+        font-weight: 100;
+        letter-spacing: 5px;
+        line-height: 45px;
+        padding: 15px;
+    }
+    
+    .mov think {
+        text-align: center;
+    }
+    
+    .mov {
+        width: 70%;
+        text-align: center;
+        margin: 20px auto;
+    }
+    /* ////////// IOP SAMSUNG */
+    
+    .iop-image {
+        width: 100%;
+        margin-top: 45px;
+        border: 25px solid white;
+        background-image: url(../links/iop-up3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+    
+    .photo1-container {
+        width: 70%;
+        margin: 20px auto;
+        margin-top: 100px;
+    }
+    
+    .photo-container2 {
+        width: 40%;
+        margin: 20px auto;
+        margin-top: 60px;
+    }
+    
+    .photo-container {
+        width: 70%;
+        margin: 20px auto;
+        margin-top: 60px;
+    }
+    
+    .image-think {
+        width: 100%;
+    }
+    /* ////////// VALENTINO */
+    
+    .valentino-image {
+        width: 100%;
+        margin-top: 45px;
+        border: 25px solid white;
+        background-image: url(../links/valentino-up.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+    
+    .title-up-valentino {
+        text-align: center;
+        color: white;
+        font-family: "Helvetica Neue";
+        letter-spacing: 7px;
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 50px;
+        margin-top: 90px;
+    }
+    
+    .title-up-sub {
+        text-align: center;
+        color: white;
+        font-family: "Helvetica Neue";
+        letter-spacing: 5px;
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    
+    .info-title-2 {
+        font-family: "Helvetica Neue";
+        font-size: 15px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    
+    .work-2-valentino {
+        align-items: flex-start;
+        display: inline-block;
+        margin-left: 40px;
+        margin-top: 125px;
+        width: 30%;
+    }
+    
+    .double {
+        text-align: center;
+    }
+    
+    .photo-container2-valentino {
+        width: 35%;
+        display: inline-block;
+    }
+    /* ////////// ATM */
+    
+    .atm-image {
+        width: 100%;
+        margin-top: 45px;
+        border: 25px solid white;
+        background-image: url(../links/atm-up.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+    /* ////////// AMERICAN */
+    
+    .american-image {
+        width: 100%;
+        margin-top: 45px;
+        border: 25px solid white;
+        background-image: url(../links/american-up.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+    /* ////////// TRIENNALE UGO LA PIETRA */
+    
+    .triennale-image {
+        width: 100%;
+        margin-top: 45px;
+        border: 25px solid white;
+        background-image: url(../links/triennale-up.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+    /* ////////// GENTLETUDE ONLUS */
+    
+    .gentletude-image {
+        width: 100%;
+        margin-top: 45px;
+        border: 25px solid white;
+        background-image: url(../links/gentletude-up.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+    
+    .double-gentletude {
+        text-align: center;
+        margin-top: 60px;
+    }
+    /* ////////// ABOUT PAGE ///////// */
+    
+    .about-selected {
+        text-decoration: line-through;
+    }
+    
+    .about-image {
+        width: 100%;
+        margin-top: 45px;
+        border: 25px solid white;
+        background-image: url(../links/about.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+    
+    .about-containers {
+        width: 95%;
+        margin-top: -60px;
+        margin-left: 50px;
+        display: flex;
+    }
+    
+    .professional {
+        align-items: flex-start;
+        display: inline-block;
+        margin: 20px;
+        margin-top: 130px;
+        width: 30%;
+    }
+    
+    .professional-2 {
+        align-items: flex-start;
+        display: inline-block;
+        margin: 20px;
+        margin-top: 110px;
+        padding: 20px;
+        border-left: 1px solid gray;
+        width: 30%;
+    }
+    
+    .professional-2last {
+        align-items: flex-start;
+        display: inline-block;
+        margin: 20px;
+        margin-top: 110px;
+        padding: 20px;
+        border-left: 1px solid gray;
+        width: 30%;
+        height: 40%
+    }
+    
+    .info-title {
+        font-family: "Helvetica Neue";
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    
+    .carmi-logo {
+        width: 150px;
+    }
+    
+    .info-title2 {
+        font-family: "Helvetica Neue";
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    
+    .text-about {
+        font-family: "Helvetica Neue";
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-top: 8px;
+    }
+    
+    .skill {
+        display: flex;
+    }
+    
+    .skill1 {
+        width: 40%;
+        display: inline-block;
+        align-content: flex-start;
+    }
+    
+    .skill1-2 {
+        margin-top: 46px;
+        width: 40%;
+        display: inline-block;
+        align-content: flex-start;
+    }
+    
+    .personal {
+        width: 100px;
+    }
+    /* ////////// CONTACT PAGE ////////// */
+    
+    .container-contact {
+        width: 100%;
+    }
+    
+    .contact-selected {
+        text-decoration: line-through;
+    }
+    
+    .contact-image {
+        width: 100%;
+        margin-top: 45px;
+        border: 25px solid white;
+        background-image: url(../links/contact3%20copia.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+    
+    .title-up {
+        text-align: center;
+        color: white;
+        font-family: "Helvetica Neue";
+        letter-spacing: 7px;
+        font-size: 55px;
+        font-weight: 500;
+        margin-top: 80px;
+    }
+    
+    .text-up {
+        text-align: center;
+        font-family: "Jellyka Saint-Andrew's Queen";
+        font-size: 40px;
+        color: white;
+        font-weight: 100;
+        letter-spacing: 5px;
+        line-height: 40px;
+    }
+    
+    .contact-detail {
+        width: 350px;
+        text-align: center;
+        margin: 2px auto;
+        margin-top: 60px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+    
+    .subtitle-name {
+        color: black;
+        text-align: center;
+        font-family: "Helvetica Neue";
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: -10px;
+    }
+    
+    .contact-text {
+        text-align: center;
+        margin-top: 20px;
+        font-family: "Helvetica Neue";
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+    
+    .say {
+        text-align: right;
+        font-size: 55px;
+        font-family: "Helvetica Neue";
+        font-weight: 700;
+        color: black;
+        letter-spacing: 2px;
+        margin-top: 25px;
+        margin-right: 80px;
+    }
+    
+    .say a {
+        color: black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* --- MEDIA QUERIES --- */
+    
+    @media ( max-width: 1441px) {
+        .frame-title {
+            margin-top: 240px;
+        }
+        .title-nav {
+            margin: 50px;
+            font-size: 70px;
+        }
+    
+        .scroll {
+        margin-top: 140px;
+        }
+    }
+
+
+
+
+
+
+    @media ( max-width: 1281px) {     
+    .logo-homepage {
+        width: 130px;
+        margin-top: 20px;
+    }
+    
+    .frame-title {
+        margin-top: 250px;
+    }
+    
+    .title-nav {
+        display: inline-block;
+        margin: 45px;
+        font-size: 60px;
+    }
+        
+    .scroll {
+        margin-top: 110px;
+    }
+    
+    h4 {
+        font-size: 15px;
+    }
+        
+    /* second section scroll over */
+    .second {
+        width: 100%;
+        height: 800px;
+    }
+    
+    .instagram-title {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+    hr {
+        width: 80px;
+    }
+        
+    .instagram-icon {
+        width: 33px;
+    }
+   
+    /* ////////// FOOTER ////////// */
+    .footer-frame {
+        margin-right: 32px;
+    }
+    
+    .logo-footer {
+        width: 73px;
+        margin-right: 25px;
+    }
+    
+    .contact {
+        margin-right: 18px;
+    }
+    
+    .h3-footer {
+        font-size: 15px;
+    }
+
+    .footer-text {
+        font-size: 15px;
+    }
+        
+    /* rollover-effect on photos */
+    .title-rollover {
+        margin-top: 130px;
+    }
+    
+    .line-rollover {
+        border: 0.5px solid white;
+        width: 80px;
+    }
+    
+    .text-rollover {
+        font-family: "Jellyka Saint-Andrew's Queen";
+        font-size: 35px;
+        color: white;
+        font-weight: 100;
+        letter-spacing: 5px;
+        line-height: 45px;
+    }
+        
+    /* ////////// WORKS PAGE ////////// */
+    
+    .logo-pages {
+        width: 110px;
+    }
+  
+    .works-image {
+        margin-top: 25px;
+    }
+   
+    .filters-works {
+        font-size: 15px;
+    }
+    
+    .container-works {
+        margin-top: 10px;
+        text-align: center;
+    }
+        
+    .title-up {
+        margin-top: 55px;
+    }
+    
+    .text-up {
+        font-size: 35px;
+        line-height: 43px;
+    }
+    
+    /* ////////// THINK MAGAZINE */
+    
+    .think-image {
+        margin-top: 25px;
+    }
+    
+    .work-containers {
+        padding-left: 98px;
+    }
+    
+    .work {
+        align-items: flex-start;
+        display: inline-block;
+        margin-top: 75px;
+        width: 30%;
+    }
+    
+    .work-2 {
+        align-items: flex-start;
+        display: inline-block;
+        margin-left: 40px;
+        margin-top: 100px;
+        width: 30%;
+    }
+    
+    .work-last {
+        align-items: flex-start;
+        display: inline-block;
+        margin-left: 100px;
+        margin-top: 75px;
+        padding-left: 20px;
+        width: 20%;
+        height: 60%;
+        border-left: 1px solid gray;
+    }
+    
+    .info-work1 {
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 35px;
+        letter-spacing: 2px;
+    }
+    
+    .info-work {
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 20px;
+        letter-spacing: 2px;
+    }
+    
+    .photo1-container {
+        width: 70%;
+        margin: 20px auto;
+        margin-top: 100px;
+    }
+    
+    .photo-container {
+        width: 70%;
+        margin: 20px auto;
+        margin-top: 60px;
+    }
+    
+    .image-think {
+        width: 100%;
+    }
+    
+    .hr-up {
+        width: 400px;
+        border: 1px solid dimgray;
+        margin-top: 80px;
+    }
+    
+    .hr-down {
+        width: 100px;
+        border: 1px solid dimgray;
+        margin-bottom: 80px;
+    }
+    
+    .text-decoration {
+        text-align: center;
+        font-family: "Jellyka Saint-Andrew's Queen";
+        font-size: 35px;
+        color: dimgray;
+        font-weight: 100;
+        letter-spacing: 5px;
+        line-height: 45px;
+        padding: 15px;
+    }
+    
+    .mov think {
+        text-align: center;
+    }
+    
+    .mov {
+        width: 70%;
+        text-align: center;
+        margin: 20px auto;
+    }
+     
 }
 
 
+
+
+
+
+
+
+
+
+
+
+    @media ( max-width: 769px) {
+        .first {
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image: url(../links/background.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            border: 20px solid white;
+        }
+        .logo-homepage {
+            width: 150px;
+            margin-top: 20px;
+        }
+        .frame-title {
+            margin-top: 250px;
+            text-align: center;
+        }
+        .title-nav {
+            font-size: 80px;
+            width: 100%;
+            margin: 10px auto;
+            margin-top: -15px;
+        }
+        .scroll {
+            margin-top: 140px;
+        }
+        h4 {
+            font-size: 16px;
+        }
+        /* second section scroll over */
+        .second {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            height: 665px;
+            margin-top: 100vh;
+            background: white;
+        }
+        .instagram-title {
+            font-family: "Helvetica Neue";
+            font-size: 18px;
+        }
+        .instagram-icon {
+            width: 30px;
+        }
+        .article-instagram {
+            margin-top: 40px;
+        }
+        .instagram-image {
+            margin-top: 2px;
+            margin: 5px;
+        }
+        .insta-photo {
+            width: 100%;
+        }
+        /* rollover-effect on photos */
+        .roll-over {
+            opacity: 1;
+            position: absolute;
+            top: auto;
+            width: 100%;
+            bottom: 0;
+            height: 40%;
+            background: rgba(19, 19, 20, 0.3);
+            transition: opacity 0.5s ease;
+        }
+        .title-rollover {
+            margin-top: 13px;
+            font-size: 14px;
+            letter-spacing: 3px;
+            font-weight: 300;
+            line-height: 18px;
+            color: white;
+        }
+        .line-rollover {
+            border: 0.5px solid white;
+            width: 100px;
+            margin-top: 5px;
+        }
+        .text-rollover {
+            display: none;
+            font-size: 14px;
+            color: white;
+            font-weight: 100;
+            letter-spacing: 5px;
+            line-height: 14px;
+        }
+        .article-instagram {
+            margin-top: 80px;
+            text-align: center;
+        }
+        .instagram-image {
+            position: relative;
+            width: 30%;
+            margin-top: -30px;
+            display: inline-block;
+        }
+        .insta-photo {
+            width: 100%;
+        }
+        /* footer */
+        .footer-frame {
+            display: flex;
+            float: right;
+            margin-top: 90px;
+            margin-bottom: 50px;
+            margin-right: 105px;
+        }
+        .logo-footer {
+            width: 78px;
+            margin-right: 28px;
+            margin-top: 10px;
+        }
+        .contact {
+            margin-right: 18px;
+        }
+        .h3-footer {
+            font-family: "Helvetica Neue";
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: 3px;
+        }
+        .footer-text a {
+            color: black;
+            text-decoration: none;
+        }
+        .footer-text {
+            font-family: "Helvetica Neue";
+            color: black;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 2px;
+            text-decoration: none;
+        }
+    }
+    
+    @media ( max-width: 415px) {
+        .first {
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image: url(../links/background.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            border: 15px solid white;
+        }
+        .logo-homepage {
+            width: 120px;
+            margin-top: 20px;
+        }
+        .frame-title {
+            margin-top: 160px;
+            text-align: center;
+        }
+        .title-nav {
+            font-size: 50px;
+            margin: 10px auto;
+            margin-top: -15px;
+        }
+        .scroll {
+            margin-top: 100px;
+        }
+        h4 {
+            font-size: 15px;
+        }
+        /* second section scroll over */
+        .second {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            height: 1790px;
+            margin-top: 100vh;
+            background: white;
+        }
+        .instagram-title {
+            font-family: "Helvetica Neue";
+            font-size: 20px;
+        }
+        .instagram-icon {
+            width: 30px;
+        }
+        .article-instagram {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .instagram-image {
+            width: 93%;
+            margin: 20px auto;
+            margin-top: 2px;
+        }
+        .insta-photo {
+            width: 100%;
+        }
+        /* rollover-effect on photos */
+        .roll-over {
+            opacity: 1;
+            position: absolute;
+            top: auto;
+            width: 100%;
+            bottom: 0;
+            height: 30%;
+            background: rgba(19, 19, 20, 0.3);
+            transition: opacity 0.5s ease;
+        }
+        .title-rollover {
+            margin-top: 30px;
+            font-size: 18px;
+            letter-spacing: 3px;
+            font-weight: 300;
+            line-height: 20px;
+            color: white;
+        }
+        .line-rollover {
+            border: 0.5px solid white;
+            width: 100px;
+            margin-top: 5px;
+        }
+        .text-rollover {
+            display: none;
+            font-size: 14px;
+            color: white;
+            font-weight: 100;
+            letter-spacing: 5px;
+            line-height: 14px;
+        }
+        /* footer */
+        .footer-frame {
+            text-align: center;
+            display: block;
+            margin: 10px auto;
+            float: none;
+            margin-top: -10px;
+        }
+        .logo-footer {
+            width: 90px;
+            margin: 50px auto;
+        }
+        .contact {
+            margin: 0 auto;
+            margin-top: -25px;
+            margin-bottom: 40px;
+        }
+        .h3-footer {
+            font-family: "Helvetica Neue";
+            font-weight: 500;
+            font-size: 15px;
+            letter-spacing: 3px;
+        }
+        .footer-text {
+            font-family: "Helvetica Neue";
+            font-size: 15px;
+            color: black;
+            font-weight: 400;
+            letter-spacing: 2px;
+            text-decoration: none;
+        }
 }
+        
+        @media ( max-width: 321px) {
+            .first {
+                text-align: center;
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 0;
+                width: 100vw;
+                height: 100vh;
+                background-image: url(../links/background.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+                border: 10px solid white;
+            }
+            .logo-homepage {
+                width: 100px;
+                margin-top: 20px;
+            }
+            .frame-title {
+                margin-top: 120px;
+                text-align: center;
+            }
+            .title-nav {
+                font-size: 40px;
+                margin: 10px auto;
+                margin-top: -15px;
+            }
+            .scroll {
+                margin-top: 80px;
+            }
+            h4 {
+                font-size: 15px;
+            }
+            /* second section scroll over */
+            .second {
+                position: relative;
+                z-index: 1;
+                width: 100%;
+                height: 1525px;
+                margin-top: 100vh;
+                background: white;
+            }
+            .frame-instagram {
+                margin-top: 10px;
+            }
+            .instagram-title {
+                font-family: "Helvetica Neue";
+                font-size: 18px;
+            }
+            .instagram-icon {
+                width: 25px;
+            }
+            .article-instagram {
+                margin-top: 40px;
+                text-align: center;
+            }
+            .instagram-image {
+                width: 93%;
+                margin: 20px auto;
+                margin-top: 2px;
+            }
+            .insta-photo {
+                width: 100%;
+            }
+            /* rollover-effect on photos */
+            .roll-over {
+                opacity: 1;
+                position: absolute;
+                top: auto;
+                width: 100%;
+                bottom: 0;
+                height: 30%;
+                background: rgba(19, 19, 20, 0.3);
+                transition: opacity 0.5s ease;
+            }
+            .title-rollover {
+                margin-top: 25px;
+                font-size: 15px;
+                letter-spacing: 3px;
+                font-weight: 300;
+                line-height: 18px;
+                color: white;
+            }
+            .line-rollover {
+                border: 0.5px solid white;
+                width: 100px;
+                margin-top: 5px;
+            }
+            .text-rollover {
+                display: none;
+                font-size: 14px;
+                color: white;
+                font-weight: 100;
+                letter-spacing: 5px;
+                line-height: 14px;
+            }
+            /* footer */
+            .footer-frame {
+                text-align: center;
+                display: block;
+                margin: 10px auto;
+                float: none;
+                margin-top: -10px;
+            }
+            .logo-footer {
+                width: 90px;
+                margin: 50px auto;
+            }
+            .contact {
+                margin: 0 auto;
+                margin-top: -25px;
+                margin-bottom: 40px;
+            }
+            .h3-footer {
+                font-family: "Helvetica Neue";
+                font-weight: 500;
+                font-size: 15px;
+                letter-spacing: 3px;
+            }
+            .footer-text {
+                font-family: "Helvetica Neue";
+                font-size: 15px;
+                color: black;
+                font-weight: 400;
+                letter-spacing: 2px;
+                text-decoration: none;
+            }
+        }
