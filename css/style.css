@@ -566,6 +566,7 @@
         text-align: center;
         margin-top: 60px;
     }
+
     /* ////////// ABOUT PAGE ///////// */
     
     .about-selected {
@@ -976,7 +977,110 @@
         text-align: center;
         margin: 20px auto;
     }
-     
+        
+    /* ////////// IOP  */
+   .text-decoration {
+        width: 70%;
+        text-align: center;
+        margin: 20px auto;
+    }
+        
+    /* ////////// VALENTINO  */
+    .valentino-image {
+        margin-top: 25px;
+    }
+    
+    .title-up-valentino {
+        margin-top: 60px;
+    }
+    
+    .info-title-2 {
+        font-size: 13px;
+    }
+    
+    .photo-container2-valentino {
+        width: 37%;
+        display: inline-block;
+    }
+        
+        
+    /* ////////// ATM */
+    .atm-image {
+        margin-top: 25px;
+    }
+        
+    /* ////////// AMERICAN */
+    .american-image {
+        margin-top: 25px;
+    }
+        
+    /* ////////// TRIENNALE UGO LA PIETRA */
+    .triennale-image {
+        margin-top: 25px;
+    }
+        
+    /* ////////// GENTLETUDE ONLUS */
+    .gentletude-image {
+        margin-top: 25px;
+    }
+        
+     /* ////////// ABOUT PAGE ///////// */  
+    .about-image {
+        margin-top: 25px;
+    }
+    
+    .about-containers {
+        width: 98%;
+        margin-top: -40px;
+        margin-left: 30px;
+    }
+    
+    .info-title {
+        font-size: 15px;
+       
+    }
+    
+    .carmi-logo {
+        width: 130px;
+    }
+    
+    .info-title2 {
+        font-size: 16px;
+       
+    }
+    
+    .text-about {
+        font-family: "Helvetica Neue";
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-top: 8px;
+    }
+        
+    /* ////////// CONTACT PAGE ////////// */ 
+    .contact-image {
+        margin-top: 25px;
+    }
+    
+    .contact-detail {
+        margin-top: 80px;
+    }
+    
+    h3 {
+        font-size: 15px;
+    }
+    
+    .subtitle-name {
+        font-size: 15px;
+    }
+    
+    .contact-text {
+        font-size: 15px;
+    }
+    
+    .say {
+        margin-right: 50px;
+    }
 }
 
 
