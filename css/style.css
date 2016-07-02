@@ -783,6 +783,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
     /* --- MEDIA QUERIES --- */
     
     @media ( max-width: 1441px) {
@@ -1094,23 +1106,20 @@
 
 
 
+
+
+
+
+
+
+
+
     @media ( max-width: 769px) {
         .first {
-            text-align: center;
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 0;
-            width: 100vw;
-            height: 100vh;
-            background-image: url(../links/background.jpg);
-            background-size: cover;
-            background-attachment: fixed;
             border: 20px solid white;
         }
         .logo-homepage {
             width: 150px;
-            margin-top: 20px;
         }
         .frame-title {
             margin-top: 250px;
@@ -1125,128 +1134,405 @@
         .scroll {
             margin-top: 140px;
         }
-        h4 {
-            font-size: 16px;
+        
+        h4{
+            font-size: 14px;
         }
+      
         /* second section scroll over */
         .second {
-            position: relative;
-            z-index: 1;
-            width: 100%;
-            height: 665px;
-            margin-top: 100vh;
-            background: white;
+            height: 655px;
         }
-        .instagram-title {
-            font-family: "Helvetica Neue";
-            font-size: 18px;
-        }
-        .instagram-icon {
-            width: 30px;
-        }
-        .article-instagram {
-            margin-top: 40px;
-        }
-        .instagram-image {
-            margin-top: 2px;
-            margin: 5px;
-        }
-        .insta-photo {
-            width: 100%;
-        }
+      
         /* rollover-effect on photos */
         .roll-over {
             opacity: 1;
-            position: absolute;
             top: auto;
-            width: 100%;
             bottom: 0;
             height: 40%;
-            background: rgba(19, 19, 20, 0.3);
-            transition: opacity 0.5s ease;
+            background: rgba(19, 19, 20, 0.4);
         }
         .title-rollover {
-            margin-top: 13px;
+            margin-top: 20px;
             font-size: 14px;
-            letter-spacing: 3px;
-            font-weight: 300;
             line-height: 18px;
-            color: white;
         }
         .line-rollover {
-            border: 0.5px solid white;
-            width: 100px;
+            width: 80px;
             margin-top: 5px;
         }
         .text-rollover {
             display: none;
-            font-size: 14px;
-            color: white;
-            font-weight: 100;
-            letter-spacing: 5px;
-            line-height: 14px;
         }
-        .article-instagram {
-            margin-top: 80px;
-            text-align: center;
-        }
+       
         .instagram-image {
-            position: relative;
             width: 30%;
-            margin-top: -30px;
-            display: inline-block;
         }
-        .insta-photo {
-            width: 100%;
-        }
+       
         /* footer */
         .footer-frame {
-            display: flex;
-            float: right;
-            margin-top: 90px;
-            margin-bottom: 50px;
-            margin-right: 105px;
+            margin-right: 160px;
         }
         .logo-footer {
             width: 78px;
             margin-right: 28px;
-            margin-top: 10px;
         }
         .contact {
             margin-right: 18px;
         }
         .h3-footer {
-            font-family: "Helvetica Neue";
-            font-weight: 500;
-            font-size: 16px;
-            letter-spacing: 3px;
+            font-size: 14px;
         }
-        .footer-text a {
-            color: black;
-            text-decoration: none;
-        }
+        
         .footer-text {
-            font-family: "Helvetica Neue";
-            color: black;
-            font-weight: 400;
-            font-size: 16px;
-            letter-spacing: 2px;
-            text-decoration: none;
+            font-size: 14px;
         }
+        
+        
+    /* ////////// NAVIGATION ////////// */
+        nav ul {
+        margin-right: -15px;
     }
+        nav ul li {
+       
+        font-size: 14px;       
+    }
+  
+    /* ////////// WORKS PAGE ////////// */
+    
+    .logo-pages {
+        width: 110px;
+        margin-top: 30px;
+    }
+    .works-image {
+        margin-top: 20px;
+        border: 20px solid white;
+    }
+     
+    .filters-works {
+        font-size: 14px;
+    }
+     
+    .title-up {
+        margin-top: 100px;
+    }
+    
+    /* ////////// THINK MAGAZINE */
+    
+    .think-image {
+        margin-top: 20px;
+    }
+    
+    .think-image {
+        margin-top: 20px;
+        border: 20px solid white;
+    }
+    
+    .work-containers {
+        width: 100%;
+        margin: 20px auto;
+    }
+    
+    .work {
+        margin-top: 75px;
+        width: 100%;
+    }
+    
+    .work-2 {
+        margin-top: 100px;
+        width: 100%;
+    }
+    
+    .work-last {
+        margin-top: 75px;
+        padding-left: 20px;
+        width: 100%;
+        height: 60%;
+        border-left: 1px solid gray;
+    }
+    
+    .info-work1 {
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 35px;
+        letter-spacing: 2px;
+    }
+    
+    .info-work {
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 20px;
+        letter-spacing: 2px;
+    }
+    
+    .photo1-container {
+        width: 95%;
+    }
+    
+    .photo-container {
+        width:95%;
+        margin-top: 50px;
+    }
+    
+    .hr-up {
+        width: 400px;
+        border: 1px solid dimgray;
+        margin-top: 80px;
+    }
+    
+    .hr-down {
+        width: 100px;
+        border: 1px solid dimgray;
+        margin-bottom: 80px;
+    }
+    
+    .mov {
+        width: 95%;
+       
+    } 
+    
+    /* ////////// VALENTINO  */
+    .valentino-image {
+        margin-top: 20px;
+    }
+    
+    .title-up-valentino {
+        margin-top: 60px;
+    }
+    
+    .info-title-2 {
+        font-size: 13px;
+    }
+    
+    .photo-container2-valentino {
+        width: 47%;
+        margin-top: 50px;
+    }
+    
+    /* ////////// ATM */
+    .atm-image {
+        margin-top: 20px;
+    }
+        
+    /* ////////// AMERICAN */
+    .american-image {
+        margin-top: 20px;
+    }
+        
+    /* ////////// TRIENNALE UGO LA PIETRA */
+    .triennale-image {
+        margin-top: 20px;
+    }
+        
+    /* ////////// GENTLETUDE ONLUS */
+    .gentletude-image {
+        margin-top: 20px;
+    }
+        
+     /* ////////// ABOUT PAGE ///////// */
+    
+    .about-image {
+        margin-top: 20px;
+        border: 20px solid white;
+        background-size:1700px;
+    }
+    
+    .about-containers {
+        width: 95%;
+        margin-top: -60px;
+        margin-left: 50px;
+        display: flex;
+    }
+    
+    .professional {
+        align-items: flex-start;
+        display: inline-block;
+        margin: 20px;
+        margin-top: 130px;
+        width: 30%;
+    }
+    
+    .professional-2 {
+        align-items: flex-start;
+        display: inline-block;
+        margin: 20px;
+        margin-top: 110px;
+        padding: 20px;
+        border-left: 1px solid gray;
+        width: 30%;
+    }
+    
+    .professional-2last {
+        align-items: flex-start;
+        display: inline-block;
+        margin: 20px;
+        margin-top: 110px;
+        padding: 20px;
+        border-left: 1px solid gray;
+        width: 30%;
+        height: 40%
+    }
+    
+    .info-title {
+        font-family: "Helvetica Neue";
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    
+    .carmi-logo {
+        width: 150px;
+    }
+    
+    .info-title2 {
+        font-family: "Helvetica Neue";
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    
+    .text-about {
+        font-family: "Helvetica Neue";
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-top: 8px;
+    }
+    
+    .skill {
+        display: flex;
+    }
+    
+    .skill1 {
+        width: 40%;
+        display: inline-block;
+        align-content: flex-start;
+    }
+    
+    .skill1-2 {
+        margin-top: 46px;
+        width: 40%;
+        display: inline-block;
+        align-content: flex-start;
+    }
+    
+    .personal {
+        width: 100px;
+    }
+        
+    /* ////////// CONTACT PAGE ////////// */
+    .contact-image {
+        margin-top: 20px;
+        border: 20px solid white;
+    }
+    
+    .title-up {
+        text-align: center;
+        color: white;
+        font-family: "Helvetica Neue";
+        letter-spacing: 7px;
+        font-size: 55px;
+        font-weight: 500;
+        margin-top: 80px;
+    }
+    
+    .text-up {
+        text-align: center;
+        font-family: "Jellyka Saint-Andrew's Queen";
+        font-size: 40px;
+        color: white;
+        font-weight: 100;
+        letter-spacing: 5px;
+        line-height: 40px;
+    }
+    
+    .contact-detail {
+        width: 350px;
+        text-align: center;
+        margin: 2px auto;
+        margin-top: 60px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+    
+    .subtitle-name {
+        color: black;
+        text-align: center;
+        font-family: "Helvetica Neue";
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: -10px;
+    }
+    
+    .contact-text {
+        text-align: center;
+        margin-top: 20px;
+        font-family: "Helvetica Neue";
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+    
+    .say {
+        text-align: right;
+        font-size: 55px;
+        font-family: "Helvetica Neue";
+        font-weight: 700;
+        color: black;
+        letter-spacing: 2px;
+        margin-top: 100px;
+        margin-right: 35px;
+    }
+    
+    .say a {
+        color: black;
+    }     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     @media ( max-width: 415px) {
         .first {
-            text-align: center;
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 0;
-            width: 100vw;
-            height: 100vh;
-            background-image: url(../links/background.jpg);
-            background-size: cover;
-            background-attachment: fixed;
             border: 15px solid white;
         }
         .logo-homepage {
@@ -1255,7 +1541,6 @@
         }
         .frame-title {
             margin-top: 160px;
-            text-align: center;
         }
         .title-nav {
             font-size: 50px;
@@ -1263,19 +1548,14 @@
             margin-top: -15px;
         }
         .scroll {
-            margin-top: 100px;
+            margin-top: 105px;
         }
         h4 {
             font-size: 15px;
         }
         /* second section scroll over */
         .second {
-            position: relative;
-            z-index: 1;
-            width: 100%;
             height: 1790px;
-            margin-top: 100vh;
-            background: white;
         }
         .instagram-title {
             font-family: "Helvetica Neue";
@@ -1298,36 +1578,18 @@
         }
         /* rollover-effect on photos */
         .roll-over {
-            opacity: 1;
-            position: absolute;
-            top: auto;
-            width: 100%;
-            bottom: 0;
             height: 30%;
             background: rgba(19, 19, 20, 0.3);
-            transition: opacity 0.5s ease;
         }
         .title-rollover {
-            margin-top: 30px;
+            margin-top: 35px;
             font-size: 18px;
-            letter-spacing: 3px;
-            font-weight: 300;
-            line-height: 20px;
-            color: white;
         }
         .line-rollover {
-            border: 0.5px solid white;
-            width: 100px;
-            margin-top: 5px;
+           
+            margin-top: 10px;
         }
-        .text-rollover {
-            display: none;
-            font-size: 14px;
-            color: white;
-            font-weight: 100;
-            letter-spacing: 5px;
-            line-height: 14px;
-        }
+      
         /* footer */
         .footer-frame {
             text-align: center;
@@ -1361,6 +1623,30 @@
         }
 }
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         @media ( max-width: 321px) {
             .first {
                 text-align: center;
