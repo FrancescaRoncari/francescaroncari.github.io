@@ -1621,6 +1621,37 @@
             letter-spacing: 2px;
             text-decoration: none;
         }
+        
+        /* ////////// NAVIGATION ////////// */
+        nav {
+            text-align: center;
+        }
+      
+        nav ul li {
+            font-size: 16px;
+            text-align: center;
+        }
+  
+    /* ////////// WORKS PAGE ////////// */
+    
+    .logo-pages {
+        width: 110px;
+        margin-top: 40px;
+    }
+    .works-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+     
+    .filters-works {
+        font-size: 14px;
+    }
+     
+    .title-up {
+        margin-top: 100px;
+    }
+        
+        
 }
         
 
