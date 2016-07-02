@@ -1039,6 +1039,7 @@
      /* ////////// ABOUT PAGE ///////// */  
     .about-image {
         margin-top: 25px;
+        background-size: 1500px;
     }
     
     .about-containers {
