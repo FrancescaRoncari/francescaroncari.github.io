@@ -61,10 +61,12 @@
     
     .scroll {
         text-align: center;
-        position: relative;
+
+        position: absolute;
+        left: 50%;
         bottom: 0px;
-        top: auto;
         margin: 0;
+        margin-left:-
     }
     
     h4 {
@@ -142,6 +144,9 @@
         margin-top: 90px;
         margin-bottom: 50px;
         margin-right: 47px;
+        
+        overflow: hidden;
+        background-color: white;
     }
     
     .logo-footer {
