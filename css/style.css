@@ -141,15 +141,16 @@
 
     /* ////////// FOOTER ////////// */
     
+    footer {
+        overflow: hidden;
+        background-color: white;
+    }
     .footer-frame {
         display: flex;
         float: right;
         margin-top: 90px;
         margin-bottom: 50px;
         margin-right: 47px;
-        
-        overflow: hidden;
-        background-color: white;
     }
     
     .logo-footer {
