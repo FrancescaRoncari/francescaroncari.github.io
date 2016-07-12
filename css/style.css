@@ -69,7 +69,7 @@
         margin: 0;
         margin-left:-60px;
         
-        widht: 120px;
+        width: 120px;
     }
     
     h4 {
@@ -1710,11 +1710,21 @@
             }
             .title-nav {
                 font-size: 40px;
+                font-weight: 700;
                 margin: 10px auto;
                 margin-top: -15px;
             }
             .scroll {
-                margin-top: 80px;
+                text-align: center;
+                display: block;
+
+                position: absolute;
+                left: 50%;
+                bottom: 0px;
+                margin: 0;
+                margin-left:-60px;
+
+                width: 120px;
             }
             h4 {
                 font-size: 15px;
