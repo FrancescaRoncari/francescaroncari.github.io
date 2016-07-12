@@ -61,12 +61,15 @@
     
     .scroll {
         text-align: center;
+        display: block;
 
         position: absolute;
         left: 50%;
         bottom: 0px;
         margin: 0;
-        margin-left:-
+        margin-left:-40px;
+        
+        widht: 90px;
     }
     
     h4 {
