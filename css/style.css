@@ -1240,16 +1240,12 @@
             font-size: 14px;
         }
         
-        
-    /* ////////// NAVIGATION ////////// */
-    
+/* ////////// NAVIGATION ////////// */
         nav ul li {
-       
         font-size: 14px;       
     }
-  
-    /* ////////// WORKS PAGE ////////// */
-    
+        
+/* ////////// WORKS PAGE ////////// */   
     .logo-pages {
         width: 110px;
         margin-top: 30px;
@@ -1620,7 +1616,7 @@
         }
        
         
-        /* ////////// NAVIGATION ////////// */
+    /* ////////// NAVIGATION ////////// */
         nav {
             text-align: center;
         }
@@ -1632,23 +1628,60 @@
   
     /* ////////// WORKS PAGE ////////// */
     
-    .logo-pages {
-        width: 110px;
-        margin-top: 40px;
-    }
-    .works-image {
-        width: 100%;
-        margin-top: 20px;
-    }
-     
-    .filters-works {
-        font-size: 14px;
-    }
-     
-    .title-up {
-        margin-top: 100px;
-    }
-        
+            .logo-pages {
+                width: 110px;
+                margin-top: 40px;
+            }
+            .works-image {
+                width: 100%;
+                margin-top: 20px;
+            }
+
+            .filters-works {
+                font-size: 14px;
+            }
+
+            .title-up {
+                margin-top: 100px;
+            }
+    /* ////////// CONTACT ////////// */
+            .logo-pages {
+                width: 90px;
+            }
+            .contact-image {
+                height: 73vh;
+                border: 15px solid white;
+            }
+            .title-up {
+                letter-spacing: 7px;
+                font-size: 55px;
+                padding-top: 10px;
+            }
+            .text-up {
+                margin-top: 20px;
+                font-size: 45px;
+                letter-spacing: 5px;
+                line-height: 40px;
+            }
+            .contact-detail {
+                width: 100%;
+            }
+            h3 {
+                font-size: 18px;
+            }
+            .subtitle-name {
+                font-size: 16px;
+            }
+            .contact-text {
+                font-size: 14px;
+            }
+            .say {
+                text-align: center;
+                font-size: 50px;
+                margin-top: 70px;
+            }
+
+            
         
 }
         
@@ -1813,4 +1846,121 @@
                 letter-spacing: 2px;
                 text-decoration: none;
             }
+            
+/* ////////// NAVIGATION ////////// */
+            nav {
+                margin-top: 20px;
+            }
+
+            nav ul {
+                margin: 20px auto;
+            }
+
+            nav ul li {
+                font-size: 15px;
+                font-weight: 400;
+                margin-right: 5px;
+            }
+/* ////////// WORKS PAGE ////////// */
+    .works-image {
+        margin-top: 10px;
+        width: 100%;
+        height: 64vh;
+        border: 10px solid white;
+    }
+    
+    .index-works {
+        margin-top: 30px;
+    }
+    
+    .filters-works {
+        font-size: 16px;
+    }
+    
+    .filters-works li {
+        margin: 10px;
+    }
+    .container-works {
+        width: 93%;
+        margin: 1px auto;
+        margin-top: 10px;
+    }
+    .photo-works {
+        position: relative;
+        width: 100%;
+        margin-top: 7px;
+        display: block;
+        margin: 2px auto;
+        
+        overflow: hidden;
+    }         
+/* ////////// ABOUT ////////// */
+            .about-image {
+                margin-top: 10px;
+                width: 100%;
+                height: 64vh;
+                border: 10px solid white;
+            }
+            .about-containers {
+                width: 92%;
+                margin: 2px auto;
+                margin-top: 30px;
+                display: block;
+            }
+            .professional {
+                width: 100%;
+                margin: 10px;
+                margin-right: 0px;
+                margin-top: 25px;
+            } 
+            .border {
+               padding-left: 0px;
+               border-left: 0px;
+            }        
+/* ////////// CONTACT ////////// */
+            .logo-pages {
+                width: 80px;
+                margin-top: 30px;
+            }
+            .contact-image {
+                margin-top: 10px;
+                width: 100%;
+                height: 69vh;
+                border: 10px solid white;
+            }
+            .title-up {
+                letter-spacing: 5px;
+                font-size: 45px;
+                margin-top: 50px;
+                padding-top: 10px;
+            }
+            .text-up {
+                margin-top: 20px;
+                text-align: center;
+                font-size: 30px;
+                letter-spacing: 3px;
+                line-height: 35px;
+                width: 80%;
+            }
+            .contact-detail {
+                width: 100%;
+            }
+            h3 {
+                font-size: 18px;
+            }
+            .subtitle-name {
+                font-size: 16px;
+            }
+            .contact-text {
+                font-size: 14px;
+            }
+            .say {
+                text-align: center;
+                font-size: 50px;
+                margin-top: 70px;
+            }
+
+            
+            
+            
         }
