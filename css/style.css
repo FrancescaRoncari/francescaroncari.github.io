@@ -805,6 +805,24 @@
 
     /* --- MEDIA QUERIES --- */
     
+    @media ( max-width: 1921px) {
+         .logo-homepage {
+            width: 180px;
+            margin-top: 40px;
+        }
+        .frame-title {
+            margin-top: 250px;
+        }
+        .title-nav {
+            margin: 90px;
+            font-size: 90px;
+        }
+    
+        .scroll {
+        margin-top: 140px;
+        }
+    }
+
     @media ( max-width: 1441px) {
         .frame-title {
             margin-top: 240px;
@@ -1518,7 +1536,7 @@
         }
         .title-nav {
             font-size: 50px;
-            margin-top: -20px;
+            margin-top: -10px;
         }
         /* second section scroll over */
         .second {
