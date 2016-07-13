@@ -1943,7 +1943,16 @@
                 width: 100%;
                 text-align: center;
                 margin: 20px auto;
-            }     
+            }   
+            
+/* ////////// IOP SAMSUNG */
+            .iop-image {
+                  margin-top: 10px;
+                  width: 100%;
+                  height: 64vh;
+                  border: 10px solid white;
+            }
+        
 /* ////////// VALENTINO */
             .valentino-image {
                  margin-top: 10px;
@@ -1953,7 +1962,7 @@
             }
             .title-up-valentino {
                   letter-spacing: 5px;
-                  font-size: 45px;
+                  font-size: 35px;
                   margin-top: 50px;
                   padding-top: 10px;
             }
@@ -1968,13 +1977,50 @@
             }
             .double {
                 text-align: center;
-                margin-top: 3px;
+                margin: 3px;
             }
             .photo-container2-valentino {
                 margin-bottom: 3px;
-                margin-top: 5px;
-                width: 45%;
-            }    
+                margin-top: -2px;
+                width: 97%;
+            } 
+/* ////////// ATM */
+    .atm-image {
+       margin-top: 10px;
+                 width: 100%;
+                 height: 64vh;
+                 border: 10px solid white;
+    }
+
+/* ////////// AMERICAN */
+    .american-image {
+        margin-top: 10px;
+        width: 100%;
+        height: 64vh;
+        border: 10px solid white;
+    }
+
+/* ////////// TRIENNALE UGO LA PIETRA */
+    .triennale-image {
+         margin-top: 10px;
+         width: 100%;
+         height: 64vh;
+         border: 10px solid white;
+    }
+
+/* ////////// GENTLETUDE ONLUS */
+    .gentletude-image {
+        margin-top: 10px;
+        width: 100%;
+        height: 64vh;
+        border: 10px solid white;
+    }
+    
+    .double-gentletude {
+        text-align: center;
+        margin-top: 60px;
+    }
+   
 /* ////////// ABOUT ////////// */
             .about-image {
                 margin-top: 10px;
