@@ -909,11 +909,7 @@
         line-height: 45px;
     }
       
-        /* ////////// NAVIGATION ////////// */
-        nav ul {
-        margin-right: -15px;
-    }
-  
+    
     /* ////////// WORKS PAGE ////////// */
     
     .logo-pages {
@@ -1158,7 +1154,7 @@
             opacity: 1;
             top: auto;
             bottom: 0;
-            height: 40%;
+            height: 45%;
             background: rgba(19, 19, 20, 0.4);
         }
         .title-rollover {
@@ -1356,7 +1352,6 @@
     .about-containers {
         width: 95%;
         margin-top: -60px;
-        margin-left: 50px;
         display: flex;
     }
     
@@ -1368,25 +1363,9 @@
         width: 30%;
     }
     
-    .professional-2 {
-        align-items: flex-start;
-        display: inline-block;
-        margin: 20px;
-        margin-top: 110px;
-        padding: 20px;
-        border-left: 1px solid gray;
-        width: 30%;
-    }
-    
-    .professional-2last {
-        align-items: flex-start;
-        display: inline-block;
-        margin: 20px;
-        margin-top: 110px;
-        padding: 20px;
-        border-left: 1px solid gray;
-        width: 30%;
-        height: 40%
+    .border {
+       padding-left: 30px;
+       border-left: 1px solid gray;
     }
     
     .info-title {
