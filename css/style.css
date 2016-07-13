@@ -1512,28 +1512,19 @@
         }
         .logo-homepage {
             width: 120px;
-            margin-top: 20px;
         }
         .frame-title {
-            margin-top: 160px;
+            margin-top: 140px;
         }
         .title-nav {
-            font-size: 60px;
-            margin: 10px auto;
-            margin-top: -15px;
-        }
-        .scroll {
-            margin-top: 105px;
-        }
-        h4 {
-            font-size: 15px;
+            font-size: 50px;
+            margin-top: -20px;
         }
         /* second section scroll over */
         .second {
-            height: 1790px;
+            height: 1740px;
         }
         .instagram-title {
-            font-family: "Helvetica Neue";
             font-size: 20px;
         }
         .instagram-icon {
@@ -1541,11 +1532,10 @@
         }
         .article-instagram {
             margin-top: 40px;
-            text-align: center;
         }
         .instagram-image {
             width: 93%;
-            margin: 20px auto;
+            margin: 15px auto;
             margin-top: 2px;
         }
         .insta-photo {
@@ -1554,17 +1544,12 @@
         /* rollover-effect on photos */
         .roll-over {
             height: 30%;
-            background: rgba(19, 19, 20, 0.3);
         }
         .title-rollover {
-            margin-top: 35px;
+            margin-top: 30px;
             font-size: 18px;
         }
-        .line-rollover {
-           
-            margin-top: 10px;
-        }
-      
+       
         /* footer */
         .footer-frame {
             text-align: center;
@@ -1583,19 +1568,10 @@
             margin-bottom: 40px;
         }
         .h3-footer {
-            font-family: "Helvetica Neue";
-            font-weight: 500;
             font-size: 15px;
             letter-spacing: 3px;
         }
-        .footer-text {
-            font-family: "Helvetica Neue";
-            font-size: 15px;
-            color: black;
-            font-weight: 400;
-            letter-spacing: 2px;
-            text-decoration: none;
-        }
+       
         
         /* ////////// NAVIGATION ////////// */
         nav {
