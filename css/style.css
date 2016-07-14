@@ -26,7 +26,6 @@
         height: 100vh;
         background-image: url(../links/background.jpg);
         background-size: cover;
-        background-attachment: fixed;
         border: 25px solid white;
     }
     
@@ -954,7 +953,7 @@
     }
     
     .container-works {
-        width: 50%;
+        width: 97%;
         margin-top: 10px;
         text-align: center;
     }
