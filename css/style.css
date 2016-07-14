@@ -1464,6 +1464,10 @@
                 font-size: 50px;
                 margin-top: -10px;
             }
+            h4 {
+                font-size: 15px;
+                font-weight: 300;
+            }
             /* second section scroll over */
             .second {
                 height: 1740px;
@@ -1826,8 +1830,9 @@
             }
             h4 {
                 font-size: 15px;
+                font-weight: 300;
             }
-            /* second section scroll over */
+/* second section scroll over */
             .second {
                 position: relative;
                 z-index: 1;
@@ -1858,7 +1863,7 @@
             .insta-photo {
                 width: 100%;
             }
-            /* rollover-effect on photos */
+/* rollover-effect on photos */
             .roll-over {
                 opacity: 1;
                 position: absolute;
