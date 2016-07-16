@@ -9,6 +9,12 @@
         font-weight: normal;
         font-style: normal;
     }
+/*
+@font-face {
+        font-family: "Helvetica Neue";
+        src: local('?'), url('HelveticaNeue-Medium.woff') format('woff');
+    }
+*/
 
 /* ////////// HOMEPAGE ////////// */
     
@@ -287,7 +293,7 @@
         width: 100%;
         margin-top: 45px;
         border: 25px solid white;
-        background-image: url(../links/contact.jpeg);
+        background-image: url(../links/contact.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
@@ -679,7 +685,7 @@
         width: 100%;
         margin-top: 45px;
         border: 25px solid white;
-        background-image: url(../links/contact3%20copia.jpg);
+        background-image: url(../links/contact_up.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
