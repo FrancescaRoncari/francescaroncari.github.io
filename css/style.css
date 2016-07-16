@@ -802,29 +802,35 @@
 
   
     @media ( min-width: 1920px) {
-        .logo-homepage {
-            width: 180px;
-            margin-top: 40px;
+          .logo-homepage {
+                width: 180px;
+                margin-top: 40px;
         }
-        .frame-title {
-            margin-top: 250px;
+            .frame-title {
+                margin-top: 250px;
         }
-        .title-nav {
-            margin: 90px;
-            font-size: 90px;
+            .title-nav {
+                margin: 90px;
+                font-size: 90px;
         }
-       .title-rollover {
-        margin-top: 230px;
-    }
-         .title-up {
-        margin-top: 120px;
-    }
-        .work-containers {
-        width: 83%;
-    }     
+           .title-rollover {
+            margin-top: 230px;
+        }
+             .title-up {
+            margin-top: 120px;
+        }
+            .work-containers {
+            width: 83%;
+        }     
 }
 
-
+    
+    @media ( max-width: 1551px) {
+         .title-nav {
+            font-size: 65px;
+        }
+        
+}
 
 
     @media ( max-width: 1441px) {
