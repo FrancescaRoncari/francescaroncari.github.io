@@ -9,14 +9,13 @@
         font-weight: normal;
         font-style: normal;
     }
-/*
+    /*
 @font-face {
         font-family: "Helvetica Neue";
         src: local('?'), url('HelveticaNeue-Medium.woff') format('woff');
     }
 */
-
-/* ////////// HOMEPAGE ////////// */
+    /* ////////// HOMEPAGE ////////// */
     
     body {
         width: 100%;
@@ -33,7 +32,6 @@
         background-image: url(../links/background.jpg);
         background-size: cover;
         border: 25px solid white;
-        
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -54,11 +52,10 @@
     }
     
     .frame-title {
-        margin-top: 0px;
         text-align: center;
-        margin-top: 200px;
-
+        margin-top: 150px;
     }
+    
     .title-nav {
         display: inline-block;
         margin: 70px;
@@ -68,22 +65,23 @@
         font-weight: 700;
         letter-spacing: 10px;
     }
+    
     .title-nav a {
         color: white;
         text-decoration: none;
     }
+    
     .scroll {
         text-align: center;
         display: block;
-
         position: absolute;
         left: 50%;
         bottom: 0px;
         margin: 0;
-        margin-left:-60px;
-        
+        margin-left: -60px;
         width: 120px;
     }
+    
     h4 {
         font-family: "Helvetica Neue";
         font-size: 16px;
@@ -93,6 +91,7 @@
         margin-bottom: 10px;
     }
     /* second section scroll over */
+    
     .second {
         position: relative;
         z-index: 1;
@@ -101,6 +100,7 @@
         margin-top: 100vh;
         background: white;
     }
+    
     .instagram-title {
         font-family: "Helvetica Neue";
         font-size: 20px;
@@ -110,22 +110,27 @@
         line-height: 25px;
         padding-top: 30px;
     }
+    
     hr {
         border: 1px solid black;
         width: 100px;
         margin: 20px auto;
     }
+    
     .instagram {
         text-align: center;
         margin-top: 30px;
     }
+    
     .instagram-icon {
         width: 35px;
     }
+    
     .article-instagram {
         margin-top: 80px;
         text-align: center;
     }
+    
     .instagram-image {
         position: relative;
         width: 30%;
@@ -134,18 +139,22 @@
         display: inline-block;
         overflow: hidden;
     }
-    .instagram-image:hover .insta-photo{
-        transform: scale(1.1,1.1);
+    
+    .instagram-image:hover .insta-photo {
+        transform: scale(1.1, 1.1);
     }
+    
     .insta-photo {
         width: 100%;
         transition: all 0.8s ease-in-out;
     }
-/* ////////// FOOTER ////////// */
+    /* ////////// FOOTER ////////// */
+    
     footer {
         overflow: hidden;
         background-color: white;
     }
+    
     .footer-frame {
         display: flex;
         float: right;
@@ -153,14 +162,17 @@
         margin-bottom: 50px;
         margin-right: 47px;
     }
+    
     .logo-footer {
         width: 78px;
         margin-right: 28px;
         margin-top: 10px;
     }
+    
     .contact {
         margin-right: 18px;
     }
+    
     .h3-footer {
         font-family: "Helvetica Neue";
         font-weight: 500;
@@ -237,8 +249,7 @@
     .up-text a {
         color: gray;
     }
-
-/* ////////// NAVIGATION ////////// */
+    /* ////////// NAVIGATION ////////// */
     
     nav {
         height: 20px;
@@ -268,9 +279,7 @@
     a:hover {
         text-decoration: line-through;
     }
-
-  
-/* ////////// WORKS PAGE ////////// */
+    /* ////////// WORKS PAGE ////////// */
     
     .logo-header {
         margin-top: 5px;
@@ -281,7 +290,6 @@
         width: 130px;
         position: relative;
         display: block;
-        
         margin: 0 auto;
     }
     
@@ -338,17 +346,17 @@
         display: inline-block;
         overflow: hidden;
     }
-
-    .photo-works:hover .work-image{
-        transform: scale(1.1,1.1);
+    
+    .photo-works:hover .work-image {
+        transform: scale(1.1, 1.1);
     }
     
     .work-image {
         width: 100%;
         transition: all 0.8s ease-in-out;
     }
-
-/* ////////// THINK MAGAZINE */
+    /* ////////// THINK MAGAZINE */
+    
     .think-image {
         width: 100%;
         margin-top: 45px;
@@ -450,8 +458,8 @@
         text-align: center;
         margin: 20px auto;
     }
-
     /* ////////// IOP SAMSUNG */
+    
     .iop-image {
         width: 100%;
         margin-top: 45px;
@@ -483,8 +491,8 @@
     .image-think {
         width: 100%;
     }
-
     /* ////////// VALENTINO */
+    
     .valentino-image {
         width: 100%;
         margin-top: 45px;
@@ -526,7 +534,7 @@
     }
     
     .valentinotext {
-       padding-top: 50px;
+        padding-top: 50px;
     }
     
     .double {
@@ -537,8 +545,8 @@
         width: 35%;
         display: inline-block;
     }
-
     /* ////////// ATM */
+    
     .atm-image {
         width: 100%;
         margin-top: 45px;
@@ -548,8 +556,8 @@
         background-size: cover;
         height: 40vh;
     }
-
     /* ////////// AMERICAN */
+    
     .american-image {
         width: 100%;
         margin-top: 45px;
@@ -559,8 +567,8 @@
         background-size: cover;
         height: 40vh;
     }
-
     /* ////////// TRIENNALE UGO LA PIETRA */
+    
     .triennale-image {
         width: 100%;
         margin-top: 45px;
@@ -570,8 +578,8 @@
         background-size: cover;
         height: 40vh;
     }
-
     /* ////////// GENTLETUDE ONLUS */
+    
     .gentletude-image {
         width: 100%;
         margin-top: 45px;
@@ -586,8 +594,8 @@
         text-align: center;
         margin-top: 60px;
     }
-
-/* ////////// ABOUT PAGE ///////// */
+    /* ////////// ABOUT PAGE ///////// */
+    
     .about-selected {
         text-decoration: line-through;
     }
@@ -606,20 +614,19 @@
         width: 92%;
         margin: 2px auto;
         margin-top: 65px;
-
     }
     
     .professional {
         width: 30%;
         display: inline-block;
-        vertical-align:top;
+        vertical-align: top;
         margin-right: 0px;
         padding-right: 25px;
-    } 
-
+    }
+    
     .border {
-       padding-left: 30px;
-       border-left: 1px solid gray;
+        padding-left: 30px;
+        border-left: 1px solid gray;
     }
     
     .info-title {
@@ -671,8 +678,8 @@
     .personal {
         width: 100px;
     }
-
-/* ////////// CONTACT PAGE ////////// */
+    /* ////////// CONTACT PAGE ////////// */
+    
     .container-contact {
         width: 100%;
     }
@@ -762,403 +769,438 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /* --- MEDIA QUERIES --- */
-
-  
+    
     @media ( min-width: 1920px) {
-          .logo-homepage {
-                width: 180px;
-                margin-top: 40px;
+         .logo-header {
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 25px;
+        margin-left: -75px;
+        width: 150px;
+    }
+    
+    .logo-homepage {
+        width: 180px;
+    }
+        .frame-title {
+            margin-top: 250px;
         }
-            .frame-title {
-                margin-top: 250px;
+        .title-nav {
+            margin: 90px;
+            font-size: 90px;
         }
-            .title-nav {
-                margin: 90px;
-                font-size: 90px;
-        }
-           .title-rollover {
+        .title-rollover {
             margin-top: 230px;
         }
-             .title-up {
+        .title-up {
             margin-top: 120px;
         }
-            .work-containers {
+        .work-containers {
             width: 83%;
-        }     
-}
-
+        }
+    }
     
-    @media ( max-width: 1551px) {
-         .title-nav {
-            font-size: 65px;
-        }
-        
-}
-
-
-    @media ( max-width: 1441px) {
-        .logo-homepage {
-            width: 130px;
-            margin-top: 40px;
-        }
+    @media ( max-width: 1601px) {
+         .logo-header {
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 25px;
+        margin-left: -75px;
+        width: 150px;
+    }
+    
+    .logo-homepage {
+        width: 150px;
+    }
         .frame-title {
             margin-top: 200px;
         }
         .title-nav {
-            margin: 50px;
+            display: inline-block;
+            margin: 55px;
+            font-size: 70px;
+        }
+    
+}
+    
+    @media ( max-width: 1441px) {
+                 .logo-header {
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 25px;
+        margin-left: -75px;
+        width: 150px;
+    }
+    
+    .logo-homepage {
+        width: 150px;
+    }
+        .frame-title {
+            margin-top: 200px;
+        }
+        .title-nav {
+            display: inline-block;
+            margin: 55px;
             font-size: 70px;
         }
         .title-rollover {
-        margin-top: 160px;
-    }
-         /* ////////// WORKS ////////// */
-         .title-up {
-        margin-top: 80px;
-    }
-        .work-containers {
-        width: 87%;
-    }
-}
-
-
-
-
-
-
-    @media ( max-width: 1281px) {     
-    .logo-homepage {
-        width: 130px;
-        margin-top: 20px;
-    }
-    
-    .frame-title {
-        margin-top: 250px;
-    }
-    
-    .title-nav {
-        display: inline-block;
-        margin: 45px;
-        font-size: 60px;
-    }
-        
-    .scroll {
-        margin-top: 110px;
-    }
-    
-    h4 {
-        font-size: 15px;
-    }
-        
-    /* second section scroll over */
-    .second {
-        width: 100%;
-        height: 800px;
-    }
-    
-    .instagram-title {
-        font-size: 18px;
-        line-height: 23px;
-    }
-    
-    hr {
-        width: 80px;
-    }
-        
-    .instagram-icon {
-        width: 33px;
-    }
-   
-/* ////////// FOOTER ////////// */
-    .footer-frame {
-        margin-right: 32px;
-    }
-    
-    .logo-footer {
-        width: 73px;
-        margin-right: 25px;
-    }
-    
-    .contact {
-        margin-right: 18px;
-    }
-    
-    .h3-footer {
-        font-size: 15px;
-    }
-
-    .footer-text {
-        font-size: 15px;
-    }
-        
-    /* rollover-effect on photos */
-    .title-rollover {
-        margin-top: 130px;
-        font-size: 15px;
-    }
-    
-    .line-rollover {
-        border: 0.5px solid white;
-        width: 80px;
-    }
-    
-    .text-rollover {
-        font-family: "Jellyka Saint-Andrew's Queen";
-        font-size: 35px;
-        color: white;
-        font-weight: 100;
-        letter-spacing: 5px;
-        line-height: 45px;
-    }
-      
-    
-/* ////////// WORKS PAGE ////////// */
-    
-    .logo-pages {
-        width: 110px;
-    }
-  
-    .works-image {
-        margin-top: 25px;
-    }
-   
-    .filters-works {
-        font-size: 15px;
-    }
-    
-    .container-works {
-        width: 97%;
-        margin-top: 10px;
-        text-align: center;
-    }
-        
-    .title-up {
-        margin-top: 55px;
-    }
-    
-    .text-up {
-        font-size: 35px;
-        line-height: 43px;
-    }
-    
-/* ////////// THINK MAGAZINE */
-    
-    .think-image {
-        margin-top: 25px;
-    }
-    
-    .work-containers {
-        margin-top: 10px;
-        padding-left: 65px;
-    }
-    .info-title {
-        font-size: 15px;
-
-    }
-    .info-work1 {
-        font-size: 15px;
-    }
-    
-    .info-work {
-        font-size: 15px;
-    }
-    .work {
-        margin-top: 75px;
-        width: 30%;
-    }
-    
-    .work-2 {
-        margin-left: 65px;
-    }
-  
-    
-    .photo1-container {
-        width: 75%;
-        margin-top: 100px;
-    }
-    
-    .photo-container {
-        width: 75%;
-        margin: 20px auto;
-        margin-top: 60px;
-    }
-    
-    .image-think {
-        width: 100%;
-    }
-    
-    .hr-down {
-        width: 80px;
-    }
-      
-    .mov {
-        width: 75%;
-        text-align: center;
-        margin: 20px auto;
-    }
-/* ////////// IOP  */
-   .text-decoration {
-        width: 70%;
-        text-align: center;
-        margin: 20px auto;
-    }  
-/* ////////// VALENTINO  */
-    .valentino-image {
-        margin-top: 25px;
-    }
-    .title-up-valentino {
-        margin-top: 60px;
-    }
-    .info-title-2 {
-        font-size: 13px;
-    }
-    .photo-container2-valentino {
-        width: 37%;
-        display: inline-block;
-    }  
-/* ////////// ATM */
-    .atm-image {
-        margin-top: 25px;
-    }
-/* ////////// AMERICAN */
-    .american-image {
-        margin-top: 25px;
-    }
-/* ////////// TRIENNALE UGO LA PIETRA */
-    .triennale-image {
-        margin-top: 25px;
-    }
-/* ////////// GENTLETUDE ONLUS */
-    .gentletude-image {
-        margin-top: 25px;
-    } 
-/* ////////// ABOUT PAGE ///////// */  
-    .about-image {
-        margin-top: 25px;
-        background-size: 1500px;
-    }
-    .about-containers {
-        width: 98%;
-        margin-top: 30px;
-        margin-left: 30px;
-    }
-    .info-title {
-        font-size: 15px;
-    }
-    .carmi-logo {
-        width: 130px;
-    }
-    .info-title2 {
-        font-size: 16px;
-    }
-    .text-about {
-        font-family: "Helvetica Neue";
-        font-size: 15px;
-        font-weight: 300;
-        letter-spacing: 1px;
-        margin-top: 8px;
-    }
-/* ////////// CONTACT PAGE ////////// */ 
-    .contact-image {
-        margin-top: 25px;
-    }
-    .contact-detail {
-        margin-top: 80px;
-    }
-    h3 {
-        font-size: 15px;
-    }
-    .subtitle-name {
-        font-size: 15px;
-    }
-    .contact-text {
-        font-size: 15px;
-    }
-    .say {
-        margin-right: 50px;
-    }
-}
-
-
-
-
-
-
-@media ( max-width: 1025px) { 
-    .title-nav {
-        display: inline-block;
-        font-size: 50px;
-        width: 30%;
-        margin: 10px auto;
-        margin-top: -15px;
+            margin-top: 160px;
         }
-    .container-works {
-        width: 100%;
-        margin-top: 10px;
-        text-align: center;
-    } 
-/* ////////// ABOUT PAGE ///////// */
-    .about-containers {
-        width: 85%;
-        margin: 2px auto;
-        margin-top: 30px;
-        display: block;
+        /* ////////// WORKS ////////// */
+        .title-up {
+            margin-top: 80px;
+        }
+        .work-containers {
+            width: 87%;
+        }
     }
-    .professional {
+@media ( max-width: 1408px) {
+    
+        .frame-title {
+            margin-top: 200px;
+        }
+        .title-nav {
+            display: inline-block;
+            margin: 50px;
+            font-size: 60px;
+        }
+}
+        
+        
+        
+    @media ( max-width: 1281px) {
+        .logo-header {
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 25px;
+        margin-left: -75px;
+        width: 150px;
+    }
+    
+    .logo-homepage {
+        width: 150px;
+    }
+        .frame-title {
+            margin-top: 200px;
+        }
+        .title-nav {
+            display: inline-block;
+            margin: 50px;
+            font-size: 60px;
+        }
+        .scroll {
+            margin-top: 110px;
+        }
+        h4 {
+            font-size: 15px;
+        }
+        /* second section scroll over */
+        .second {
+            width: 100%;
+            height: 800px;
+        }
+        .instagram-title {
+            font-size: 18px;
+            line-height: 23px;
+        }
+        hr {
+            width: 80px;
+        }
+        .instagram-icon {
+            width: 33px;
+        }
+        /* ////////// FOOTER ////////// */
+        .footer-frame {
+            margin-right: 32px;
+        }
+        .logo-footer {
+            width: 73px;
+            margin-right: 25px;
+        }
+        .contact {
+            margin-right: 18px;
+        }
+        .h3-footer {
+            font-size: 15px;
+        }
+        .footer-text {
+            font-size: 15px;
+        }
+        /* rollover-effect on photos */
+        .title-rollover {
+            margin-top: 130px;
+            font-size: 15px;
+        }
+        .line-rollover {
+            border: 0.5px solid white;
+            width: 80px;
+        }
+        .text-rollover {
+            font-family: "Jellyka Saint-Andrew's Queen";
+            font-size: 35px;
+            color: white;
+            font-weight: 100;
+            letter-spacing: 5px;
+            line-height: 45px;
+        }
+        /* ////////// WORKS PAGE ////////// */
+        .logo-pages {
+            width: 110px;
+        }
+        .works-image {
+            margin-top: 25px;
+        }
+        .filters-works {
+            font-size: 15px;
+        }
+        .container-works {
+            width: 97%;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .title-up {
+            margin-top: 55px;
+        }
+        .text-up {
+            font-size: 35px;
+            line-height: 43px;
+        }
+        /* ////////// THINK MAGAZINE */
+        .think-image {
+            margin-top: 25px;
+        }
+        .work-containers {
+            margin-top: 10px;
+            padding-left: 65px;
+        }
+        .info-title {
+            font-size: 15px;
+        }
+        .info-work1 {
+            font-size: 15px;
+        }
+        .info-work {
+            font-size: 15px;
+        }
+        .work {
+            margin-top: 75px;
+            width: 30%;
+        }
+        .work-2 {
+            margin-left: 65px;
+        }
+        .photo1-container {
+            width: 75%;
+            margin-top: 100px;
+        }
+        .photo-container {
+            width: 75%;
+            margin: 20px auto;
+            margin-top: 60px;
+        }
+        .image-think {
+            width: 100%;
+        }
+        .hr-down {
+            width: 80px;
+        }
+        .mov {
+            width: 75%;
+            text-align: center;
+            margin: 20px auto;
+        }
+        /* ////////// IOP  */
+        .text-decoration {
+            width: 70%;
+            text-align: center;
+            margin: 20px auto;
+        }
+        /* ////////// VALENTINO  */
+        .valentino-image {
+            margin-top: 25px;
+        }
+        .title-up-valentino {
+            margin-top: 60px;
+        }
+        .info-title-2 {
+            font-size: 13px;
+        }
+        .photo-container2-valentino {
+            width: 37%;
+            display: inline-block;
+        }
+        /* ////////// ATM */
+        .atm-image {
+            margin-top: 25px;
+        }
+        /* ////////// AMERICAN */
+        .american-image {
+            margin-top: 25px;
+        }
+        /* ////////// TRIENNALE UGO LA PIETRA */
+        .triennale-image {
+            margin-top: 25px;
+        }
+        /* ////////// GENTLETUDE ONLUS */
+        .gentletude-image {
+            margin-top: 25px;
+        }
+        /* ////////// ABOUT PAGE ///////// */
+        .about-image {
+            margin-top: 25px;
+            background-size: 1500px;
+        }
+        .about-containers {
+            width: 98%;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        .info-title {
+            font-size: 15px;
+        }
+        .carmi-logo {
+            width: 130px;
+        }
+        .info-title2 {
+            font-size: 16px;
+        }
+        .text-about {
+            font-family: "Helvetica Neue";
+            font-size: 15px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            margin-top: 8px;
+        }
+        /* ////////// CONTACT PAGE ////////// */
+        .contact-image {
+            margin-top: 25px;
+        }
+        .contact-detail {
+            margin-top: 80px;
+        }
+        h3 {
+            font-size: 15px;
+        }
+        .subtitle-name {
+            font-size: 15px;
+        }
+        .contact-text {
+            font-size: 15px;
+        }
+        .say {
+            margin-right: 50px;
+        }
+    }
+    
+    @media ( max-width: 1225px) {
+        .logo-header {
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 25px;
+        margin-left: -75px;
+        width: 150px;
+    }
+    
+    .logo-homepage {
+        width: 150px;
+    }
+      .frame-title {
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    .title-nav {
+        display: inline-block;
+        margin: 0px;
         width: 100%;
-        margin: 10px;
-        margin-right: 0px;
-        margin-top: 25px;
-    } 
-    .border {
-        padding-left: 0px;
-        border-left: 0px;
-    }        
+        font-family: "Helvetica Neue";
+        font-size: 80px;
+        font-weight: 700;
+        letter-spacing: 10px;
+    }
+        
+        
 }
 
-
-
-
-
-
-
-
+    @media ( max-width: 1025px) {
+        .logo-header {
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 25px;
+        margin-left: -75px;
+        width: 150px;
+    }
+    
+    .logo-homepage {
+        width: 150px;
+    }
+    
+        .frame-title {
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    .title-nav {
+        display: inline-block;
+        margin: 0px;
+        width: 100%;
+        font-family: "Helvetica Neue";
+        font-size: 80px;
+        font-weight: 700;
+        letter-spacing: 10px;
+    }
+           /* rollover-effect on photos */
+        .roll-over {
+            opacity: 1;
+            top: auto;
+            bottom: 0;
+            height: 35%;
+            background: rgba(19, 19, 20, 0.4);
+        }
+        .title-rollover {
+            margin-top: 30px;
+            font-size: 14px;
+            line-height: 18px;
+        }
+        .line-rollover {
+            width: 80px;
+            margin-top: 5px;
+        }
+        .text-rollover {
+            display: none;
+        }
+    
+    .container-works {
+            width: 100%;
+            margin-top: 10px;
+            text-align: center;
+        }
+        /* ////////// ABOUT PAGE ///////// */
+        .about-containers {
+            width: 85%;
+            margin: 2px auto;
+            margin-top: 30px;
+            display: block;
+        }
+        .professional {
+            width: 100%;
+            margin: 10px;
+            margin-right: 0px;
+            margin-top: 25px;
+        }
+        .border {
+            padding-left: 0px;
+            border-left: 0px;
+        }
+    }
+    
 
 
 
@@ -1172,22 +1214,25 @@
             width: 150px;
         }
         .frame-title {
-            margin-top: 0px;
-            text-align: center;
-        }
-        .title-nav {
-            font-size: 80px;
-            width: 100%;
-            margin: 10px auto;
-            margin-top: -15px;
-        }
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    .title-nav {
+        display: inline-block;
+        margin: 0px;
+        width: 100%;
+        font-family: "Helvetica Neue";
+        font-size: 80px;
+        font-weight: 700;
+        letter-spacing: 10px;
+    }
         .scroll {
             margin-top: 140px;
         }
-        h4{
+        h4 {
             font-size: 14px;
         }
-      
         /* second section scroll over */
         .second {
             height: 655px;
@@ -1229,15 +1274,14 @@
         .h3-footer {
             font-size: 14px;
         }
-        
         .footer-text {
             font-size: 14px;
         }
-/* ////////// NAVIGATION ////////// */
+        /* ////////// NAVIGATION ////////// */
         nav ul li {
-        font-size: 14px;       
-        }  
-/* ////////// WORKS PAGE ////////// */   
+            font-size: 14px;
+        }
+        /* ////////// WORKS PAGE ////////// */
         .logo-pages {
             width: 110px;
             margin-top: 30px;
@@ -1264,20 +1308,18 @@
             font-size: 55px;
             padding-top: 60px;
         }
-
-        .photo-works:hover .work-image{
-            transform: scale(1.1,1.1);
+        .photo-works:hover .work-image {
+            transform: scale(1.1, 1.1);
         }
         .work-image {
             width: 100%;
             transition: all 0.8s ease-in-out;
         }
-        
-/* ////////// THINK MAGAZINE */
+        /* ////////// THINK MAGAZINE */
         .think-image {
             margin-top: 20px;
             border: 20px solid white;
-            background-size:1000px;
+            background-size: 1000px;
         }
         .work-containers {
             width: 90%;
@@ -1298,7 +1340,7 @@
             margin-left: 0px;
             margin-top: 35px;
             width: 95%;
-        }    
+        }
         .photo1-container {
             margin-top: 50px;
             width: 90%;
@@ -1322,13 +1364,13 @@
             width: 93%;
             font-size: 30px;
             line-height: 40px;
-        }    
+        }
         .mov {
             width: 100%;
             text-align: center;
             margin: 20px auto;
-        }   
-/* ////////// VALENTINO  */
+        }
+        /* ////////// VALENTINO  */
         .valentino-image {
             margin-top: 20px;
         }
@@ -1342,27 +1384,27 @@
             width: 47%;
             margin-top: 50px;
         }
-/* ////////// ATM */
+        /* ////////// ATM */
         .atm-image {
             margin-top: 20px;
         }
-/* ////////// AMERICAN */
+        /* ////////// AMERICAN */
         .american-image {
             margin-top: 20px;
         }
-/* ////////// TRIENNALE UGO LA PIETRA */
+        /* ////////// TRIENNALE UGO LA PIETRA */
         .triennale-image {
             margin-top: 20px;
-        }   
-/* ////////// GENTLETUDE ONLUS */
+        }
+        /* ////////// GENTLETUDE ONLUS */
         .gentletude-image {
             margin-top: 20px;
-        }       
-/* ////////// ABOUT PAGE ///////// */
+        }
+        /* ////////// ABOUT PAGE ///////// */
         .about-image {
             margin-top: 20px;
             border: 20px solid white;
-            background-size:1700px;
+            background-size: 1700px;
         }
         .about-containers {
             width: 92%;
@@ -1375,12 +1417,12 @@
             margin: 10px;
             margin-right: 0px;
             margin-top: 25px;
-        } 
+        }
         .border {
             padding-left: 0px;
             border-left: 0px;
-        }          
-/* ////////// CONTACT PAGE ////////// */
+        }
+        /* ////////// CONTACT PAGE ////////// */
         .contact-image {
             margin-top: 20px;
             border: 20px solid white;
@@ -1425,8 +1467,8 @@
         }
         .say a {
             color: black;
-        }     
-}
+        }
+    }
 
 
 
@@ -1436,368 +1478,370 @@
 
 
 
+    @media ( max-width: 436px) {
+        .logo-header {
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 10px;
+            margin-left: -75px;
+            width: 150px;
+        }
+        .logo-homepage {
+            width: 130px;
+        }
+        .frame-title {
+            margin-top: 0px;
+            text-align: center;
+        }
+        .title-nav {
+            font-size: 60px;
+            font-weight: 700;
+            margin: 10px auto;
+            margin-top: -15px;
+        }
+    }
+  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     @media ( max-width: 415px) {
-            .first {
-                border: 15px solid white;
-            }
-            .logo-homepage {
-                width: 120px;
-            } 
-            .logo-header {
+        .first {
+            border: 15px solid white;
+        }
+        .logo-homepage {
+            width: 120px;
+        }
+        .logo-header {
             text-align: center;
             position: absolute;
             left: 50%;
             top: 2px;
             margin-left: -75px;
             width: 150px;
-            }
-            .frame-title {
-                margin-top: 70px;
-            }
-            .title-nav {
-                font-size: 50px;
-                margin-top: -10px;
-            }
-            h4 {
-                font-size: 15px;
-                font-weight: 300;
-            }
-            /* second section scroll over */
-            .second {
-                height: 1740px;
-            }
-            .instagram-title {
-                font-size: 20px;
-            }
-            .instagram-icon {
-                width: 30px;
-            }
-            .article-instagram {
-                margin-top: 40px;
-            }
-            .instagram-image {
-                width: 93%;
-                margin: 15px auto;
-                margin-top: 2px;
-            }
-            .insta-photo {
-                width: 100%;
-            }
-            /* rollover-effect on photos */
-            .roll-over {
-                height: 30%;
-            }
-            .title-rollover {
-                margin-top: 30px;
-                font-size: 18px;
-            }
-            /* footer */
-            .footer-frame {
-                text-align: center;
-                display: block;
-                margin: 10px auto;
-                float: none;
-                margin-top: -10px;
-            }
-            .logo-footer {
-                width: 90px;
-                margin: 50px auto;
-            }
-            .contact {
-                margin: 0 auto;
-                margin-top: -25px;
-                margin-bottom: 40px;
-            }
-            .h3-footer {
-                font-size: 15px;
-                letter-spacing: 3px;
-            }
-/* ////////// NAVIGATION ////////// */
-            nav {
-                text-align: center;
-            }
-            nav ul li {
-                font-size: 16px;
-                text-align: center;
-            }
-/* ////////// WORKS PAGE ////////// */
-            .works-image {
-                margin-top: 10px;
-                width: 100%;
-                height: 75vh;
-                border: 10px solid white;
-            }
-            .index-works {
-                margin-top: 30px;
-            }
-            .filters-works {
-                font-size: 16px;
-            }
-            .filters-works li {
-                margin: 10px;
-            }
-            .container-works {
-                width: 93%;
-                margin: 1px auto;
-                margin-top: 10px;
-            }
-            .photo-works {
-                position: relative;
-                width: 100%;
-                margin-top: 7px;
-                display: block;
-                margin: 2px auto;
-
-                overflow: hidden;
-            } 
-/* ////////// THINK MAGAZINE */
-            .think-image {
-                margin-top: 10px;
-                width: 100%;
-                height: 75vh;
-                border: 10px solid white;
-                background-size: 1300px;
-            }
-            .work-containers {
-                width: 100%;
-                margin-top: -30px;
-                padding-left: 15px;
-                display: block;
-            }
-            .work {
-                margin-top: 75px;
-                width: 95%;
-            }
-            .two {
-                margin-left: 0px;
-                margin-top: -15px;
-                width: 95%;
-            }
-            .line {
-                margin-left: 0px;
-                margin-top: 35px;
-                width: 95%;
-            }    
-            .photo1-container {
-                margin-top: 50px;
-            }
-
-            .photo-container {
-                width: 93%;
-                margin: 20px auto;
-                margin-top: -18px;
-            }
-            .hr-up {
-                width: 200px;
-                border: 1px solid dimgray;
-                margin-top: 80px;
-            }
-            .hr-down {
-                width: 30px;
-                border: 1px solid dimgray;
-                margin-bottom: 80px;
-            }
-            .text-decoration {
-                width: 93%;
-                font-size: 30px;
-                line-height: 40px;
-            }    
-            .mov {
-                width: 100%;
-                text-align: center;
-                margin: 20px auto;
-            }   
-/* ////////// IOP SAMSUNG */
-            .iop-image {
-                margin-top: 10px;
-                width: 100%;
-                height: 75vh;
-                border: 10px solid white;
-                background-size: 1600px;
-            }
-/* ////////// VALENTINO */
-            .valentino-image {
-                margin-top: 10px;
-                width: 100%;
-                height: 75vh;
-                border: 10px solid white;
-            }
-            .title-up-valentino {
-                letter-spacing: 5px;
-                font-size: 35px;
-                margin-top: 50px;
-                padding-top: 10px;
-            }
-            .title-up-sub {
-                letter-spacing: 5px;
-                font-size: 15px;
-                margin-top: -20px;
-                padding-top: 10px;
-            }    
-            .valentinotext {
-               padding-top: 20px;
-            }
-            .double {
-                text-align: center;
-                margin: 3px;
-            }
-            .photo-container2-valentino {
-                margin-bottom: 3px;
-                margin-top: -2px;
-                width: 97%;
-            } 
-/* ////////// ATM */
-            .atm-image {
-                margin-top: 10px;
-                width: 100%;
-                height: 75vh;
-                border: 10px solid white;
-            }
-/* ////////// AMERICAN */
-            .american-image {
-                margin-top: 10px;
-                width: 100%;
-                height: 75vh;
-                border: 10px solid white;
-            }
-/* ////////// TRIENNALE UGO LA PIETRA */
-            .triennale-image {
-                margin-top: 10px;
-                width: 100%;
-                height: 75vh;
-                border: 10px solid white;
-            }
-/* ////////// GENTLETUDE ONLUS */
-            .gentletude-image {
-                margin-top: 10px;
-                width: 100%;
-                height: 75vh;
-                border: 10px solid white;
-                background-size: 1600px;
-            }
-            .double-gentletude {
-                text-align: center;
-                margin-top: 60px;
-            }
-/* ////////// ABOUT ////////// */
-            .about-image {
-                margin-top: 10px;
-                width: 100%;
-                height: 75vh;
-                border: 10px solid white;
-                background-size: 2300px;
-            }
-            .about-containers {
-                width: 92%;
-                margin: 2px auto;
-                margin-top: 30px;
-                display: block;
-            }
-            .professional {
-                width: 100%;
-                margin: 10px;
-                margin-right: 0px;
-                margin-top: 25px;
-            } 
-            .border {
-                padding-left: 0px;
-                border-left: 0px;
-            }        
-/* ////////// CONTACT ////////// */
-            .logo-pages {
-                width: 90px;
-            }
-            .contact-image {
-               margin-top: 10px;
-               width: 100%;
-               height: 75vh;
-               border: 10px solid white;
-            }
-            .title-up {
-                letter-spacing: 7px;
-                font-size: 55px;
-                padding-top: 10px;
-            }
-            .text-up {
-                margin-top: 20px;
-                font-size: 45px;
-                letter-spacing: 5px;
-                line-height: 40px;
-            }
-            .contact-detail {
-                width: 100%;
-            }
-            h3 {
-                font-size: 18px;
-            }
-            .subtitle-name {
-                font-size: 16px;
-            }
-            .contact-text {
-                font-size: 14px;
-            }
-            .say {
-                text-align: center;
-                font-size: 50px;
-                margin-top: 70px;
-            }
-
-            
-        
-}
-        
+        }
+        .frame-title {
+            margin-top: 0px;
+            text-align: center;
+        }
+        .title-nav {
+            font-size: 50px;
+            font-weight: 700;
+            margin: 10px auto;
+            margin-top: -15px;
+        }
+        h4 {
+            font-size: 15px;
+            font-weight: 300;
+        }
+        /* second section scroll over */
+        .second {
+            height: 1740px;
+        }
+        .instagram-title {
+            font-size: 20px;
+        }
+        .instagram-icon {
+            width: 30px;
+        }
+        .article-instagram {
+            margin-top: 40px;
+        }
+        .instagram-image {
+            width: 93%;
+            margin: 15px auto;
+            margin-top: 2px;
+        }
+        .insta-photo {
+            width: 100%;
+        }
+        /* rollover-effect on photos */
+        .roll-over {
+            height: 30%;
+        }
+        .title-rollover {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+        /* footer */
+        .footer-frame {
+            text-align: center;
+            display: block;
+            margin: 10px auto;
+            float: none;
+            margin-top: -10px;
+        }
+        .logo-footer {
+            width: 90px;
+            margin: 50px auto;
+        }
+        .contact {
+            margin: 0 auto;
+            margin-top: -25px;
+            margin-bottom: 40px;
+        }
+        .h3-footer {
+            font-size: 15px;
+            letter-spacing: 3px;
+        }
+        /* ////////// NAVIGATION ////////// */
+        nav {
+            text-align: center;
+        }
+        nav ul li {
+            font-size: 16px;
+            text-align: center;
+        }
+        /* ////////// WORKS PAGE ////////// */
+        .works-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 75vh;
+            border: 10px solid white;
+        }
+        .index-works {
+            margin-top: 30px;
+        }
+        .filters-works {
+            font-size: 16px;
+        }
+        .filters-works li {
+            margin: 10px;
+        }
+        .container-works {
+            width: 93%;
+            margin: 1px auto;
+            margin-top: 10px;
+        }
+        .photo-works {
+            position: relative;
+            width: 100%;
+            margin-top: 7px;
+            display: block;
+            margin: 2px auto;
+            overflow: hidden;
+        }
+        /* ////////// THINK MAGAZINE */
+        .think-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 75vh;
+            border: 10px solid white;
+            background-size: 1300px;
+        }
+        .work-containers {
+            width: 100%;
+            margin-top: -30px;
+            padding-left: 15px;
+            display: block;
+        }
+        .work {
+            margin-top: 75px;
+            width: 95%;
+        }
+        .two {
+            margin-left: 0px;
+            margin-top: -15px;
+            width: 95%;
+        }
+        .line {
+            margin-left: 0px;
+            margin-top: 35px;
+            width: 95%;
+        }
+        .photo1-container {
+            margin-top: 50px;
+        }
+        .photo-container {
+            width: 93%;
+            margin: 20px auto;
+            margin-top: -18px;
+        }
+        .hr-up {
+            width: 200px;
+            border: 1px solid dimgray;
+            margin-top: 80px;
+        }
+        .hr-down {
+            width: 30px;
+            border: 1px solid dimgray;
+            margin-bottom: 80px;
+        }
+        .text-decoration {
+            width: 93%;
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .mov {
+            width: 100%;
+            text-align: center;
+            margin: 20px auto;
+        }
+        /* ////////// IOP SAMSUNG */
+        .iop-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 75vh;
+            border: 10px solid white;
+            background-size: 1600px;
+        }
+        /* ////////// VALENTINO */
+        .valentino-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 75vh;
+            border: 10px solid white;
+        }
+        .title-up-valentino {
+            letter-spacing: 5px;
+            font-size: 35px;
+            margin-top: 50px;
+            padding-top: 10px;
+        }
+        .title-up-sub {
+            letter-spacing: 5px;
+            font-size: 15px;
+            margin-top: -20px;
+            padding-top: 10px;
+        }
+        .valentinotext {
+            padding-top: 20px;
+        }
+        .double {
+            text-align: center;
+            margin: 3px;
+        }
+        .photo-container2-valentino {
+            margin-bottom: 3px;
+            margin-top: -2px;
+            width: 97%;
+        }
+        /* ////////// ATM */
+        .atm-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 75vh;
+            border: 10px solid white;
+        }
+        /* ////////// AMERICAN */
+        .american-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 75vh;
+            border: 10px solid white;
+        }
+        /* ////////// TRIENNALE UGO LA PIETRA */
+        .triennale-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 75vh;
+            border: 10px solid white;
+        }
+        /* ////////// GENTLETUDE ONLUS */
+        .gentletude-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 75vh;
+            border: 10px solid white;
+            background-size: 1600px;
+        }
+        .double-gentletude {
+            text-align: center;
+            margin-top: 60px;
+        }
+        /* ////////// ABOUT ////////// */
+        .about-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 75vh;
+            border: 10px solid white;
+            background-size: 2300px;
+        }
+        .about-containers {
+            width: 92%;
+            margin: 2px auto;
+            margin-top: 30px;
+            display: block;
+        }
+        .professional {
+            width: 100%;
+            margin: 10px;
+            margin-right: 0px;
+            margin-top: 25px;
+        }
+        .border {
+            padding-left: 0px;
+            border-left: 0px;
+        }
+        /* ////////// CONTACT ////////// */
+        .logo-pages {
+            width: 90px;
+        }
+        .contact-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 75vh;
+            border: 10px solid white;
+        }
+        .title-up {
+            letter-spacing: 7px;
+            font-size: 55px;
+            padding-top: 10px;
+        }
+        .text-up {
+            margin-top: 20px;
+            font-size: 45px;
+            letter-spacing: 5px;
+            line-height: 40px;
+        }
+        .contact-detail {
+            width: 100%;
+        }
+        h3 {
+            font-size: 18px;
+        }
+        .subtitle-name {
+            font-size: 16px;
+        }
+        .contact-text {
+            font-size: 14px;
+        }
+        .say {
+            text-align: center;
+            font-size: 50px;
+            margin-top: 70px;
+        }
+    }
 
 
 
+    @media ( max-width: 361px) {
+        .logo-header {
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 5px;
+            margin-left: -75px;
+            width: 150px;
+        }
+        .logo-homepage {
+            width: 110px;
+        }
+        .frame-title {
+            margin-top: 0px;
+            text-align: center;
+        }
+        .title-nav {
+            font-size: 45px;
+            font-weight: 700;
+            margin: 10px auto;
+            margin-top: -15px;
+        }
+    }
+    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        @media ( max-width: 321px) {
-            .first {
+    @media ( max-width: 321px) {
+        .first {
             position: fixed;
             top: 0;
             left: 0;
@@ -1807,384 +1851,370 @@
             background-image: url(../links/background.jpg);
             background-size: cover;
             border: 10px solid white;
-
             display: flex;
             flex-flow: column;
             justify-content: center;
             align-items: center;
-            }
-
-            .logo-header {
-                text-align: center;
-                position: absolute;
-                left: 50%;
-                top: -10px;
-                margin-left: -75px;
-                width: 150px;
-            }
-
-            .logo-homepage {
-                width: 85px;
-            }
-            .frame-title {
-                margin-top: 10px;
-                text-align: center;
-            }
-            .title-nav {
-                font-size: 40px;
-                font-weight: 700;
-                margin: 10px auto;
-                margin-top: -15px;
-            }
-            .scroll {
-                text-align: center;
-                display: block;
-
-                position: absolute;
-                left: 50%;
-                bottom: 0px;
-                margin: 0;
-                margin-left:-60px;
-
-                width: 120px;
-            }
-            h4 {
-                font-size: 15px;
-                font-weight: 300;
-            }
-/* second section scroll over */
-            .second {
-                position: relative;
-                z-index: 1;
-                width: 100%;
-                height: 1525px;
-                margin-top: 100vh;
-                background: white;
-            }
-            .frame-instagram {
-                margin-top: 10px;
-            }
-            .instagram-title {
-                font-family: "Helvetica Neue";
-                font-size: 18px;
-            }
-            .instagram-icon {
-                width: 25px;
-            }
-            .article-instagram {
-                margin-top: 40px;
-                text-align: center;
-            }
-            .instagram-image {
-                width: 93%;
-                margin: 20px auto;
-                margin-top: 2px;
-            }
-            .insta-photo {
-                width: 100%;
-            }
-/* rollover-effect on photos */
-            .roll-over {
-                opacity: 1;
-                position: absolute;
-                top: auto;
-                width: 100%;
-                bottom: 0;
-                height: 30%;
-                background: rgba(19, 19, 20, 0.3);
-                transition: opacity 0.5s ease;
-            }
-            .title-rollover {
-                margin-top: 25px;
-                font-size: 15px;
-                letter-spacing: 3px;
-                font-weight: 300;
-                line-height: 18px;
-                color: white;
-            }
-            .line-rollover {
-                border: 0.5px solid white;
-                width: 100px;
-                margin-top: 5px;
-            }
-            .text-rollover {
-                display: none;
-                font-size: 14px;
-                color: white;
-                font-weight: 100;
-                letter-spacing: 5px;
-                line-height: 14px;
-            }
-            /* footer */
-            .footer-frame {
-                text-align: center;
-                display: block;
-                margin: 10px auto;
-                float: none;
-                margin-top: -10px;
-            }
-            .logo-footer {
-                width: 90px;
-                margin: 50px auto;
-            }
-            .contact {
-                margin: 0 auto;
-                margin-top: -25px;
-                margin-bottom: 40px;
-            }
-            .h3-footer {
-                font-family: "Helvetica Neue";
-                font-weight: 500;
-                font-size: 15px;
-                letter-spacing: 3px;
-            }
-            .footer-text {
-                font-family: "Helvetica Neue";
-                font-size: 15px;
-                color: black;
-                font-weight: 400;
-                letter-spacing: 2px;
-                text-decoration: none;
-            }
-/* ////////// NAVIGATION ////////// */
-            nav {
-                margin-top: 20px;
-            }
-
-            nav ul {
-                margin: 20px auto;
-            }
-
-            nav ul li {
-                font-size: 15px;
-                font-weight: 400;
-                margin-right: 5px;
-            }
-/* ////////// WORKS PAGE ////////// */
-            .works-image {
-                margin-top: 10px;
-                width: 100%;
-                height: 64vh;
-                border: 10px solid white;
-            }
-            .index-works {
-                margin-top: 30px;
-            }
-            .filters-works {
-                font-size: 16px;
-            }
-
-            .filters-works li {
-                margin: 10px;
-            }
-            .container-works {
-                width: 93%;
-                margin: 1px auto;
-                margin-top: 10px;
-            }
-            .photo-works {
-                position: relative;
-                width: 100%;
-                margin-top: 7px;
-                display: block;
-                margin: 2px auto;
-
-                overflow: hidden;
-            }      
-/* ////////// THINK MAGAZINE */
-            .think-image {
-              margin-top: 10px;
-              width: 100%;
-              height: 64vh;
-              border: 10px solid white;
-              background-size: 800px;
-            }
-            .work-containers {
-                width: 100%;
-                margin-top: -30px;
-                padding-left: 15px;
-                display: block;
-            }
-            .work {
-                margin-top: 75px;
-                width: 95%;
-            }
-            .two {
-                margin-left: 0px;
-                margin-top: -15px;
-                width: 95%;
-            }
-            .line {
-                margin-left: 0px;
-                margin-top: 35px;
-                width: 95%;
-            }    
-            .photo1-container {
-                margin-top: 50px;
-            }
-
-            .photo-container {
-                width: 93%;
-                margin: 20px auto;
-                margin-top: -18px;
-            }
-            .hr-up {
-                width: 200px;
-                border: 1px solid dimgray;
-                margin-top: 80px;
-            }
-            .hr-down {
-                width: 30px;
-                border: 1px solid dimgray;
-                margin-bottom: 80px;
-            }
-            .text-decoration {
-                width: 93%;
-                font-size: 30px;
-                line-height: 40px;
-            }    
-            .mov {
-                width: 100%;
-                text-align: center;
-                margin: 20px auto;
-            }   
-/* ////////// IOP SAMSUNG */
-            .iop-image {
-                  margin-top: 10px;
-                  width: 100%;
-                  height: 64vh;
-                  border: 10px solid white;
-            }
-/* ////////// VALENTINO */
-            .valentino-image {
-                 margin-top: 10px;
-                 width: 100%;
-                 height: 64vh;
-                 border: 10px solid white;
-            }
-            .title-up-valentino {
-                  letter-spacing: 5px;
-                  font-size: 35px;
-                  margin-top: 50px;
-                  padding-top: 10px;
-            }
-            .title-up-sub {
-                 letter-spacing: 5px;
-                 font-size: 15px;
-                 margin-top: -20px;
-                 padding-top: 10px;
-            }    
-            .valentinotext {
-               padding-top: 20px;
-            }
-            .double {
-                text-align: center;
-                margin: 3px;
-            }
-            .photo-container2-valentino {
-                margin-bottom: 3px;
-                margin-top: -2px;
-                width: 97%;
-            } 
-/* ////////// ATM */
-            .atm-image {
-               margin-top: 10px;
-               width: 100%;
-               height: 64vh;
-               border: 10px solid white;
-            }
-/* ////////// AMERICAN */
-            .american-image {
-                margin-top: 10px;
-                width: 100%;
-                height: 64vh;
-                border: 10px solid white;
-            }
-/* ////////// TRIENNALE UGO LA PIETRA */
-            .triennale-image {
-                 margin-top: 10px;
-                 width: 100%;
-                 height: 64vh;
-                 border: 10px solid white;
-            }
-/* ////////// GENTLETUDE ONLUS */
-            .gentletude-image {
-                margin-top: 10px;
-                width: 100%;
-                height: 64vh;
-                border: 10px solid white;
-            }
-            .double-gentletude {
-                text-align: center;
-                margin-top: 60px;
-            }
-/* ////////// ABOUT ////////// */
-            .about-image {
-                margin-top: 10px;
-                width: 100%;
-                height: 64vh;
-                border: 10px solid white;
-            }
-            .about-containers {
-                width: 92%;
-                margin: 2px auto;
-                margin-top: 30px;
-                display: block;
-            }
-            .professional {
-                width: 100%;
-                margin: 10px;
-                margin-right: 0px;
-                margin-top: 25px;
-            } 
-            .border {
-               padding-left: 0px;
-               border-left: 0px;
-            }        
-/* ////////// CONTACT ////////// */
-            .logo-pages {
-                width: 80px;
-                margin-top: 30px;
-            }
-            .contact-image {
-                margin-top: 10px;
-                width: 100%;
-                height: 69vh;
-                border: 10px solid white;
-            }
-            .title-up {
-                letter-spacing: 5px;
-                font-size: 45px;
-                margin-top: 50px;
-                padding-top: 10px;
-            }
-            .text-up {
-                margin-top: 20px;
-                text-align: center;
-                font-size: 30px;
-                letter-spacing: 3px;
-                line-height: 35px;
-                width: 80%;
-            }
-            .contact-detail {
-                width: 100%;
-            }
-            h3 {
-                font-size: 18px;
-            }
-            .subtitle-name {
-                font-size: 16px;
-            }
-            .contact-text {
-                font-size: 14px;
-            }
-            .say {
-                text-align: center;
-                font-size: 50px;
-                margin-top: 70px;
-            }
-
-            
-            
-            
         }
+        .logo-header {
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 5px;
+            margin-left: -75px;
+            width: 150px;
+        }
+        .logo-homepage {
+            width: 95px;
+        }
+        .frame-title {
+            margin-top: 0px;
+            text-align: center;
+        }
+        .title-nav {
+            font-size: 40px;
+            font-weight: 700;
+            margin: 10px auto;
+            margin-top: -15px;
+        }
+        .scroll {
+            text-align: center;
+            display: block;
+            position: absolute;
+            left: 50%;
+            bottom: 0px;
+            margin: 0;
+            margin-left: -60px;
+            width: 120px;
+        }
+        h4 {
+            font-size: 15px;
+            font-weight: 300;
+        }
+        /* second section scroll over */
+        .second {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            height: 1525px;
+            margin-top: 100vh;
+            background: white;
+        }
+        .frame-instagram {
+            margin-top: 10px;
+        }
+        .instagram-title {
+            font-family: "Helvetica Neue";
+            font-size: 18px;
+        }
+        .instagram-icon {
+            width: 25px;
+        }
+        .article-instagram {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .instagram-image {
+            width: 93%;
+            margin: 20px auto;
+            margin-top: 2px;
+        }
+        .insta-photo {
+            width: 100%;
+        }
+        /* rollover-effect on photos */
+        .roll-over {
+            opacity: 1;
+            position: absolute;
+            top: auto;
+            width: 100%;
+            bottom: 0;
+            height: 30%;
+            background: rgba(19, 19, 20, 0.3);
+            transition: opacity 0.5s ease;
+        }
+        .title-rollover {
+            margin-top: 25px;
+            font-size: 15px;
+            letter-spacing: 3px;
+            font-weight: 300;
+            line-height: 18px;
+            color: white;
+        }
+        .line-rollover {
+            border: 0.5px solid white;
+            width: 100px;
+            margin-top: 5px;
+        }
+        .text-rollover {
+            display: none;
+            font-size: 14px;
+            color: white;
+            font-weight: 100;
+            letter-spacing: 5px;
+            line-height: 14px;
+        }
+        /* footer */
+        .footer-frame {
+            text-align: center;
+            display: block;
+            margin: 10px auto;
+            float: none;
+            margin-top: -10px;
+        }
+        .logo-footer {
+            width: 90px;
+            margin: 50px auto;
+        }
+        .contact {
+            margin: 0 auto;
+            margin-top: -25px;
+            margin-bottom: 40px;
+        }
+        .h3-footer {
+            font-family: "Helvetica Neue";
+            font-weight: 500;
+            font-size: 15px;
+            letter-spacing: 3px;
+        }
+        .footer-text {
+            font-family: "Helvetica Neue";
+            font-size: 15px;
+            color: black;
+            font-weight: 400;
+            letter-spacing: 2px;
+            text-decoration: none;
+        }
+        /* ////////// NAVIGATION ////////// */
+        nav {
+            margin-top: 20px;
+        }
+        nav ul {
+            margin: 20px auto;
+        }
+        nav ul li {
+            font-size: 15px;
+            font-weight: 400;
+            margin-right: 5px;
+        }
+        /* ////////// WORKS PAGE ////////// */
+        .works-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 64vh;
+            border: 10px solid white;
+        }
+        .index-works {
+            margin-top: 30px;
+        }
+        .filters-works {
+            font-size: 16px;
+        }
+        .filters-works li {
+            margin: 10px;
+        }
+        .container-works {
+            width: 93%;
+            margin: 1px auto;
+            margin-top: 10px;
+        }
+        .photo-works {
+            position: relative;
+            width: 100%;
+            margin-top: 7px;
+            display: block;
+            margin: 2px auto;
+            overflow: hidden;
+        }
+        /* ////////// THINK MAGAZINE */
+        .think-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 64vh;
+            border: 10px solid white;
+            background-size: 800px;
+        }
+        .work-containers {
+            width: 100%;
+            margin-top: -30px;
+            padding-left: 15px;
+            display: block;
+        }
+        .work {
+            margin-top: 75px;
+            width: 95%;
+        }
+        .two {
+            margin-left: 0px;
+            margin-top: -15px;
+            width: 95%;
+        }
+        .line {
+            margin-left: 0px;
+            margin-top: 35px;
+            width: 95%;
+        }
+        .photo1-container {
+            margin-top: 50px;
+        }
+        .photo-container {
+            width: 93%;
+            margin: 20px auto;
+            margin-top: -18px;
+        }
+        .hr-up {
+            width: 200px;
+            border: 1px solid dimgray;
+            margin-top: 80px;
+        }
+        .hr-down {
+            width: 30px;
+            border: 1px solid dimgray;
+            margin-bottom: 80px;
+        }
+        .text-decoration {
+            width: 93%;
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .mov {
+            width: 100%;
+            text-align: center;
+            margin: 20px auto;
+        }
+        /* ////////// IOP SAMSUNG */
+        .iop-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 64vh;
+            border: 10px solid white;
+        }
+        /* ////////// VALENTINO */
+        .valentino-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 64vh;
+            border: 10px solid white;
+        }
+        .title-up-valentino {
+            letter-spacing: 5px;
+            font-size: 35px;
+            margin-top: 50px;
+            padding-top: 10px;
+        }
+        .title-up-sub {
+            letter-spacing: 5px;
+            font-size: 15px;
+            margin-top: -20px;
+            padding-top: 10px;
+        }
+        .valentinotext {
+            padding-top: 20px;
+        }
+        .double {
+            text-align: center;
+            margin: 3px;
+        }
+        .photo-container2-valentino {
+            margin-bottom: 3px;
+            margin-top: -2px;
+            width: 97%;
+        }
+        /* ////////// ATM */
+        .atm-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 64vh;
+            border: 10px solid white;
+        }
+        /* ////////// AMERICAN */
+        .american-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 64vh;
+            border: 10px solid white;
+        }
+        /* ////////// TRIENNALE UGO LA PIETRA */
+        .triennale-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 64vh;
+            border: 10px solid white;
+        }
+        /* ////////// GENTLETUDE ONLUS */
+        .gentletude-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 64vh;
+            border: 10px solid white;
+        }
+        .double-gentletude {
+            text-align: center;
+            margin-top: 60px;
+        }
+        /* ////////// ABOUT ////////// */
+        .about-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 64vh;
+            border: 10px solid white;
+        }
+        .about-containers {
+            width: 92%;
+            margin: 2px auto;
+            margin-top: 30px;
+            display: block;
+        }
+        .professional {
+            width: 100%;
+            margin: 10px;
+            margin-right: 0px;
+            margin-top: 25px;
+        }
+        .border {
+            padding-left: 0px;
+            border-left: 0px;
+        }
+        /* ////////// CONTACT ////////// */
+        .logo-pages {
+            width: 80px;
+            margin-top: 30px;
+        }
+        .contact-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 69vh;
+            border: 10px solid white;
+        }
+        .title-up {
+            letter-spacing: 5px;
+            font-size: 45px;
+            margin-top: 50px;
+            padding-top: 10px;
+        }
+        .text-up {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 30px;
+            letter-spacing: 3px;
+            line-height: 35px;
+            width: 80%;
+        }
+        .contact-detail {
+            width: 100%;
+        }
+        h3 {
+            font-size: 18px;
+        }
+        .subtitle-name {
+            font-size: 16px;
+        }
+        .contact-text {
+            font-size: 14px;
+        }
+        .say {
+            text-align: center;
+            font-size: 50px;
+            margin-top: 70px;
+        }
+    }
