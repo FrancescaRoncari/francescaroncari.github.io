@@ -2136,7 +2136,28 @@
         }
     }
     
-    @media ( max-width: 361px) {
+@media ( max-width: 376px) {
+     nav {
+            text-align: center;
+            width: 90%;
+            padding-top: 15px;
+            margin: 10px auto;
+            
+        }
+        ul {
+            width: 90%;
+            margin: 0 auto;
+        }
+        nav ul li {
+            font-size: 16px;
+            text-align: center;
+            margin: 0;
+        }
+    
+}
+        
+        
+        @media ( max-width: 361px) {
         /* ////////// NAVIGATION ////////// */
         nav {
             text-align: center;
