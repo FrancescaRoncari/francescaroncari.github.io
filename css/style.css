@@ -9,12 +9,12 @@
         font-weight: normal;
         font-style: normal;
     }
-    /*
+
 @font-face {
-        font-family: "Helvetica Neue";
+        font-family: "Helvetica Neue Bold";
         src: local('?'), url('HelveticaNeue-Medium.woff') format('woff');
     }
-*/
+
     /* ////////// HOMEPAGE ////////// */
     
     body {
@@ -60,7 +60,7 @@
         display: inline-block;
         margin: 70px;
         width: 20%;
-        font-family: "Helvetica Neue";
+        font-family: "Helvetica Neue Bold";
         font-size: 80px;
         font-weight: 700;
         letter-spacing: 10px;
@@ -174,7 +174,7 @@
     }
     
     .h3-footer {
-        font-family: "Helvetica Neue";
+        font-family: "Helvetica Neue Bold";
         font-weight: 500;
         font-size: 16px;
         letter-spacing: 3px;
@@ -506,7 +506,7 @@
     .title-up-valentino {
         text-align: center;
         color: white;
-        font-family: "Helvetica Neue";
+        font-family: "Helvetica Neue Bold";
         letter-spacing: 7px;
         font-size: 50px;
         font-weight: 500;
@@ -517,7 +517,7 @@
     .title-up-sub {
         text-align: center;
         color: white;
-        font-family: "Helvetica Neue";
+        font-family: "Helvetica Neue Bold";
         letter-spacing: 5px;
         font-size: 30px;
         font-weight: 400;
