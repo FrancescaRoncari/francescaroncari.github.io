@@ -507,7 +507,7 @@
     .title-up-valentino {
         text-align: center;
         color: white;
-        font-family: "Helvetica Neue Bold";
+        font-family: "Helvetica Neue";
         letter-spacing: 7px;
         font-size: 50px;
         font-weight: 500;
@@ -518,7 +518,7 @@
     .title-up-sub {
         text-align: center;
         color: white;
-        font-family: "Helvetica Neue Bold";
+        font-family: "Helvetica Neue";
         letter-spacing: 5px;
         font-size: 30px;
         font-weight: 400;
@@ -1501,6 +1501,7 @@
             margin: 10px auto;
             margin-top: -15px;
         }
+        
     }
   
 
@@ -1596,7 +1597,7 @@
         .works-image {
             margin-top: 10px;
             width: 100%;
-            height: 75vh;
+            height: 76vh;
             border: 10px solid white;
         }
         .index-works {
@@ -1625,7 +1626,7 @@
         .think-image {
             margin-top: 10px;
             width: 100%;
-            height: 75vh;
+            height: 76vh;
             border: 10px solid white;
             background-size: 1300px;
         }
@@ -1681,7 +1682,7 @@
         .iop-image {
             margin-top: 10px;
             width: 100%;
-            height: 75vh;
+            height: 76vh;
             border: 10px solid white;
             background-size: 1600px;
         }
@@ -1689,7 +1690,7 @@
         .valentino-image {
             margin-top: 10px;
             width: 100%;
-            height: 75vh;
+            height: 76vh;
             border: 10px solid white;
         }
         .title-up-valentino {
@@ -1720,14 +1721,14 @@
         .atm-image {
             margin-top: 10px;
             width: 100%;
-            height: 75vh;
+            height: 76vh;
             border: 10px solid white;
         }
         /* ////////// AMERICAN */
         .american-image {
             margin-top: 10px;
             width: 100%;
-            height: 75vh;
+            height: 76vh;
             border: 10px solid white;
         }
         /* ////////// TRIENNALE UGO LA PIETRA */
@@ -1741,7 +1742,7 @@
         .gentletude-image {
             margin-top: 10px;
             width: 100%;
-            height: 75vh;
+            height: 76vh;
             border: 10px solid white;
             background-size: 1600px;
         }
@@ -1753,9 +1754,14 @@
         .about-image {
             margin-top: 10px;
             width: 100%;
-            height: 75vh;
+            height: 76vh;
             border: 10px solid white;
-            background-size: 2300px;
+            background-size: 2350px;
+            
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
         }
         .about-containers {
             width: 92%;
@@ -1780,20 +1786,31 @@
         .contact-image {
             margin-top: 10px;
             width: 100%;
-            height: 75vh;
+            height: 76vh;
             border: 10px solid white;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
         }
         .title-up {
             letter-spacing: 7px;
             font-size: 55px;
             padding-top: 10px;
+            line-height: 55px;
         }
-        .text-up {
-            margin-top: 20px;
-            font-size: 45px;
-            letter-spacing: 5px;
-            line-height: 40px;
-        }
+       .text-up {
+        width: 90%;
+        margin: 2px auto;
+            
+        text-align: center;
+        font-family: "Jellyka Saint-Andrew's Queen";
+        font-size: 40px;
+        color: white;
+        font-weight: 100;
+        letter-spacing: 5px;
+        line-height: 40px;
+    }
         .contact-detail {
             width: 100%;
         }
@@ -1836,6 +1853,87 @@
             font-weight: 700;
             margin: 10px auto;
             margin-top: -15px;
+        }
+        .title-up {
+            letter-spacing: 5px;
+            font-size: 45px;
+            margin-top: 50px;
+            padding-top: 10px;
+            line-height: 50px;
+        }
+        .text-up {
+            width: 90%;
+            margin: 2px auto;
+
+            text-align: center;
+            font-family: "Jellyka Saint-Andrew's Queen";
+            font-size: 35px;
+            color: white;
+            font-weight: 100;
+            letter-spacing: 5px;
+            line-height: 35px;
+        }
+        .works-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 73vh;
+            border: 10px solid white;
+        }
+        .think-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 73vh;
+            border: 10px solid white;
+            background-size: 800px;
+        }
+        .iop-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 73vh;
+            border: 10px solid white;
+        }
+        .valentino-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 73vh;
+            border: 10px solid white;
+        }
+        .atm-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 73vh;
+            border: 10px solid white;
+        }
+        .american-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 73vh;
+            border: 10px solid white;
+        }
+        .triennale-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 73vh;
+            border: 10px solid white;
+        }
+        .gentletude-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 73vh;
+            border: 10px solid white;
+        }
+        .about-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 73vh;
+            border: 10px solid white;
+            background-size: 1950px;
+        }
+        .contact-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 73vh;
+            border: 10px solid white;
         }
     }
     
@@ -2002,7 +2100,7 @@
         .works-image {
             margin-top: 10px;
             width: 100%;
-            height: 64vh;
+            height: 69vh;
             border: 10px solid white;
         }
         .index-works {
@@ -2031,7 +2129,7 @@
         .think-image {
             margin-top: 10px;
             width: 100%;
-            height: 64vh;
+            height: 69vh;
             border: 10px solid white;
             background-size: 800px;
         }
@@ -2087,17 +2185,18 @@
         .iop-image {
             margin-top: 10px;
             width: 100%;
-            height: 64vh;
+            height: 69vh;
             border: 10px solid white;
         }
         /* ////////// VALENTINO */
         .valentino-image {
             margin-top: 10px;
             width: 100%;
-            height: 64vh;
+            height: 69vh;
             border: 10px solid white;
         }
         .title-up-valentino {
+            fon
             letter-spacing: 5px;
             font-size: 35px;
             margin-top: 50px;
@@ -2125,28 +2224,28 @@
         .atm-image {
             margin-top: 10px;
             width: 100%;
-            height: 64vh;
+            height: 69vh;
             border: 10px solid white;
         }
         /* ////////// AMERICAN */
         .american-image {
             margin-top: 10px;
             width: 100%;
-            height: 64vh;
+            height: 69vh;
             border: 10px solid white;
         }
         /* ////////// TRIENNALE UGO LA PIETRA */
         .triennale-image {
             margin-top: 10px;
             width: 100%;
-            height: 64vh;
+            height: 69vh;
             border: 10px solid white;
         }
         /* ////////// GENTLETUDE ONLUS */
         .gentletude-image {
             margin-top: 10px;
             width: 100%;
-            height: 64vh;
+            height: 69vh;
             border: 10px solid white;
         }
         .double-gentletude {
@@ -2157,8 +2256,9 @@
         .about-image {
             margin-top: 10px;
             width: 100%;
-            height: 64vh;
+            height: 69vh;
             border: 10px solid white;
+            background-size: 1700px;
         }
         .about-containers {
             width: 92%;
@@ -2192,15 +2292,20 @@
             font-size: 45px;
             margin-top: 50px;
             padding-top: 10px;
+            line-height: 50px;
         }
         .text-up {
-            margin-top: 20px;
-            text-align: center;
-            font-size: 30px;
-            letter-spacing: 3px;
-            line-height: 35px;
-            width: 80%;
-        }
+        width: 90%;
+        margin: 2px auto;
+            
+        text-align: center;
+        font-family: "Jellyka Saint-Andrew's Queen";
+        font-size: 30px;
+        color: white;
+        font-weight: 100;
+        letter-spacing: 5px;
+        line-height: 30px;
+    }
         .contact-detail {
             width: 100%;
         }
