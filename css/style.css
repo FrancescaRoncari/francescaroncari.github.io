@@ -10,11 +10,12 @@
         font-style: normal;
     }
 
+/*
 @font-face {
         font-family: "Helvetica Neue Bold";
         src: local('?'), url('HelveticaNeue-Medium.woff') format('woff');
     }
-
+*/
     /* ////////// HOMEPAGE ////////// */
     
     body {
@@ -60,7 +61,7 @@
         display: inline-block;
         margin: 70px;
         width: 20%;
-        font-family: "Helvetica Neue Bold";
+        font-family: "Helvetica Neue";
         font-size: 80px;
         font-weight: 700;
         letter-spacing: 10px;
@@ -174,7 +175,7 @@
     }
     
     .h3-footer {
-        font-family: "Helvetica Neue Bold";
+        font-family: "Helvetica Neue";
         font-weight: 500;
         font-size: 16px;
         letter-spacing: 3px;
