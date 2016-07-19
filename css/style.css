@@ -202,6 +202,11 @@
         width: 100%;
         height: 100%;
         transition: opacity 0.5s ease;
+        
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
     }
     
     .roll-over:hover {
@@ -215,7 +220,6 @@
         letter-spacing: 3px;
         font-weight: 300;
         line-height: 25px;
-        margin-top: 195px;
         color: white;
     }
     
@@ -305,7 +309,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
-        
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -370,7 +373,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
-        
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -478,7 +480,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
-        
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -506,8 +507,8 @@
     .image-think {
         width: 100%;
     }
-
     /* ////////// VALENTINO */
+    
     .valentino-image {
         width: 100%;
         margin-top: 45px;
@@ -516,7 +517,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
-        
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -573,7 +573,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
-        
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -589,7 +588,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
-        
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -605,7 +603,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
-        
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -621,7 +618,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
-        
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -646,7 +642,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
-        
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -739,7 +734,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
-        
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -809,12 +803,9 @@
     
     .say a {
         color: black;
-        
-        
-        
-        
     }
     /* --- MEDIA QUERIES --- */
+    
     @media ( min-width: 1920px) {
         .logo-header {
             text-align: center;
@@ -834,14 +825,12 @@
             margin: 90px;
             font-size: 90px;
         }
-        .title-rollover {
-            margin-top: 230px;
-        }
-        
+
         .work-containers {
             width: 83%;
         }
     }
+    
     @media ( max-width: 1601px) {
         .logo-header {
             text-align: center;
@@ -884,11 +873,8 @@
             margin: 55px;
             font-size: 70px;
         }
-        .title-rollover {
-            margin-top: 160px;
-        }
+      
         /* ////////// WORKS ////////// */
-    
         .work-containers {
             width: 87%;
         }
@@ -965,7 +951,6 @@
         }
         /* rollover-effect on photos */
         .title-rollover {
-            margin-top: 130px;
             font-size: 15px;
         }
         .line-rollover {
@@ -995,7 +980,6 @@
             margin-top: 10px;
             text-align: center;
         }
-       
         .text-up {
             font-size: 35px;
             line-height: 43px;
@@ -1054,7 +1038,6 @@
         .valentino-image {
             margin-top: 25px;
         }
-      
         .info-title-2 {
             font-size: 13px;
         }
@@ -1140,6 +1123,9 @@
         .frame-title {
             text-align: center;
             margin-top: 40px;
+        }
+        .text-rollover {
+            font-size: 30px;
         }
         .title-nav {
             display: inline-block;
@@ -1561,7 +1547,6 @@
             width: 80%;
             padding-top: 15px;
             margin: 10px auto;
-            
         }
         ul {
             width: 90%;
@@ -1737,7 +1722,6 @@
             height: 77vh;
             border: 10px solid white;
             background-size: 2500px;
-           
         }
         .about-containers {
             width: 92%;
@@ -1785,14 +1769,12 @@
     }
     
     @media ( max-width: 415px) {
-        
         /* ////////// NAVIGATION ////////// */
         nav {
             text-align: center;
             width: 80%;
             padding-top: 15px;
             margin: 10px auto;
-            
         }
         ul {
             width: 90%;
@@ -2082,7 +2064,6 @@
             height: 76vh;
             border: 10px solid white;
         }
-        
         .contact-detail {
             width: 100%;
         }
@@ -2102,13 +2083,12 @@
         }
     }
     
-@media ( max-width: 376px) {
-     nav {
+    @media ( max-width: 376px) {
+        nav {
             text-align: center;
             width: 90%;
             padding-top: 15px;
             margin: 10px auto;
-            
         }
         ul {
             width: 90%;
@@ -2119,18 +2099,15 @@
             text-align: center;
             margin: 0;
         }
+    }
     
-}
-        
-        
-        @media ( max-width: 361px) {
+    @media ( max-width: 361px) {
         /* ////////// NAVIGATION ////////// */
         nav {
             text-align: center;
             width: 90%;
             padding-top: 15px;
             margin: 10px auto;
-            
         }
         ul {
             width: 90%;
@@ -2259,7 +2236,6 @@
             text-align: center;
             margin: 0;
         }
-        
         .first {
             position: fixed;
             top: 0;
@@ -2404,7 +2380,6 @@
             letter-spacing: 2px;
             text-decoration: none;
         }
-       
         /* ////////// WORKS PAGE ////////// */
         .works-image {
             margin-top: 10px;
@@ -2594,7 +2569,6 @@
             height: 69vh;
             border: 10px solid white;
         }
-      
         .contact-detail {
             width: 100%;
         }
