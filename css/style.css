@@ -888,9 +888,7 @@
             margin-top: 160px;
         }
         /* ////////// WORKS ////////// */
-        .title-up {
-            margin-top: 80px;
-        }
+    
         .work-containers {
             width: 87%;
         }
@@ -997,9 +995,7 @@
             margin-top: 10px;
             text-align: center;
         }
-        .title-up {
-            margin-top: 55px;
-        }
+       
         .text-up {
             font-size: 35px;
             line-height: 43px;
@@ -1058,9 +1054,7 @@
         .valentino-image {
             margin-top: 25px;
         }
-        .title-up-valentino {
-            margin-top: 60px;
-        }
+      
         .info-title-2 {
             font-size: 13px;
         }
@@ -1212,7 +1206,6 @@
         .about-containers {
             width: 85%;
             margin: 2px auto;
-            margin-top: 30px;
             display: block;
         }
         .professional {
@@ -1322,10 +1315,6 @@
             margin-top: 7px;
             display: inline-block;
             overflow: hidden;
-        }
-        .title-up {
-            letter-spacing: 7px;
-            font-size: 55px;
         }
         .photo-works:hover .work-image {
             transform: scale(1.1, 1.1);
@@ -1682,7 +1671,6 @@
             width: 100%;
             height: 77vh;
             border: 10px solid white;
-            display: flex;
         }
         .title-up-valentino {
             letter-spacing: 5px;
@@ -1715,7 +1703,6 @@
             width: 100%;
             height: 77vh;
             border: 10px solid white;
-          
         }
         /* ////////// AMERICAN */
         .american-image {
@@ -1723,7 +1710,6 @@
             width: 100%;
             height: 77vh;
             border: 10px solid white;
-            
         }
         /* ////////// TRIENNALE UGO LA PIETRA */
         .triennale-image {
@@ -1731,7 +1717,6 @@
             width: 100%;
             height: 77vh;
             border: 10px solid white;
-            
         }
         /* ////////// GENTLETUDE ONLUS */
         .gentletude-image {
@@ -1740,7 +1725,6 @@
             height: 77vh;
             border: 10px solid white;
             background-size: 1600px;
-            
         }
         .double-gentletude {
             text-align: center;
@@ -1780,24 +1764,6 @@
             width: 100%;
             height: 77vh;
             border: 10px solid white;
-            
-        }
-        .title-up {
-            letter-spacing: 7px;
-            font-size: 50px;
-            padding-top: 10px;
-            line-height: 55px;
-        }
-        .text-up {
-            width: 90%;
-            margin: 2px auto;
-            text-align: center;
-            font-family: "Jellyka Saint-Andrew's Queen";
-            font-size: 40px;
-            color: white;
-            font-weight: 100;
-            letter-spacing: 5px;
-            line-height: 40px;
         }
         .contact-detail {
             width: 100%;
@@ -2025,15 +1991,17 @@
         }
         .title-up-valentino {
             letter-spacing: 5px;
-            font-size: 35px;
+            font-size: 40px;
             margin-top: 50px;
             padding-top: 10px;
+            line-height: 50px;
         }
         .title-up-sub {
             letter-spacing: 5px;
             font-size: 15px;
             margin-top: -20px;
             padding-top: 10px;
+            line-height: 5px;
         }
         .valentinotext {
             padding-top: 20px;
@@ -2114,23 +2082,7 @@
             height: 76vh;
             border: 10px solid white;
         }
-        .title-up {
-            letter-spacing: 7px;
-            font-size: 55px;
-            padding-top: 10px;
-            line-height: 55px;
-        }
-        .text-up {
-            width: 90%;
-            margin: 2px auto;
-            text-align: center;
-            font-family: "Jellyka Saint-Andrew's Queen";
-            font-size: 40px;
-            color: white;
-            font-weight: 100;
-            letter-spacing: 5px;
-            line-height: 40px;
-        }
+        
         .contact-detail {
             width: 100%;
         }
@@ -2189,8 +2141,6 @@
             text-align: center;
             margin: 0;
         }
-      
-        
         .logo-header {
             text-align: center;
             position: absolute;
@@ -2215,7 +2165,6 @@
         .title-up {
             letter-spacing: 5px;
             font-size: 45px;
-            margin-top: 50px;
             padding-top: 10px;
             line-height: 50px;
         }
@@ -2300,7 +2249,6 @@
             width: 99%;
             padding-top: 15px;
             margin: 10px auto;
-            
         }
         ul {
             width: 90%;
@@ -2468,10 +2416,10 @@
             margin-top: 30px;
         }
         .filters-works {
-            font-size: 16px;
+            font-size: 15px;
         }
         .filters-works li {
-            margin: 10px;
+            margin: 5px;
         }
         .container-works {
             width: 93%;
@@ -2559,14 +2507,13 @@
         .title-up-valentino {
             fon letter-spacing: 5px;
             font-size: 35px;
-            margin-top: 50px;
             padding-top: 10px;
         }
         .title-up-sub {
             letter-spacing: 5px;
             font-size: 15px;
-            margin-top: -20px;
             padding-top: 10px;
+            line-height: 20px;
         }
         .valentinotext {
             padding-top: 20px;
@@ -2647,24 +2594,7 @@
             height: 69vh;
             border: 10px solid white;
         }
-        .title-up {
-            letter-spacing: 5px;
-            font-size: 45px;
-            margin-top: 50px;
-            padding-top: 10px;
-            line-height: 50px;
-        }
-        .text-up {
-            width: 90%;
-            margin: 2px auto;
-            text-align: center;
-            font-family: "Jellyka Saint-Andrew's Queen";
-            font-size: 30px;
-            color: white;
-            font-weight: 100;
-            letter-spacing: 5px;
-            line-height: 30px;
-        }
+      
         .contact-detail {
             width: 100%;
         }
