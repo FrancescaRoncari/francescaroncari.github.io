@@ -32,10 +32,17 @@
         background-image: url(../links/background.jpg);
         background-size: cover;
         border: 25px solid white;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        -ms-flex-flow: column;
+            flex-flow: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     
     .logo-header {
@@ -141,11 +148,13 @@
     }
     
     .instagram-image:hover .insta-photo {
-        transform: scale(1.1, 1.1);
+        -webkit-transform: scale(1.1, 1.1);
+                transform: scale(1.1, 1.1);
     }
     
     .insta-photo {
         width: 100%;
+        -webkit-transition: all 0.8s ease-in-out;
         transition: all 0.8s ease-in-out;
     }
     /* ////////// FOOTER ////////// */
@@ -156,6 +165,8 @@
     }
     
     .footer-frame {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         float: right;
         margin-top: 90px;
@@ -201,12 +212,22 @@
         top: 0;
         width: 100%;
         height: 100%;
+        -webkit-transition: opacity 0.5s ease;
         transition: opacity 0.5s ease;
         
+        display: -webkit-box;
+        
+        display: -ms-flexbox;
+        
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        -ms-flex-flow: column;
+            flex-flow: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     
     .roll-over:hover {
@@ -309,10 +330,17 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        -ms-flex-flow: column;
+            flex-flow: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     
     .index-works {
@@ -356,11 +384,13 @@
     }
     
     .photo-works:hover .work-image {
-        transform: scale(1.1, 1.1);
+        -webkit-transform: scale(1.1, 1.1);
+                transform: scale(1.1, 1.1);
     }
     
     .work-image {
         width: 100%;
+        -webkit-transition: all 0.8s ease-in-out;
         transition: all 0.8s ease-in-out;
     }
     /* ////////// THINK MAGAZINE */
@@ -373,21 +403,33 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        -ms-flex-flow: column;
+            flex-flow: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     
     .work-containers {
         padding-left: 130px;
         width: 85%;
         margin: 20px auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     
     .work {
-        align-items: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                    -ms-grid-row-align: flex-start;
+                align-items: flex-start;
         display: inline-block;
         margin-top: 75px;
         margin-right: 20px;
@@ -395,7 +437,10 @@
     }
     
     .two {
-        align-items: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                    -ms-grid-row-align: flex-start;
+                align-items: flex-start;
         display: inline-block;
         margin-left: 40px;
         padding-top: 25px;
@@ -480,10 +525,17 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        -ms-flex-flow: column;
+            flex-flow: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     
     .photo1-container {
@@ -517,10 +569,17 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        -ms-flex-flow: column;
+            flex-flow: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     
     .title-up-valentino {
@@ -573,10 +632,17 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        -ms-flex-flow: column;
+            flex-flow: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     /* ////////// AMERICAN */
     
@@ -588,10 +654,17 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        -ms-flex-flow: column;
+            flex-flow: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     /* ////////// TRIENNALE UGO LA PIETRA */
     
@@ -603,10 +676,17 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        -ms-flex-flow: column;
+            flex-flow: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     /* ////////// GENTLETUDE ONLUS */
     
@@ -618,10 +698,17 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        -ms-flex-flow: column;
+            flex-flow: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     
     .double-gentletude {
@@ -642,10 +729,17 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        -ms-flex-flow: column;
+            flex-flow: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     
     .about-containers {
@@ -697,20 +791,24 @@
     }
     
     .skill {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     
     .skill1 {
         width: 40%;
         display: inline-block;
-        align-content: flex-start;
+        -ms-flex-line-pack: start;
+            align-content: flex-start;
     }
     
     .skill1-2 {
         margin-top: 46px;
         width: 40%;
         display: inline-block;
-        align-content: flex-start;
+        -ms-flex-line-pack: start;
+            align-content: flex-start;
     }
     
     .personal {
@@ -734,10 +832,17 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        -ms-flex-flow: column;
+            flex-flow: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     
     .title-up {
@@ -1301,10 +1406,12 @@
             overflow: hidden;
         }
         .photo-works:hover .work-image {
-            transform: scale(1.1, 1.1);
+            -webkit-transform: scale(1.1, 1.1);
+                    transform: scale(1.1, 1.1);
         }
         .work-image {
             width: 100%;
+            -webkit-transition: all 0.8s ease-in-out;
             transition: all 0.8s ease-in-out;
         }
         /* ////////// THINK MAGAZINE */
@@ -1539,11 +1646,37 @@
             letter-spacing: 3px;
         }
         /* ////////// NAVIGATION ////////// */
+        
+        header {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-flow: column;
+                flex-flow: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+        }
+        
+        .logo-pages {
+            -webkit-box-ordinal-group:0;
+                -ms-flex-order:-1;
+                    order:-1;
+            margin-top: 10px;
+        }
+        
         nav {
             text-align: center;
             width: 80%;
             padding-top: 15px;
+            padding-bottom: 20px;
             margin: 10px auto;
+            
+            -webkit-box-ordinal-group: 2;
+            
+                -ms-flex-order: 1;
+            
+                    order: 1;
         }
         ul {
             width: 90%;
@@ -1555,10 +1688,16 @@
             margin: 0;
         }
         /* ////////// WORKS PAGE ////////// */
+        .title-up {
+            line-height: 50px;
+        }
+        .text-up {
+            width: 90%;
+        }
         .works-image {
             margin-top: 10px;
             width: 100%;
-            height: 77vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .index-works {
@@ -1587,7 +1726,7 @@
         .think-image {
             margin-top: 10px;
             width: 100%;
-            height: 77vh;
+            height: 60vh;
             border: 10px solid white;
             background-size: 1300px;
         }
@@ -1643,7 +1782,7 @@
         .iop-image {
             margin-top: 10px;
             width: 100%;
-            height: 77vh;
+            height: 60vh;
             border: 10px solid white;
             background-size: 1600px;
         }
@@ -1651,7 +1790,7 @@
         .valentino-image {
             margin-top: 10px;
             width: 100%;
-            height: 77vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .title-up-valentino {
@@ -1683,28 +1822,28 @@
         .atm-image {
             margin-top: 10px;
             width: 100%;
-            height: 77vh;
+            height: 60vh;
             border: 10px solid white;
         }
         /* ////////// AMERICAN */
         .american-image {
             margin-top: 10px;
             width: 100%;
-            height: 77vh;
+            height: 60vh;
             border: 10px solid white;
         }
         /* ////////// TRIENNALE UGO LA PIETRA */
         .triennale-image {
             margin-top: 10px;
             width: 100%;
-            height: 77vh;
+            height: 60vh;
             border: 10px solid white;
         }
         /* ////////// GENTLETUDE ONLUS */
         .gentletude-image {
             margin-top: 10px;
             width: 100%;
-            height: 77vh;
+            height: 60vh;
             border: 10px solid white;
             background-size: 1600px;
         }
@@ -1716,13 +1855,13 @@
         .about-image {
             margin-top: 10px;
             width: 100%;
-            height: 77vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .about-containers {
             width: 92%;
             margin: 2px auto;
-            margin-top: 30px;
+            margin-top: 15px;
             display: block;
         }
         .professional {
@@ -1742,11 +1881,12 @@
         .contact-image {
             margin-top: 10px;
             width: 100%;
-            height: 77vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .contact-detail {
             width: 100%;
+            margin-top: 30px;
         }
         h3 {
             font-size: 18px;
@@ -1760,7 +1900,8 @@
         .say {
             text-align: center;
             font-size: 50px;
-            margin-top: 70px;
+            padding-top: 70px;
+            margin: 0;
         }
     }
     
@@ -1871,7 +2012,7 @@
         .works-image {
             margin-top: 10px;
             width: 100%;
-            height: 76vh;
+            height: 65vh;
             border: 10px solid white;
         }
         .index-works {
@@ -1900,7 +2041,7 @@
         .think-image {
             margin-top: 10px;
             width: 100%;
-            height: 76vh;
+            height: 67vh;
             border: 10px solid white;
             background-size: 1300px;
         }
@@ -1956,7 +2097,7 @@
         .iop-image {
             margin-top: 10px;
             width: 100%;
-            height: 76vh;
+            height: 65vh;
             border: 10px solid white;
             background-size: 1600px;
         }
@@ -1964,7 +2105,7 @@
         .valentino-image {
             margin-top: 10px;
             width: 100%;
-            height: 76vh;
+            height: 65vh;
             border: 10px solid white;
         }
         .title-up-valentino {
@@ -1997,28 +2138,28 @@
         .atm-image {
             margin-top: 10px;
             width: 100%;
-            height: 76vh;
+            height: 65vh;
             border: 10px solid white;
         }
         /* ////////// AMERICAN */
         .american-image {
             margin-top: 10px;
             width: 100%;
-            height: 76vh;
+            height: 65vh;
             border: 10px solid white;
         }
         /* ////////// TRIENNALE UGO LA PIETRA */
         .triennale-image {
             margin-top: 10px;
             width: 100%;
-            height: 75vh;
+            height: 65vh;
             border: 10px solid white;
         }
         /* ////////// GENTLETUDE ONLUS */
         .gentletude-image {
             margin-top: 10px;
             width: 100%;
-            height: 76vh;
+            height: 65vh;
             border: 10px solid white;
             background-size: 1600px;
         }
@@ -2030,13 +2171,13 @@
         .about-image {
             margin-top: 10px;
             width: 100%;
-            height: 76vh;
+            height: 65vh;
             border: 10px solid white;
         }
         .about-containers {
             width: 92%;
             margin: 2px auto;
-            margin-top: 30px;
+            margin-top: 15px;
             display: block;
         }
         .professional {
@@ -2056,7 +2197,7 @@
         .contact-image {
             margin-top: 10px;
             width: 100%;
-            height: 76vh;
+            height: 65vh;
             border: 10px solid white;
         }
         .contact-detail {
@@ -2074,7 +2215,7 @@
         .say {
             text-align: center;
             font-size: 50px;
-            margin-top: 70px;
+            margin-top: 5px;
         }
     }
     
@@ -2093,6 +2234,21 @@
             font-size: 16px;
             text-align: center;
             margin: 0;
+        }
+        .works-image {
+            margin-top: 10px;
+            width: 100%;
+            height: 63vh;
+            border: 10px solid white;
+        }
+        .about-containers {
+            width: 92%;
+            margin: 2px auto;
+            margin-top: 0px;
+            display: block;
+        }
+         .contact-detail {
+             margin-top: 15px;
         }
     }
     
@@ -2154,62 +2310,62 @@
         .works-image {
             margin-top: 10px;
             width: 100%;
-            height: 73vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .think-image {
             margin-top: 10px;
             width: 100%;
-            height: 73vh;
+            height: 60vh;
             border: 10px solid white;
             background-size: 800px;
         }
         .iop-image {
             margin-top: 10px;
             width: 100%;
-            height: 73vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .valentino-image {
             margin-top: 10px;
             width: 100%;
-            height: 73vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .atm-image {
             margin-top: 10px;
             width: 100%;
-            height: 73vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .american-image {
             margin-top: 10px;
             width: 100%;
-            height: 73vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .triennale-image {
             margin-top: 10px;
             width: 100%;
-            height: 73vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .gentletude-image {
             margin-top: 10px;
             width: 100%;
-            height: 73vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .about-image {
             margin-top: 10px;
             width: 100%;
-            height: 73vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .contact-image {
             margin-top: 10px;
             width: 100%;
-            height: 73vh;
+            height: 60vh;
             border: 10px solid white;
         }
     }
@@ -2240,10 +2396,17 @@
             background-image: url(../links/background.jpg);
             background-size: cover;
             border: 10px solid white;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-flow: column;
-            justify-content: center;
-            align-items: center;
+            -ms-flex-flow: column;
+                flex-flow: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
         }
         .logo-header {
             text-align: center;
@@ -2320,6 +2483,7 @@
             bottom: 0;
             height: 30%;
             background: rgba(19, 19, 20, 0.3);
+            -webkit-transition: opacity 0.5s ease;
             transition: opacity 0.5s ease;
         }
         .title-rollover {
@@ -2375,10 +2539,14 @@
             text-decoration: none;
         }
         /* ////////// WORKS PAGE ////////// */
+        .text-up {
+            font-size: 28px;
+            line-height: 23px;
+        }
         .works-image {
             margin-top: 10px;
             width: 100%;
-            height: 69vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .index-works {
@@ -2407,7 +2575,7 @@
         .think-image {
             margin-top: 10px;
             width: 100%;
-            height: 69vh;
+            height: 60vh;
             border: 10px solid white;
             background-size: 800px;
         }
@@ -2463,14 +2631,14 @@
         .iop-image {
             margin-top: 10px;
             width: 100%;
-            height: 69vh;
+            height: 60vh;
             border: 10px solid white;
         }
         /* ////////// VALENTINO */
         .valentino-image {
             margin-top: 10px;
             width: 100%;
-            height: 69vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .title-up-valentino {
@@ -2500,28 +2668,28 @@
         .atm-image {
             margin-top: 10px;
             width: 100%;
-            height: 69vh;
+            height: 60vh;
             border: 10px solid white;
         }
         /* ////////// AMERICAN */
         .american-image {
             margin-top: 10px;
             width: 100%;
-            height: 69vh;
+            height: 60vh;
             border: 10px solid white;
         }
         /* ////////// TRIENNALE UGO LA PIETRA */
         .triennale-image {
             margin-top: 10px;
             width: 100%;
-            height: 69vh;
+            height: 60vh;
             border: 10px solid white;
         }
         /* ////////// GENTLETUDE ONLUS */
         .gentletude-image {
             margin-top: 10px;
             width: 100%;
-            height: 69vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .double-gentletude {
@@ -2532,13 +2700,13 @@
         .about-image {
             margin-top: 10px;
             width: 100%;
-            height: 69vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .about-containers {
             width: 92%;
             margin: 2px auto;
-            margin-top: 30px;
+            margin-top: 5px;
             display: block;
         }
         .professional {
@@ -2554,12 +2722,11 @@
         /* ////////// CONTACT ////////// */
         .logo-pages {
             width: 80px;
-            margin-top: 30px;
         }
         .contact-image {
             margin-top: 10px;
             width: 100%;
-            height: 69vh;
+            height: 60vh;
             border: 10px solid white;
         }
         .contact-detail {
@@ -2577,6 +2744,6 @@
         .say {
             text-align: center;
             font-size: 50px;
-            margin-top: 70px;
+            margin-top: 10px;
         }
     }
