@@ -722,7 +722,7 @@
         width: 100%;
         margin-top: 45px;
         border: 25px solid white;
-        background-image: url(../links/about.jpg);
+        background-image: url(../links/fr_abot.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
@@ -930,6 +930,10 @@
         .work-containers {
             width: 83%;
         }
+        .about-containers {
+       background-size: 100px;
+    }
+        
     }
     
     @media ( max-width: 1601px) {
