@@ -1081,7 +1081,8 @@
         }
         .container-works {
             width: 97%;
-            margin-top: 10px;
+            margin: 0;
+            margin: 10px auto;
             text-align: center;
         }
         .text-up {
@@ -1308,8 +1309,8 @@
             border-left: 0px;
         }
     }
-    
-    @media ( max-width: 769px) {
+        
+        @media ( max-width: 769px) {
         .first {
             border: 20px solid white;
         }
@@ -1569,6 +1570,32 @@
         }
     }
     
+    @media ( max-width: 661px) {
+        .photo-works {
+            position: relative;
+            width: 40%;
+            margin: 5px;
+            margin-top: 7px;
+            display: inline-block;
+            overflow: hidden;
+        }     
+} 
+    @media ( max-width: 481px) {
+        .container-works {
+            width: 93%;
+            margin: 1px auto;
+            margin-top: 10px;
+        }
+        .photo-works {
+            position: relative;
+            width: 100%;
+            margin-top: 7px;
+            display: block;
+            margin: 2px auto;
+            overflow: hidden;
+        }
+    
+}
     @media ( max-width: 436px) {
         .logo-header {
             text-align: center;
