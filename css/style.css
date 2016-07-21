@@ -863,6 +863,7 @@
     
     .contact-detail {
         width: 350px;
+        padding-top: 60px;
         text-align: center;
         margin: 2px auto;
     }
@@ -1209,17 +1210,38 @@
             margin-top: 25px;
         }
         .contact-detail {
-            margin-top: 80px;
-        }
-        h3 {
-            font-size: 15px;
-        }
-        .subtitle-name {
-            font-size: 15px;
-        }
-        .contact-text {
-            font-size: 15px;
-        }
+        width: 350px;
+        padding-top: 60px;
+        text-align: center;
+        margin: 2px auto;
+    }
+    
+    h3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+    
+    .subtitle-name {
+        color: black;
+        text-align: center;
+        font-family: "Helvetica Neue";
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: -10px;
+    }
+    
+    .contact-text {
+        text-align: center;
+        margin-top: 20px;
+        font-family: "Helvetica Neue";
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+        
+    
         .say {
             margin-right: 50px;
         }
@@ -1544,7 +1566,7 @@
             width: 350px;
             text-align: center;
             margin: 2px auto;
-            margin-top: 60px;
+            margin-top: 10px;
         }
         h3 {
             font-size: 20px;
@@ -1921,7 +1943,7 @@
         }
         .contact-detail {
             width: 100%;
-            margin-top: 30px;
+            margin-top: -30px;
         }
         h3 {
             font-size: 18px;
@@ -2283,7 +2305,7 @@
             display: block;
         }
         .contact-detail {
-            margin-top: 15px;
+            margin-top: -45px;
         }
     }
     
@@ -2766,6 +2788,7 @@
         }
         .contact-detail {
             width: 100%;
+            margin-top: -35px;
         }
         h3 {
             font-size: 18px;
