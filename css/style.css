@@ -907,6 +907,10 @@
     .say a {
         color: black;
     }
+
+
+
+
     /* --- MEDIA QUERIES --- */
     
     @media ( min-width: 1920px) {
@@ -1614,6 +1618,69 @@
         }
     }
     
+@media ( max-width: 612px){
+    .second {
+            height: 1980px;
+        }
+        .instagram-title {
+            font-size: 20px;
+        }
+        .instagram-icon {
+            width: 30px;
+        }
+        .article-instagram {
+            margin-top: 40px;
+        }
+        .instagram-image {
+            width: 93%;
+            margin: 15px auto;
+            margin-top: 2px;
+        }
+        .insta-photo {
+            width: 100%;
+        }
+        /* rollover-effect on photos */
+        .roll-over {
+            height: 30%;
+        }
+        .title-rollover {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+        /* footer */
+        .footer-frame {
+            text-align: center;
+            display: block;
+            margin: 10px auto;
+            float: none;
+            margin-top: -10px;
+        }
+        .logo-footer {
+            width: 90px;
+            margin: 50px auto;
+        }
+        .contact {
+            margin: 0 auto;
+            margin-top: -25px;
+            margin-bottom: 40px;
+        }
+        .h3-footer {
+            font-size: 15px;
+            letter-spacing: 3px;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
     @media ( max-width: 481px) {
         .container-works {
             width: 93%;
@@ -2166,7 +2233,6 @@
         .title-up-valentino {
             letter-spacing: 5px;
             font-size: 40px;
-            margin-top: 50px;
             padding-top: 10px;
             line-height: 50px;
         }
@@ -2305,6 +2371,9 @@
         .contact-detail {
             margin-top: -45px;
         }
+        .title-up {
+            margin-top: 0;
+        }
     }
     
     @media ( max-width: 361px) {
@@ -2346,9 +2415,9 @@
             margin-top: -15px;
         }
         .title-up {
+            margin-top: 0;
             letter-spacing: 5px;
             font-size: 45px;
-            padding-top: 10px;
             line-height: 50px;
         }
         .text-up {
@@ -2356,7 +2425,7 @@
             margin: 2px auto;
             text-align: center;
             font-family: "Jellyka Saint-Andrew's Queen";
-            font-size: 35px;
+            font-size: 30px;
             color: white;
             font-weight: 100;
             letter-spacing: 5px;
@@ -2373,7 +2442,6 @@
             width: 100%;
             height: 60vh;
             border: 10px solid white;
-            background-size: 800px;
         }
         .iop-image {
             margin-top: 10px;
@@ -2595,6 +2663,7 @@
         }
         /* ////////// WORKS PAGE ////////// */
         .text-up {
+            margin-top: 0;
             font-size: 28px;
             line-height: 23px;
         }
@@ -2632,7 +2701,6 @@
             width: 100%;
             height: 60vh;
             border: 10px solid white;
-            background-size: 800px;
         }
         .work-containers {
             width: 100%;
